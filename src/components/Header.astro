@@ -1,0 +1,25 @@
+---
+import type { Locale } from '../i18n/ui';
+import { ui } from '../i18n/ui';
+import { sitePath } from '../i18n/paths';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const labels = ui[locale];
+const root = locale === 'en' ? '/en' : '';
+const alternateRoot = locale === 'en' ? '' : '/en';
+---
+
+<header class="flex flex-wrap items-center justify-between gap-5 border-b border-white/10 py-6">
+  <a class="font-semibold tracking-tight no-underline" href={sitePath(`${root}/`)}>TedRogueWorks</a>
+  <nav aria-label={locale === 'ru' ? 'Основная навигация' : 'Main navigation'} class="flex flex-wrap gap-x-5 gap-y-2 text-sm text-white/70">
+    <a href={sitePath(`${root}/about/`)}>{labels.about}</a>
+    <a href={sitePath(`${root}/projects/`)}>{labels.projects}</a>
+    <a href={sitePath(`${root}/blog/`)}>{labels.blog}</a>
+    <a href={sitePath(`${root}/contact/`)}>{labels.contact}</a>
+    <a href={sitePath(`${alternateRoot}/`)}>{labels.language}</a>
+  </nav>
+</header>

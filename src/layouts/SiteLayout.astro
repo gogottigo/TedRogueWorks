@@ -1,0 +1,35 @@
+---
+import Header from '../components/Header.astro';
+import type { Locale } from '../i18n/ui';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  locale: Locale;
+}
+
+const { title, description, locale } = Astro.props;
+---
+
+<!doctype html>
+<html lang={locale}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#0b0b0d" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="mx-auto min-h-screen w-full max-w-6xl px-5 sm:px-8">
+      <Header locale={locale} />
+      <main class="py-16 sm:py-24">
+        <slot />
+      </main>
+      <footer class="border-t border-white/10 py-6 text-sm text-white/50">
+        <span>TedRogueWorks</span>
+      </footer>
+    </div>
+  </body>
+</html>

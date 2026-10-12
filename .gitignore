@@ -1,0 +1,24 @@
+node_modules/
+dist/
+.astro/
+.vercel/
+.netlify/
+.DS_Store
+Thumbs.db
+
+# Local environment and credentials
+.env*
+!.env.example
+.npmrc
+
+# Temporary files and logs
+*.local
+*.log*
+*.tmp
+*.temp
+*.swp
+*~
+tmp/
+.tmp/
+
+*:Zone.Identifier

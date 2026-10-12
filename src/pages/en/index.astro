@@ -1,0 +1,324 @@
+---
+import { getCollection } from 'astro:content';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { sitePath } from '../../i18n/paths';
+
+const candidates = (await getCollection('blog', ({ data }) => !data.draft && data.lang === 'en'))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+const uniquePosts = new Map<string, (typeof candidates)[number]>();
+for (const post of candidates) {
+  if (!uniquePosts.has(post.data.translationKey)) uniquePosts.set(post.data.translationKey, post);
+}
+const posts = [...uniquePosts.values()].slice(0, 3);
+---
+
+<SiteLayout title="Ted Rogue — developer" description="Ted Rogue's personal portfolio: digital products, projects, and notes on development." locale="en">
+  <div class="home-page">
+    <section class="home-hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow reveal reveal-1"><span class="eyebrow-mark"></span>Digital product developer</p>
+        <h1 id="hero-title" class="hero-title reveal reveal-2">Ted<br /><span>Rogue</span></h1>
+        <p class="hero-position reveal reveal-3">I build digital products with clarity, care, and purpose.</p>
+        <p class="hero-intro reveal reveal-4">A place for selected work and notes on turning complex problems into clear, useful experiences.</p>
+        <div class="hero-actions reveal reveal-5">
+          <a class="text-link text-link-primary" href={sitePath('/en/projects/')}>
+            Explore projects <span class="link-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="text-link" href={sitePath('/en/blog/')}>Read the journal</a>
+        </div>
+      </div>
+
+      <figure class="geometry-figure reveal-geometry" aria-label="Geometric composition of circles and a coordinate grid">
+        <div class="geometry-frame">
+          <svg class="geometry-art" viewBox="0 0 600 600" role="img" aria-labelledby="geometry-title geometry-description">
+            <title id="geometry-title">A coordinate system</title>
+            <desc id="geometry-description">A cobalt circle, arcs, and axes on a fine grid.</desc>
+            <defs>
+              <pattern id="coordinate-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+                <path d="M 30 0 L 0 0 0 30" fill="none" stroke="currentColor" stroke-opacity=".14" stroke-width="1" />
+              </pattern>
+              <clipPath id="art-clip"><rect width="600" height="600" /></clipPath>
+            </defs>
+            <g clip-path="url(#art-clip)">
+              <rect width="600" height="600" fill="url(#coordinate-grid)" />
+              <path d="M 40 300 H 560 M 300 40 V 560" class="geo-axis" />
+              <circle cx="300" cy="300" r="205" class="geo-ring geo-ring-outer" />
+              <circle cx="300" cy="300" r="150" class="geo-ring geo-ring-inner" />
+              <path d="M300 95 A205 205 0 0 1 505 300" class="geo-arc geo-arc-one" />
+              <path d="M300 150 A150 150 0 0 0 150 300" class="geo-arc geo-arc-two" />
+              <circle cx="300" cy="300" r="72" class="geo-disc" />
+              <circle cx="300" cy="300" r="8" class="geo-point" />
+              <path d="M300 300 L438 162" class="geo-vector" />
+              <circle cx="438" cy="162" r="5" class="geo-point" />
+              <path d="M438 162 H530 M438 162 V70" class="geo-tick" />
+              <path d="M96 430 H190 M143 383 V477" class="geo-tick" />
+            </g>
+          </svg>
+          <span class="geo-label geo-label-top">FIG. 01 <span>— DIGITAL FORM</span></span>
+          <span class="geo-label geo-label-side">X 300<br />Y 300</span>
+          <span class="geo-index">01 / 04</span>
+        </div>
+        <figcaption class="geometry-caption"><span>Form follows function.</span><span>GRID 30 / AXIS 300</span></figcaption>
+      </figure>
+
+      <div class="hero-footnote"><span>Portfolio and notes</span><span>Digital products · 2026</span></div>
+    </section>
+
+    <section class="approach-section section-rule" aria-labelledby="approach-title">
+      <p class="section-index">01 <span>/ APPROACH</span></p>
+      <div>
+        <h2 id="approach-title" class="section-heading">Less noise.<br /><span>More meaning.</span></h2>
+        <p class="section-copy">Good digital products start with a clear problem. I value simple structure, intuitive interfaces, and solutions that are easy to build on.</p>
+      </div>
+    </section>
+
+    <section class="projects-section section-rule" aria-labelledby="projects-title">
+      <div class="section-heading-row">
+        <div><p class="section-index">02 <span>/ WORK</span></p><h2 id="projects-title" class="section-heading section-heading-small">Selected projects</h2><span class="section-side-note">01 / CASE STUDY</span></div>
+      </div>
+      <article class="featured-project" aria-labelledby="featured-profistal-title">
+        <div class="featured-project-copy">
+          <p class="featured-project-kicker">01 <span>/ METALWORK · YAKUTSK</span></p>
+          <h3 id="featured-profistal-title">Profistal14</h3>
+          <p class="featured-project-description">A website for a metalwork workshop in Yakutsk, presenting its range of products and metalwork categories.</p>
+          <ul class="featured-project-stack" aria-label="Project technologies">
+            <li>Astro</li>
+            <li>Tailwind CSS</li>
+          </ul>
+          <div class="featured-project-links">
+            <a class="featured-link-primary" href="https://profistal14.ru/" target="_blank" rel="noopener noreferrer">Visit live site ↗</a>
+            <a class="featured-link-secondary" href="https://github.com/gogottigo/profistal14/" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a>
+          </div>
+        </div>
+        <div class="featured-project-preview" role="img" aria-label="Abstract CSS project preview for Profistal14, not a screenshot of the website">
+          <span class="featured-preview-label">PROJECT PREVIEW</span>
+          <div class="featured-preview-art" aria-hidden="true">
+            <span class="featured-preview-ring"></span>
+            <span class="featured-preview-orbit"></span>
+            <span class="featured-preview-axis"></span>
+            <span class="featured-preview-block"></span>
+            <span class="featured-preview-index">14</span>
+          </div>
+          <span class="featured-preview-caption">METAL / FORM / YAKUTSK</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="posts-section section-rule" aria-labelledby="posts-title">
+      <div class="section-heading-row">
+        <div><p class="section-index">02 <span>/ FROM THE JOURNAL</span></p><h2 id="posts-title" class="section-heading section-heading-small">Latest dispatches</h2></div>
+        <a class="text-link section-all-link" href={sitePath('/en/blog/')}>All posts <span class="link-arrow" aria-hidden="true">↗</span></a>
+      </div>
+      {posts.length > 0 ? (
+        <ul class="post-list">
+          {posts.map((post) => (
+            <li class="post-row">
+              <a class="post-row-link" href={sitePath(`/en/blog/${post.data.slug}/`)}>
+                <time datetime={post.data.pubDate.toISOString()}>{post.data.pubDate.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' })}</time>
+                <span class="post-row-copy"><strong>{post.data.title}</strong><span>{post.data.description}</span></span>
+                <span class="post-arrow" aria-hidden="true">↗</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : <p class="section-copy post-empty">New entries coming soon.</p>}
+    </section>
+
+    <section class="contact-section" aria-labelledby="contact-title">
+      <p class="section-index">04 <span>/ CONTACT</span></p>
+      <div class="contact-content">
+        <h2 id="contact-title" class="contact-title">Have an idea?<br /><span>Let’s talk.</span></h2>
+        <a class="contact-link" href={sitePath('/en/contact/')}>Get in touch <span class="link-arrow" aria-hidden="true">↗</span></a>
+      </div>
+      <span class="contact-signature">TED ROGUE / T.R.W.</span>
+    </section>
+  </div>
+</SiteLayout>
+
+<style>
+  .post-row { display:block; padding:0; }
+  .post-row:hover { padding:0; }
+  .post-row-link { display:grid; grid-template-columns:110px minmax(0,1fr) 20px; align-items:center; gap:26px; padding:23px 4px; color:inherit; text-decoration:none; transition:padding 180ms ease,color 180ms ease; }
+  .post-row-link:hover { padding-right:12px; padding-left:12px; }
+  .post-row-link:focus-visible { outline:2px solid var(--home-blue); outline-offset:3px; }
+  .post-row-copy { display:block; font-size:1.18rem; font-weight:500; }
+  .post-row-copy strong { font:inherit; }
+  .post-row-copy > span { display:block; margin-top:6px; color:var(--home-muted); font-size:.86rem; font-weight:400; line-height:1.55; }
+  @media (max-width:760px) { .post-row-link { grid-template-columns:76px minmax(0,1fr) 16px; gap:12px; padding:20px 0; } .post-row-copy { font-size:1.05rem; } }
+  @media (max-width:420px) { .post-row-link { grid-template-columns:minmax(0,1fr) 16px; gap:12px; } .post-row-link time { grid-column:1; grid-row:1; } .post-row-copy { grid-column:1; grid-row:2; } .post-row-link .post-arrow { grid-column:2; grid-row:1 / span 2; } }
+  .featured-project {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: center;
+    gap: clamp(28px, 5vw, 68px);
+    padding: 34px 0 0;
+  }
+
+  .featured-project-copy { min-width: 0; }
+
+  .featured-project-kicker,
+  .featured-preview-label,
+  .featured-preview-caption {
+    margin: 0;
+    color: var(--home-muted);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .featured-project-kicker span { color: var(--home-muted); }
+  .featured-project-kicker:first-letter { color: var(--home-blue); }
+
+  .featured-project h3 {
+    margin: 17px 0 0;
+    font-size: clamp(2.3rem, 4.8vw, 4.25rem);
+    font-weight: 550;
+    line-height: 1;
+    letter-spacing: -0.075em;
+  }
+
+  .featured-project-description {
+    max-width: 430px;
+    margin: 16px 0 0;
+    color: var(--home-muted);
+    font-size: 0.94rem;
+    line-height: 1.75;
+  }
+
+  .featured-project-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    margin: 21px 0 0;
+    padding: 0;
+    color: var(--home-ink);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    font-size: 0.69rem;
+    list-style: none;
+  }
+
+  .featured-project-stack li { padding-top: 8px; border-top: 1px solid var(--home-rule); }
+
+  .featured-project-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 18px;
+    margin-top: 24px;
+  }
+
+  .featured-link-primary,
+  .featured-link-secondary {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    min-height: 42px;
+    text-decoration: none;
+    transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease;
+  }
+
+  .featured-link-primary {
+    padding: 0 14px;
+    border: 1px solid var(--home-blue);
+    background: var(--home-blue);
+    color: #fff;
+    font-size: 0.8rem;
+  }
+
+  .featured-link-primary:hover { background: transparent; color: var(--home-blue); }
+
+  .featured-link-secondary {
+    padding: 0 0 2px;
+    border-bottom: 1px solid var(--home-rule);
+    color: var(--home-ink);
+    font-size: 0.78rem;
+  }
+
+  .featured-link-secondary:hover { border-color: var(--home-blue); color: var(--home-blue); }
+
+  .featured-project-preview {
+    position: relative;
+    display: grid;
+    min-width: 0;
+    aspect-ratio: 1.28;
+    overflow: hidden;
+    border: 1px solid var(--home-rule);
+    background-color: var(--paper-deep);
+    background-image: linear-gradient(rgba(24, 26, 29, 0.065) 1px, transparent 1px), linear-gradient(90deg, rgba(24, 26, 29, 0.065) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .featured-preview-label,
+  .featured-preview-caption { position: absolute; z-index: 1; font-size: 0.58rem; }
+  .featured-preview-label { top: 15px; left: 16px; }
+  .featured-preview-caption { right: 16px; bottom: 15px; }
+
+  .featured-preview-art { position: absolute; inset: 12% 10%; }
+
+  .featured-preview-ring,
+  .featured-preview-orbit,
+  .featured-preview-axis,
+  .featured-preview-block { position: absolute; display: block; }
+
+  .featured-preview-ring {
+    top: 8%;
+    left: 24%;
+    width: 58%;
+    aspect-ratio: 1;
+    border: 1px solid color-mix(in srgb, var(--home-blue) 60%, transparent);
+    border-radius: 50%;
+  }
+
+  .featured-preview-orbit {
+    top: 8%;
+    left: 24%;
+    width: 58%;
+    aspect-ratio: 1;
+    border: 4px solid transparent;
+    border-top-color: var(--home-blue);
+    border-right-color: var(--home-blue);
+    border-radius: 50%;
+    animation: featured-orbit 38s linear infinite;
+  }
+
+  .featured-preview-axis {
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    height: 1px;
+    background: color-mix(in srgb, var(--home-ink) 40%, transparent);
+    transform: rotate(-28deg);
+  }
+
+  .featured-preview-block {
+    top: 38%;
+    left: 45%;
+    width: 18%;
+    aspect-ratio: 1;
+    background: var(--home-blue);
+  }
+
+  .featured-preview-index {
+    position: absolute;
+    top: 52%;
+    right: 4%;
+    color: var(--home-blue);
+    font-family: "SFMono-Regular", Consolas, monospace;
+    font-size: clamp(2.4rem, 6vw, 5rem);
+    line-height: 0.8;
+    letter-spacing: -0.1em;
+  }
+
+  @keyframes featured-orbit { to { transform: rotate(360deg); } }
+
+  @media (max-width: 760px) {
+    .featured-project { grid-template-columns: minmax(0, 1fr); gap: 26px; padding-top: 26px; }
+    .featured-project-preview { order: -1; aspect-ratio: 1.25; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .featured-preview-orbit { animation: none; }
+  }
+</style>
