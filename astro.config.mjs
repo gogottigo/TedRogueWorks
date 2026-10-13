@@ -2,8 +2,8 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://gogottigo.github.io',
-  base: '/TedRogueWorks',
+  site: 'https://trwstudio.art',
+  base: '/',
   output: 'static',
   i18n: {
     locales: ['ru', 'en'],
