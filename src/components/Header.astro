@@ -1,6 +1,5 @@
 ---
 import type { Locale } from '../i18n/ui';
-import { ui } from '../i18n/ui';
 import { sitePath } from '../i18n/paths';
 
 interface Props {
@@ -8,18 +7,30 @@ interface Props {
 }
 
 const { locale } = Astro.props;
-const labels = ui[locale];
 const root = locale === 'en' ? '/en' : '';
 const alternateRoot = locale === 'en' ? '' : '/en';
 ---
 
-<header class="flex flex-wrap items-center justify-between gap-5 border-b border-white/10 py-6">
-  <a class="font-semibold tracking-tight no-underline" href={sitePath(`${root}/`)}>TedRogueWorks</a>
-  <nav aria-label={locale === 'ru' ? 'Основная навигация' : 'Main navigation'} class="flex flex-wrap gap-x-5 gap-y-2 text-sm text-white/70">
-    <a href={sitePath(`${root}/about/`)}>{labels.about}</a>
-    <a href={sitePath(`${root}/projects/`)}>{labels.projects}</a>
-    <a href={sitePath(`${root}/blog/`)}>{labels.blog}</a>
-    <a href={sitePath(`${root}/contact/`)}>{labels.contact}</a>
-    <a href={sitePath(`${alternateRoot}/`)}>{labels.language}</a>
+<header class="site-header">
+  <a class="site-wordmark" href={sitePath(`${root}/`)} aria-label="TRW Studio — главная">TRW<span> Studio</span></a>
+  <nav aria-label={locale === 'ru' ? 'Основная навигация' : 'Main navigation'} class="site-nav">
+    <a href={sitePath(`${root}/projects/`)}>{locale === 'ru' ? 'Проекты' : 'Projects'}</a>
+    <a href={sitePath(`${root}/#services`)}>{locale === 'ru' ? 'Услуги' : 'Services'}</a>
+    <a href={sitePath(`${root}/blog/`)}>{locale === 'ru' ? 'Блог' : 'Journal'}</a>
+    <a href={sitePath(`${root}/about/`)}>{locale === 'ru' ? 'Студия' : 'Studio'}</a>
+    <a href={sitePath(`${root}/contact/`)}>{locale === 'ru' ? 'Контакты' : 'Contact'}</a>
+    <a class="language-link" href={sitePath(`${alternateRoot}/`)} aria-label={locale === 'ru' ? 'English version' : 'Русская версия'}>{locale === 'ru' ? 'EN' : 'RU'}</a>
   </nav>
 </header>
+
+<style>
+  .site-header { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:22px 0; border-bottom:1px solid var(--rule); }
+  .site-wordmark { color:var(--ink); font-size:1.05rem; font-weight:650; letter-spacing:-.055em; text-decoration:none; white-space:nowrap; }
+  .site-wordmark span { color:var(--muted); font-weight:450; }
+  .site-nav { display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-end; gap:10px clamp(14px,2.4vw,30px); color:var(--muted); font-size:.83rem; }
+  .site-nav a { text-decoration:none; }
+  .site-nav a:hover,.site-nav a:focus-visible { color:var(--cobalt); }
+  .site-nav a:focus-visible,.site-wordmark:focus-visible { outline:2px solid var(--cobalt); outline-offset:4px; }
+  .site-nav .language-link { color:var(--ink); font-size:.7rem; font-weight:600; letter-spacing:.06em; }
+  @media(max-width:640px) { .site-header { align-items:flex-start; flex-direction:column; gap:15px; padding:18px 0; } .site-nav { justify-content:flex-start; gap:9px 18px; font-size:.78rem; } }
+</style>

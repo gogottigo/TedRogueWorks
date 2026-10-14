@@ -1,0 +1,28 @@
+---
+interface Props {
+  locale: 'ru' | 'en';
+}
+
+const { locale } = Astro.props;
+const russian = locale === 'ru';
+---
+
+<figure class="project-preview" aria-label={russian ? 'Абстрактное графическое превью проекта, не скриншот бота' : 'Abstract project graphic, not a screenshot of the bot'}>
+  <div class="preview-canvas">
+    <div class="preview-coordinate-grid" aria-hidden="true"></div>
+    <div class="preview-caption">{russian ? 'ПЕКАРНЯ ЧУДЕС' : 'PEKARNYA CHUDES'} <span>/ TELEGRAM</span></div>
+    <svg class="preview-art" viewBox="0 0 640 480" role="img" aria-labelledby="pekarnya-preview-title pekarnya-preview-description">
+      <title id="pekarnya-preview-title">{russian ? 'Абстрактная композиция для кейса «Пекарня Чудес»' : 'Abstract graphic for the Pekarnya Chudes case study'}</title>
+      <desc id="pekarnya-preview-description">{russian ? 'Геометрический рисунок в форме хлеба на координатной сетке, не снимок интерфейса бота.' : 'A geometric bread form on a coordinate grid, not a screenshot of the bot interface.'}</desc>
+      <circle cx="320" cy="240" r="155" class="preview-ring" />
+      <circle cx="320" cy="240" r="116" class="preview-ring preview-ring-inner" />
+      <path d="M210 282c0-66 48-112 110-112s110 46 110 112v22H210z" class="preview-beam" />
+      <path d="m270 201 24 48m22-65 13 57m28-53-4 58" class="preview-line" />
+      <path d="M210 304h220" class="preview-frame-line" />
+      <circle cx="210" cy="304" r="5" class="preview-node" />
+      <circle cx="430" cy="304" r="5" class="preview-node" />
+    </svg>
+    <span class="preview-bottom-label">{russian ? 'АБСТРАКТНОЕ ПРЕВЬЮ · НЕ СКРИНШОТ' : 'ABSTRACT PREVIEW · NOT A SCREENSHOT'}</span>
+  </div>
+  <figcaption>{russian ? 'Графический образ проекта, не изображение интерфейса бота.' : 'Project graphic, not an image of the bot interface.'}</figcaption>
+</figure>

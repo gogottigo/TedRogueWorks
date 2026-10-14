@@ -889,6 +889,19 @@ a:focus-visible {
   letter-spacing: -0.085em;
 }
 
+.project-card-title {
+  font-size: clamp(2.7rem, 5.6vw, 4.7rem);
+  overflow-wrap: anywhere;
+}
+
+.profistal-real-preview img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--work-rule);
+}
+
 .project-case-title span {
   color: var(--work-muted);
 }

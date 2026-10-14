@@ -1,0 +1,62 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import ProfistalPreview from '../../components/ProfistalPreview.astro';
+import { sitePath } from '../../i18n/paths';
+---
+
+<SiteLayout title="ПрофиСталь 14 — сайт мастерской металлоконструкций | TRW Studio" description="Кейс TRW Studio: сайт мастерской «ПрофиСталь 14» в Якутске с каталогом продукции и формой заявки." locale="ru">
+  <div class="projects-page">
+    <section class="projects-intro" aria-labelledby="projects-title">
+      <p class="projects-kicker reveal reveal-1"><span class="projects-kicker-mark"></span>CASE STUDY <span>/ 01</span></p>
+      <div class="projects-intro-grid">
+        <h1 id="projects-title" class="projects-title reveal reveal-2">ПрофиСталь<br />14<span class="projects-title-period">.</span></h1>
+        <div class="projects-intro-copy reveal reveal-3">
+          <p>Сайт мастерской металлоконструкций в Якутске.</p>
+          <div class="projects-count" aria-label="Корпоративный сайт">
+            <span class="projects-count-number">WEB</span>
+            <span class="projects-count-label">Корпоративный<br />сайт</span>
+          </div>
+        </div>
+      </div>
+      <div class="projects-intro-foot"><span>ПрофиСталь 14</span><span>Якутск · металлоконструкции</span></div>
+    </section>
+
+    <section class="project-case" aria-labelledby="case-title">
+      <div class="project-case-topline">
+        <p class="project-case-index">01 <span>/ КЕЙС</span></p>
+        <p class="project-case-type">Корпоративный сайт</p>
+      </div>
+      <div class="project-case-grid">
+        <div class="project-case-copy">
+          <p class="project-client">О проекте</p>
+          <h2 id="case-title" class="project-case-title case-title">Сайт для<br />металлической<br /><span>мастерской.</span></h2>
+          <p class="project-summary">Сайт знакомит с мастерской «ПрофиСталь 14», её направлениями продукции и работами. Каталог помогает посетителям перейти к нужной категории, а форма на сайте предназначена для отправки заявок.</p>
+          <dl class="project-facts">
+            <div><dt>Категория</dt><dd>Корпоративный сайт</dd></div>
+            <div><dt>Технологии исходной версии</dt><dd>Astro · Tailwind CSS</dd></div>
+            <div><dt>Размещение исходной версии</dt><dd>GitHub Pages</dd></div>
+          </dl>
+          <div class="project-external-links">
+            <a class="project-repo-link project-visit-link" href="https://profistal14.ru/" target="_blank" rel="noopener noreferrer">Открыть сайт <span class="project-link-arrow" aria-hidden="true">↗</span></a>
+            <a class="project-repo-link" href="https://github.com/gogottigo/profistal14/" target="_blank" rel="noopener noreferrer">Исходный код на GitHub <span class="project-link-arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <ProfistalPreview locale="ru" />
+      </div>
+    </section>
+
+    <section class="projects-outro" aria-label="Навигация по проектам">
+      <p class="projects-section-index">01 <span>/ ДАЛЬШЕ</span></p>
+      <div class="projects-outro-links">
+        <a href={sitePath('/projects/')}>Все проекты <span aria-hidden="true">↗</span></a>
+        <a href="https://profistal14.ru/" target="_blank" rel="noopener noreferrer">Открыть сайт <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </div>
+</SiteLayout>
+
+<style>
+  .case-title { font-size: clamp(2.7rem, 5.6vw, 4.7rem); }
+  .profistal-real-preview img { display:block; width:100%; aspect-ratio:4 / 3; object-fit:cover; border:1px solid var(--work-rule); }
+  @media (max-width: 480px) { .case-title { font-size: clamp(2.55rem, 12vw, 3.4rem); } }
+</style>

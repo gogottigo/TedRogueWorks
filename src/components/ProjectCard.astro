@@ -1,0 +1,31 @@
+---
+interface Props {
+  index: string;
+  label: string;
+  type: string;
+  client: string;
+  title: string;
+  description: string;
+  href: string;
+  linkLabel: string;
+  id: string;
+}
+
+const { index, label, type, client, title, description, href, linkLabel, id } = Astro.props;
+---
+
+<section class="project-case" aria-labelledby={id}>
+  <div class="project-case-topline">
+    <p class="project-case-index">{index} <span>/ {label}</span></p>
+    <p class="project-case-type">{type}</p>
+  </div>
+  <div class="project-case-grid">
+    <div class="project-case-copy">
+      <p class="project-client">{client}</p>
+      <h2 id={id} class="project-case-title project-card-title">{title}</h2>
+      <p class="project-summary">{description}</p>
+      <a class="project-repo-link" href={href}>{linkLabel} <span class="project-link-arrow" aria-hidden="true">↗</span></a>
+    </div>
+    <slot name="preview" />
+  </div>
+</section>

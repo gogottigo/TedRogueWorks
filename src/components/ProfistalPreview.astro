@@ -1,0 +1,10 @@
+---
+interface Props { locale: 'ru' | 'en' }
+const { locale } = Astro.props;
+const russian = locale === 'ru';
+---
+
+<figure class="project-preview profistal-real-preview">
+  <img src={`${import.meta.env.BASE_URL}images/projects/profistal14-hero.webp`} alt={russian ? 'Изображение с главной страницы сайта мастерской «ПрофиСталь 14»' : 'Image from the Profistal14 workshop website homepage'} loading="lazy" />
+  <figcaption>{russian ? 'Материал с сайта profistal14.ru' : 'Image from profistal14.ru'}</figcaption>
+</figure>

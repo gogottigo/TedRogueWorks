@@ -1,94 +1,37 @@
 ---
 import SiteLayout from '../../layouts/SiteLayout.astro';
+import BakeryBotPreview from '../../components/BakeryBotPreview.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import ProfistalPreview from '../../components/ProfistalPreview.astro';
 import { sitePath } from '../../i18n/paths';
-
-const categories = [
-  'Loft-style furniture',
-  'Grills and outdoor living',
-  'Fences and gates',
-  'Benches and swings',
-  'Railings and barriers',
-  'Lighting',
-  'Hot tubs',
-  'Garages',
-  'Gazebos',
-];
 ---
 
-<SiteLayout title="Selected work — TedRogueWorks" description="Selected work: a website for Profistal14, a metalwork workshop in Yakutsk." locale="en">
+<SiteLayout title="Selected work — TRW Studio" description="TRW Studio projects: a website for Profistal14 and a Telegram bot for Pekarnya Chudes bakery." locale="en">
   <div class="projects-page">
     <section class="projects-intro" aria-labelledby="projects-title">
       <p class="projects-kicker reveal reveal-1"><span class="projects-kicker-mark"></span>Selected works <span>/</span> 2026</p>
       <div class="projects-intro-grid">
         <h1 id="projects-title" class="projects-title reveal reveal-2">Selected<br />work<span class="projects-title-period">.</span></h1>
         <div class="projects-intro-copy reveal reveal-3">
-          <p>I build websites and digital tools that present products clearly and make complex ideas easier to navigate.</p>
-          <div class="projects-count" aria-label="One published case study">
-            <span class="projects-count-number">01</span>
-            <span class="projects-count-label">Published<br />case study</span>
+          <p>TRW Studio projects present products clearly through thoughtful structure and careful implementation.</p>
+          <div class="projects-count" aria-label="Two published case studies">
+            <span class="projects-count-number">02</span>
+            <span class="projects-count-label">Published<br />case studies</span>
           </div>
         </div>
       </div>
       <div class="projects-intro-foot"><span>A selection of work</span><span>Yakutsk · digital craft</span></div>
     </section>
 
-    <section class="project-case" aria-labelledby="profistal-title">
-      <div class="project-case-topline">
-        <p class="project-case-index">01 <span>/ CASE STUDY</span></p>
-        <p class="project-case-type">Website · Metalwork</p>
-      </div>
+    <ProjectCard index="02" label="CASE STUDY" type="Telegram bot" client="Пекарня Чудес" title="Pekarnya Chudes." description="A Telegram bot for a bakery, developed to support customer interaction." href={sitePath('/en/projects/pekarnya-chudes/')} linkLabel="Read the case" id="pekarnya-card-title">
+      <BakeryBotPreview slot="preview" locale="en" />
+    </ProjectCard>
 
-      <div class="project-case-grid">
-        <div class="project-case-copy">
-          <p class="project-client">Profistal14 <span>— Yakutsk</span></p>
-          <h2 id="profistal-title" class="project-case-title">Made<br />to take<br /><span>its shape.</span></h2>
-          <p class="project-summary">A website for Profistal14, a metalwork workshop in Yakutsk. The structure introduces the workshop’s product range and helps visitors find their way through its categories.</p>
+    <ProjectCard index="01" label="CASE STUDY" type="Website · Metalwork" client="Profistal14 — Yakutsk" title="Profistal14." description="A website for a metalwork workshop in Yakutsk, presenting its product areas and helping visitors navigate the categories." href={sitePath('/en/projects/profistal14/')} linkLabel="Read the case" id="profistal-title">
+      <ProfistalPreview slot="preview" locale="en" />
+    </ProjectCard>
 
-          <dl class="project-facts">
-            <div><dt>Initial implementation</dt><dd>Astro · Tailwind CSS</dd></div>
-            <div><dt>Original deployment</dt><dd>GitHub Pages</dd></div>
-          </dl>
-          <div class="project-external-links">
-            <a class="project-repo-link project-visit-link" href="https://profistal14.ru/" target="_blank" rel="noopener noreferrer">Visit live site ↗</a>
-            <a class="project-repo-link" href="https://github.com/gogottigo/profistal14/" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a>
-          </div>
-        </div>
-
-        <figure class="project-preview reveal-geometry" aria-label="Abstract project preview, not a screenshot of the website">
-          <div class="preview-canvas">
-            <div class="preview-coordinate-grid" aria-hidden="true"></div>
-            <div class="preview-caption">PROJECT PREVIEW <span>/ ABSTRACT VISUAL</span></div>
-            <svg class="preview-art" viewBox="0 0 640 480" role="img" aria-labelledby="preview-title preview-desc">
-              <title id="preview-title">Abstract composition for the Profistal14 case study</title>
-              <desc id="preview-desc">Geometric forms and lines inspired by metalwork. This is not a screenshot of the website.</desc>
-              <path d="M65 382H575M320 54V428" class="preview-line" />
-              <circle cx="320" cy="242" r="152" class="preview-ring" />
-              <circle cx="320" cy="242" r="108" class="preview-ring preview-ring-inner" />
-              <path d="M320 90A152 152 0 0 1 472 242" class="preview-arc" />
-              <path d="M135 338L258 215H448" class="preview-beam" />
-              <path d="M258 215V338H448V215" class="preview-frame-line" />
-              <rect x="280" y="236" width="80" height="72" class="preview-block" />
-              <circle cx="258" cy="215" r="5" class="preview-node" />
-              <circle cx="448" cy="215" r="5" class="preview-node" />
-              <circle cx="448" cy="338" r="5" class="preview-node" />
-            </svg>
-            <span class="preview-number">14</span>
-            <span class="preview-coordinates">X 320<br />Y 242</span>
-            <span class="preview-bottom-label">METAL / FORM / YAKUTSK</span>
-          </div>
-          <figcaption>Abstract composition, not a screenshot of the website.</figcaption>
-        </figure>
-      </div>
-
-      <div class="project-categories">
-        <div class="project-categories-heading"><span>Product categories</span><span>09 categories</span></div>
-        <ul>
-          {categories.map((category, index) => <li><span>{String(index + 1).padStart(2, '0')}</span>{category}</li>)}
-        </ul>
-      </div>
-    </section>
-
-    <section class="projects-outro" aria-label="More from TedRogueWorks">
+    <section class="projects-outro" aria-label="More from TRW Studio">
       <p class="projects-section-index">02 <span>/ NEXT</span></p>
       <div class="projects-outro-links">
         <a href={sitePath('/en/blog/')}>Notes on the blog <span aria-hidden="true">↗</span></a>
