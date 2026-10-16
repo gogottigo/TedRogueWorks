@@ -1,0 +1,26 @@
+---
+import type { Service } from '../../data/home';
+import { homeCopy } from '../../data/home';
+import type { Locale } from '../../i18n/ui';
+import { sitePath } from '../../i18n/paths';
+import { pricing, priceRange, timeRange } from '../../data/commercial';
+interface Props { service: Service; index: number; locale: Locale }
+const { service, index, locale } = Astro.props;
+const labels = homeCopy[locale].labels;
+const root = locale === 'en' ? '/en' : '';
+const price = pricing.find(item => item.service === service.id)!;
+---
+
+<article class="home-service" id={`service-${service.id}`} aria-labelledby={`service-${service.id}-title`} data-service-card={service.id}>
+  <div class="home-service-heading"><span class="home-small-index">{String(index + 1).padStart(2, '0')}</span><h3 id={`service-${service.id}-title`}>{service.title}</h3></div>
+  <p class="home-service-task">{service.task}</p>
+  <div class="home-service-details">
+    <div><p class="home-detail-label">{labels.includes}</p><ul>{service.includes.map(item => <li>{item}</li>)}</ul></div>
+    <div class="home-service-result"><p class="home-detail-label">{labels.result}</p><p>{service.result}</p></div>
+  </div>
+  <p class="home-service-budget"><span>{price.title[locale]}: {priceRange(price,locale)}</span><span>{timeRange(price,locale)}</span><a href={sitePath(`${root}/about/#pricing-${price.id}`)}>{locale==='ru'?'Состав и границы':'Scope and boundaries'} ↗</a></p>
+  <div class="home-service-links">
+    <a class="studio-action home-text-link" href="#contact" data-select-service={service.id}>{service.cta} <span aria-hidden="true">↗</span></a>
+    {service.example && <a class="studio-action home-example-link" href={sitePath(`${root}${service.example.path}`)}>{service.example.label} <span aria-hidden="true">↗</span></a>}
+  </div>
+</article>

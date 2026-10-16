@@ -1,0 +1,52 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import ProjectCard from '../ProjectCard.astro';
+import ProjectPreview from '../projects/ProjectPreview.astro';
+import { projects } from '../../data/projects';
+import ServiceCard from './ServiceCard.astro';
+import ProcessSection from './ProcessSection.astro';
+import ProjectForm from './ProjectForm.astro';
+import HeroMotion from './HeroMotion.astro';
+import { homeCopy } from '../../data/home';
+import type { Locale } from '../../i18n/ui';
+import { sitePath } from '../../i18n/paths';
+import '../../styles/home.css';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const copy = homeCopy[locale];
+const root = locale === 'en' ? '/en' : '';
+---
+
+<SiteLayout title={copy.title} description={copy.description} locale={locale}>
+  <div class="studio-home" data-home-locale={locale}>
+    <section class="home-intro" aria-labelledby="hero-title">
+      <div class="home-topline"><span>{copy.hero.label}</span><span>{copy.hero.geography}</span></div>
+      <p class="home-kicker"><i aria-hidden="true"></i>{copy.hero.kicker}</p>
+      <HeroMotion />
+      <h1 id="hero-title" class="home-display">{copy.hero.lines.map((line, index) => <span class:list={{ 'home-display-muted': index === copy.hero.lines.length - 1 }}>{line}</span>)}</h1>
+      <div class="home-intro-bottom"><p>{copy.hero.intro}</p><div class="home-hero-actions"><a class="studio-action home-button" href="#contact">{copy.hero.cta} <span aria-hidden="true">↗</span></a><a class="studio-action home-text-link" href="#projects">{copy.hero.work} <span aria-hidden="true">↓</span></a></div></div>
+    </section>
+
+    <section class="home-section home-work" id="projects" aria-labelledby="work-title">
+      <div class="home-section-head"><p class="home-index">01 / {copy.headings.workLabel}</p><h2 id="work-title">{copy.headings.work}</h2><a class="studio-action home-text-link" href={sitePath(`${root}/projects/`)}>{copy.headings.allWork} <span aria-hidden="true">↗</span></a></div>
+      {projects[locale].map(project => <ProjectCard index={project.index} label={copy.labels.case} type={project.type} client={project.location} title={`${project.name}.`} description={project.summary} href={sitePath(`${root}/projects/${project.id}/`)} linkLabel={copy.labels.readCase} id={`home-${project.id}-title`}>
+        <ProjectPreview slot="preview" id={project.id} locale={locale} />
+      </ProjectCard>)}
+    </section>
+
+    <section class="home-section home-services" id="services" aria-labelledby="services-title">
+      <div class="home-section-head"><p class="home-index">02 / {copy.headings.serviceLabel}</p><div><h2 id="services-title">{copy.headings.services}</h2><p class="home-section-intro">{copy.headings.serviceIntro}</p></div></div>
+      <div class="home-service-list">{copy.services.map((service, index) => <ServiceCard service={service} index={index} locale={locale} />)}</div>
+    </section>
+
+    <section class="home-section home-studio" id="studio" aria-labelledby="studio-title">
+      <div class="home-section-head"><p class="home-index">03 / {copy.headings.studioLabel}</p><div><h2 id="studio-title">{copy.headings.studio}</h2><p class="home-section-intro">{copy.headings.studioText}</p><a class="studio-action home-text-link" href={sitePath(`${root}/about/`)}>{copy.headings.about} <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <ProcessSection locale={locale} />
+
+    <section class="home-section home-contact" id="contact" aria-labelledby="contact-title">
+      <div class="home-section-head"><p class="home-index">05 / {copy.headings.contactLabel}</p><div><h2 id="contact-title">{copy.headings.contact}</h2><p class="home-start-note">{locale==='ru'?'Первичный аудит и план работ — бесплатно. Платежи за реализацию согласуем по этапам.':'The initial audit and work plan are free. Implementation payments are agreed by stage.'} <a class="studio-action" href={sitePath(`${root}/about/#terms`)}>{locale==='ru'?'Условия работы':'Working terms'} ↗</a></p><ProjectForm locale={locale} /></div></div>
+    </section>
+  </div>
+</SiteLayout>

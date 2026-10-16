@@ -11,7 +11,6 @@ tags:
   - Android
   - Self-hosting
 ---
-# How to Turn an Old Phone into a Home Server: Music, Files, and Torrents
 
 After buying a new phone, my old Redmi 13C spent a long time gathering dust. Then, perhaps caught up in the latest trends, I got the idea of buying a dedicated MP3 player with a 3.5 mm headphone jack and Bluetooth. But after seeing the prices, I changed my mind. That's when I remembered the Redmi sitting unused in a drawer.
 

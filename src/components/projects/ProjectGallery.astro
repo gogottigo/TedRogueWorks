@@ -1,0 +1,35 @@
+---
+import {imagePath,type CaseCopy} from '../../data/projects';
+import {sitePath} from '../../i18n/paths';
+interface Props {project:CaseCopy;locale:'ru'|'en'}
+const {project,locale}=Astro.props; const ru=locale==='ru';
+---
+<section class="case-gallery" data-gallery aria-labelledby="screens-title">
+ <div class="case-section-heading"><p class="case-eyebrow">{ru?'ИНТЕРФЕЙС':'INTERFACE'}</p><h2 id="screens-title">{ru?'Проект в работе':'The working interface'}</h2></div>
+ <p class="case-capture-note">{project.capture} {ru?'Нажмите на экран для увеличения.':'Select a screen to enlarge it.'}</p>
+ <div class="case-screens">
+ {project.screens.map(screen=><figure class:list={{'screen-mobile':screen.width<500}}><a class="screen-link" href={sitePath(imagePath(project.id,screen.name,screen.width))} data-caption={`${screen.label} · ${screen.width} × ${screen.height}`} aria-label={`${ru?'Увеличить':'Enlarge'}: ${screen.label}`}><img src={sitePath(imagePath(project.id,screen.name,screen.width))} alt={screen.label} width={screen.width} height={screen.height} loading="lazy" /></a><figcaption>{screen.label}<span>{screen.width} × {screen.height} px</span></figcaption></figure>)}
+ </div>
+ <dialog class="screen-dialog" aria-label={ru?'Просмотр экранов проекта':'Project screen viewer'}>
+  <div class="screen-toolbar"><button type="button" class="studio-action" data-prev aria-label={ru?'Предыдущий экран':'Previous screen'}>←</button><p aria-live="polite" data-screen-caption></p><button type="button" class="studio-action" data-next aria-label={ru?'Следующий экран':'Next screen'}>→</button><button type="button" class="studio-action" data-close>{ru?'Закрыть':'Close'} ×</button></div>
+  <div class="screen-zoom"><img alt="" /></div>
+ </dialog>
+</section>
+<script>
+ document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(gallery=>{
+  const dialog=gallery.querySelector<HTMLDialogElement>('dialog');
+  const links=[...gallery.querySelectorAll<HTMLAnchorElement>('.screen-link')];
+  const image=dialog?.querySelector<HTMLImageElement>('.screen-zoom img');
+  const caption=dialog?.querySelector<HTMLElement>('[data-screen-caption]');
+  if(!dialog||!image||!caption||typeof dialog.showModal!=='function')return;
+  let current=0;
+  const show=(index:number)=>{current=(index+links.length)%links.length;image.src=links[current].href;image.alt=links[current].dataset.caption||'';caption.textContent=`${current+1} / ${links.length} · ${image.alt}`;dialog.querySelector('.screen-zoom')?.scrollTo(0,0);};
+  links.forEach((link,index)=>link.addEventListener('click',event=>{if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();show(index);dialog.showModal();}));
+  gallery.querySelector('[data-prev]')?.addEventListener('click',()=>show(current-1));
+  gallery.querySelector('[data-next]')?.addEventListener('click',()=>show(current+1));
+  gallery.querySelector('[data-close]')?.addEventListener('click',()=>dialog.close());
+  dialog.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'){event.preventDefault();show(current-1)}if(event.key==='ArrowRight'){event.preventDefault();show(current+1)}});
+  dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close()});
+  dialog.addEventListener('close',()=>links[current].focus());
+ });
+</script>

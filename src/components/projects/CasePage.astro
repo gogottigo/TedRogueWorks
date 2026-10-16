@@ -1,0 +1,22 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import ProjectGallery from './ProjectGallery.astro';
+import {projects,type ProjectId} from '../../data/projects';
+import {sitePath} from '../../i18n/paths';
+import '../../styles/cases.css';
+interface Props{locale:'ru'|'en';id:ProjectId}
+const {locale,id}=Astro.props;const ru=locale==='ru',root=ru?'':'/en';
+const project=projects[locale].find(p=>p.id===id)!;
+const next=projects[locale][(projects[locale].indexOf(project)+1)%projects[locale].length];
+---
+<SiteLayout title={`${project.name} — ${project.type} | TRW Studio`} description={project.summary} locale={locale}>
+ <article class="projects-page portfolio-case">
+  <header class="case-intro"><a class="studio-action" href={sitePath(`${root}/projects/`)}>← {ru?'Все проекты':'All projects'}</a><p class="case-eyebrow">{project.index} / {project.type}</p><h1>{project.name}<span>.</span></h1><p class="case-lead">{project.summary}</p><p class="case-location">{project.location}</p><p class="case-status">{project.status}</p>{project.external&&<a class="studio-action" href={project.external.url} target="_blank" rel="noopener noreferrer">{project.external.label} ↗</a>}</header>
+  <section class="case-brief" aria-label={ru?'Задача и роль студии':'Task and studio role'}><div><h2>{ru?'Задача':'The task'}</h2><p>{project.task}</p></div><div><h2>{ru?'Наша роль':'Our role'}</h2><p>{project.role}</p></div></section>
+  <section class="case-work"><div class="case-section-heading"><p class="case-eyebrow">{ru?'РЕАЛИЗАЦИЯ':'DELIVERY'}</p><h2>{ru?'Что сделано':'What we built'}</h2></div><ul>{project.work.map(item=><li>{item}</li>)}</ul><ol class="case-flow">{project.flow.map((step,i)=><li><span>{String(i+1).padStart(2,'0')}</span>{step}</li>)}</ol></section>
+  <ProjectGallery project={project} locale={locale}/>
+  <section class="case-result"><h2>{ru?'Результат этапа':'The delivered stage'}</h2><p>{project.result}</p><p class="case-scope">{project.scope}</p></section>
+  <section class="case-cta"><h2>{ru?'Обсудим вашу задачу?':'Let’s discuss your project.'}</h2><p>{ru?'Сайт, каталог или Telegram-сервис — начнём с того, как он должен помогать вашему бизнесу.':'A website, catalog or Telegram service — we start with how it should help your business.'}</p><a class="studio-action" href={sitePath(`${root}/#contact`)}>{ru?'Обсудить похожий проект':'Discuss a similar project'} ↗</a></section>
+  <nav class="case-next" aria-label={ru?'Другие кейсы':'Other case studies'}><a class="studio-action" href={sitePath(`${root}/projects/`)}>{ru?'Все проекты':'All projects'}</a><a class="studio-action" href={sitePath(`${root}/projects/${next.id}/`)}>{ru?'Следующий':'Next'}: {next.name} →</a></nav>
+ </article>
+</SiteLayout>

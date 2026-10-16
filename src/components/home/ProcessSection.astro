@@ -1,0 +1,18 @@
+---
+import { homeCopy } from '../../data/home';
+import type { Locale } from '../../i18n/ui';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const { headings, labels, steps } = homeCopy[locale];
+---
+
+<section class="home-section home-process" id="process" aria-labelledby="process-title">
+  <div class="home-section-head"><p class="home-index">04 / {headings.processLabel}</p><div><h2 id="process-title">{headings.process}</h2><p class="home-section-intro">{headings.processIntro}</p></div></div>
+  <ol class="home-process-list">
+    {steps.map((step, index) => <li>
+      <span class="home-small-index">{String(index + 1).padStart(2, '0')}</span>
+      <h3>{step.title}</h3><p>{step.description}</p>
+      <div class="home-step-output"><p class="home-detail-label">{labels.stepResult}</p><p>{step.output}</p></div>
+    </li>)}
+  </ol>
+</section>

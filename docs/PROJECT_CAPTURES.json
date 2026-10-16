@@ -1,0 +1,359 @@
+[
+  {
+    "slug": "profistal14",
+    "screen": "home",
+    "width": 320,
+    "height": 844,
+    "overflow": 47,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "catalog",
+    "width": 320,
+    "height": 844,
+    "overflow": 47,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "home",
+    "width": 360,
+    "height": 844,
+    "overflow": 7,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "catalog",
+    "width": 360,
+    "height": 844,
+    "overflow": 7,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "home",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "catalog",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "home",
+    "width": 430,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "catalog",
+    "width": 430,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "home",
+    "width": 768,
+    "height": 1024,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "catalog",
+    "width": 768,
+    "height": 1024,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "home",
+    "width": 1440,
+    "height": 960,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profistal14",
+    "screen": "catalog",
+    "width": 1440,
+    "height": 960,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "home",
+    "width": 320,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "catalog",
+    "width": 320,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "cart",
+    "width": 320,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "home",
+    "width": 360,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "catalog",
+    "width": 360,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "cart",
+    "width": 360,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "home",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "catalog",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "cart",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "home",
+    "width": 430,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "catalog",
+    "width": 430,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "cart",
+    "width": 430,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "home",
+    "width": 768,
+    "height": 1024,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "catalog",
+    "width": 768,
+    "height": 1024,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "cart",
+    "width": 768,
+    "height": 1024,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "home",
+    "width": 1440,
+    "height": 960,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "catalog",
+    "width": 1440,
+    "height": 960,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "cart",
+    "width": 1440,
+    "height": 960,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "staff",
+    "width": 390,
+    "height": 844,
+    "overflow": 0
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "staff",
+    "width": 768,
+    "height": 960,
+    "overflow": 0
+  },
+  {
+    "slug": "pekarnya-chudes",
+    "screen": "staff",
+    "width": 1440,
+    "height": 960,
+    "overflow": 0
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "home",
+    "width": 320,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "catalog",
+    "width": 320,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "home",
+    "width": 360,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "catalog",
+    "width": 360,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "home",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "catalog",
+    "width": 390,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "home",
+    "width": 430,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "catalog",
+    "width": 430,
+    "height": 844,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "home",
+    "width": 768,
+    "height": 1024,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "catalog",
+    "width": 768,
+    "height": 1024,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "home",
+    "width": 1440,
+    "height": 960,
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "slug": "profsanteh",
+    "screen": "catalog",
+    "width": 1440,
+    "height": 960,
+    "overflow": 0,
+    "errors": []
+  }
+]

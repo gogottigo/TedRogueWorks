@@ -1,0 +1,27 @@
+{
+  "pages": 17,
+  "visits": 102,
+  "widths": [
+    320,
+    360,
+    390,
+    430,
+    768,
+    1440
+  ],
+  "overflows": [],
+  "pageErrors": [],
+  "httpErrors": [],
+  "browser": "153.0.8010.0",
+  "previewColors": "PASS on all 6 placements",
+  "languageNavigation": "PASS: 3 round trips",
+  "homeParity": "PASS: identical section/component structure in RU and EN",
+  "services": "PASS: 8 service CTA and localized payload checks; typed draft preserved",
+  "form": "PASS: original RU message retained; RU/EN validation, default and selected services, Unicode and multiline; window.open intercepted",
+  "noJavaScript": "PASS: contact anchors and direct Telegram links; inactive form does not submit",
+  "mobileMenu": "PASS: RU/EN tap, Escape/focus, outside click, responsive reset",
+  "cta": "PASS: shared blue underlined actions, transparent background",
+  "animation": "PASS: shared orbit in RU/EN; disabled for reduced motion",
+  "nestedPreview": "PASS: all 17 pages styled; image, case, language, footer and JS under /spck-preview/TRW_Studio/dist/",
+  "localFilePreview": "PASS: all 17 pages styled; root launcher, image, inline JS, case and language via file://"
+}

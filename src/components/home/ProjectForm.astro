@@ -1,0 +1,58 @@
+---
+import { siteConfig } from '../../../site.config.mjs';
+import { homeCopy } from '../../data/home';
+import type { Locale } from '../../i18n/ui';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const { form: copy, services } = homeCopy[locale];
+---
+
+<div class="home-form-wrap">
+  <p class="home-contact-intro">{copy.intro}</p>
+  <form id="project-form" data-project-form data-locale={locale} data-site-url={`${siteConfig.url}${locale === 'en' ? '/en/' : '/'}`} data-share-url={siteConfig.telegram.shareUrl}>
+    <label for="project-name">{copy.name}<input id="project-name" name="name" autocomplete="name" maxlength="120" required /></label>
+    <label for="project-reply">{copy.reply}<input id="project-reply" name="reply" autocomplete="off" maxlength="240" placeholder={copy.replyHint} required /></label>
+    <label class="home-form-wide" for="project-service">{copy.service}
+      <select id="project-service" name="service">
+        <option value="">{copy.serviceEmpty}</option>
+        {services.map(service => <option value={service.id}>{service.title}</option>)}
+      </select>
+    </label>
+    <label class="home-form-wide" for="project-message">{copy.message}<textarea id="project-message" name="message" rows="4" maxlength="4000" placeholder={copy.messageHint} required></textarea></label>
+    <button class="studio-action home-button" type="submit" disabled>{copy.submit} <span aria-hidden="true">↗</span></button>
+    <p class="home-form-note" id="form-note">{copy.note}</p>
+    <noscript><p class="home-form-wide">{copy.noScript}</p></noscript>
+  </form>
+  <a class="studio-action home-text-link home-contact-direct" href={siteConfig.telegram.url} target="_blank" rel="noopener noreferrer">{copy.direct} <span aria-hidden="true">↗</span></a>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('[data-project-form]').forEach((form) => {
+    const button = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+    if (button) button.disabled = false;
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+      const data = new FormData(form);
+      const english = form.dataset.locale === 'en';
+      const service = form.querySelector<HTMLSelectElement>('[name="service"]');
+      const serviceLine = service?.value ? `${english ? 'Service' : 'Направление'}: ${service.selectedOptions[0].textContent?.trim()}.\n` : '';
+      const message = english
+        ? `Hello! My name is ${data.get('name')}.\nYou can reach me at: ${data.get('reply')}.\n\n${serviceLine}About the project:\n${data.get('message')}`
+        : `Здравствуйте! Меня зовут ${data.get('name')}.\nСвязаться со мной: ${data.get('reply')}.\n\n${serviceLine}О проекте:\n${data.get('message')}`;
+      const shareUrl = new URL(form.dataset.shareUrl!);
+      shareUrl.searchParams.set('url', form.dataset.siteUrl!);
+      shareUrl.searchParams.set('text', message);
+      window.open(shareUrl.href, '_blank', 'noopener,noreferrer');
+    });
+  });
+  document.querySelectorAll<HTMLAnchorElement>('[data-select-service]').forEach((link) => {
+    link.addEventListener('click', () => {
+      const select = document.querySelector<HTMLSelectElement>('#project-form [name="service"]');
+      if (select && [...select.options].some(option => option.value === link.dataset.selectService)) {
+        select.value = link.dataset.selectService!;
+        select.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+    });
+  });
+</script>

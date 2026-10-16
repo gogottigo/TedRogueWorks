@@ -1,0 +1,23 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import ProjectForm from './home/ProjectForm.astro';
+import {sitePath} from '../i18n/paths';
+import type {Locale} from '../i18n/ui';
+import '../styles/home.css';
+interface Props{locale:Locale}
+const {locale}=Astro.props,ru=locale==='ru',root=ru?'':'/en';
+---
+<SiteLayout title={ru?'Обсудить проект — TRW Studio':'Discuss a project — TRW Studio'} description={ru?'Расскажите о задаче TRW Studio. Первичный аудит и план работ бесплатны, дальнейшая оплата — по согласованным этапам.':'Tell TRW Studio about your project. The initial audit and plan are free; implementation payments are agreed by stage.'} locale={locale}>
+ <article class="contact-page studio-home" aria-labelledby="contact-title">
+  <header class="contact-intro"><p class="contact-eyebrow">{ru?'КОНТАКТЫ / НАЧАЛО ПРОЕКТА':'CONTACT / START A PROJECT'}</p><h1 id="contact-title">{ru?'Давайте разберём\nвашу задачу.':'Let’s discuss\nyour task.'}</h1><p>{ru?'Готовое ТЗ не обязательно. Начнём с того, что у вас есть сейчас и какой результат нужен. Работаем вдвоём, полностью удалённо.':'No finished specification needed. We start with what you have now and the result you need. We are a fully remote team of two.'}</p></header>
+  <div class="contact-body"><section class="contact-form" aria-label={ru?'Описание проекта':'Project description'}><ProjectForm locale={locale}/></section><aside class="contact-guidance" aria-label={ru?'Перед обращением':'Before you get in touch'}><h2>{ru?'Что будет дальше':'What happens next'}</h2><ol><li>{ru?'Уточним задачу и посмотрим доступные материалы.':'We clarify the task and review available materials.'}</li><li>{ru?'Бесплатно проведём первичный аудит и предложим план.':'We provide a free initial audit and propose a plan.'}</li><li>{ru?'До реализации согласуем объём, бюджет, график и моменты оплаты по ходу проекта.':'Before implementation, we agree scope, budget, schedule and payment points during the project.'}</li></ol><p class="contact-safe">{ru?'В форме достаточно общих сведений. Пароли, токены и личные данные ваших клиентов присылать не нужно.':'A general description is enough. Please do not send passwords, tokens or your customers’ personal information.'}</p><nav aria-label={ru?'Информация перед стартом':'Project information'}><a class="studio-action" href={sitePath(`${root}/about/#pricing`)}>{ru?'Стоимость и сроки':'Pricing and timelines'} ↗</a><a class="studio-action" href={sitePath(`${root}/about/#terms`)}>{ru?'Оплата и условия':'Payment and terms'} ↗</a><a class="studio-action" href={sitePath(`${root}/about/#faq`)}>{ru?'Ответы на вопросы':'Frequently asked questions'} ↗</a></nav></aside></div>
+ </article>
+</SiteLayout>
+<style>
+.contact-intro{padding:0 0 36px;border-bottom:1px solid var(--rule)}.contact-eyebrow{font:11px/1.6 "SFMono-Regular",Consolas,monospace;letter-spacing:.065em;color:var(--cobalt);margin:0 0 24px}
+.contact-intro h1{font-size:clamp(2.6rem,6.5vw,5.5rem);font-weight:500;line-height:1.05;letter-spacing:-.055em;margin:0 0 28px;white-space:pre-line;overflow-wrap:anywhere}
+.contact-intro>p:last-child{max-width:650px;line-height:1.75;color:var(--muted);font-size:1.06rem;margin:0}
+.contact-body{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(28px,5vw,64px);padding:38px 0 12px}.contact-guidance h2{font-size:1.4rem;font-weight:500;line-height:1.3;letter-spacing:-.03em;margin:0 0 20px}
+.contact-guidance ol{padding-left:20px;display:grid;gap:14px;font-size:.94rem;line-height:1.7;margin:0}.contact-guidance .contact-safe{font-size:.84rem;color:var(--muted);line-height:1.7;margin:24px 0}.contact-guidance nav{display:flex;flex-direction:column;align-items:start;gap:8px}.contact-form{min-width:0;grid-column:2;grid-row:1}.contact-guidance{grid-column:1;grid-row:1}
+@media(max-width:760px){.contact-intro{padding-bottom:28px}.contact-intro h1{font-size:clamp(2.45rem,10vw,4rem)}.contact-body{grid-template-columns:minmax(0,1fr);gap:30px;padding-top:28px}.contact-form,.contact-guidance{grid-column:auto;grid-row:auto}.contact-guidance nav{flex-direction:row;flex-wrap:wrap;gap:10px 22px}.contact-guidance nav a{font-size:.82rem}}
+</style>

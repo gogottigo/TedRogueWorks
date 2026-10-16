@@ -1,0 +1,14 @@
+---
+import type { Locale } from '../i18n/ui';
+import { pricing, priceRange, timeRange } from '../data/commercial';
+import { sitePath } from '../i18n/paths';
+interface Props {locale:Locale}
+const {locale}=Astro.props;const ru=locale==='ru',root=ru?'':'/en';
+---
+<section class="studio-block pricing-block" id="pricing" aria-labelledby="pricing-title">
+ <div class="studio-block-heading"><p class="studio-eyebrow">{ru?'БЮДЖЕТ И СРОКИ':'BUDGET AND TIMELINES'}</p><h2 id="pricing-title">{ru?'Сколько стоит начать':'What to budget'}</h2><p>{ru?'Ориентиры для конкретного объёма. После бесплатного первичного разбора фиксируем смету этапа. Задачи за пределами указанного состава оцениваем отдельно.':'Planning estimates for a defined scope. After the free initial review, we agree a stage estimate. Work outside the stated scope is estimated separately.'}</p></div>
+ <div class="price-list">
+ {pricing.map(item=><article class="price-item" id={`pricing-${item.id}`} data-price-id={item.id} data-price-min={item.min} data-price-max={item.max} data-weeks={item.weeks.join('-')}><div class="price-heading"><h3>{item.title[locale]}</h3><p class="price-value">{priceRange(item,locale)}</p><p class="price-duration">{timeRange(item,locale)}</p></div><div class="price-scope"><p>{item.scope[locale]}</p><p class="price-boundary">{item.boundary[locale]}</p><a class="studio-action" href={sitePath(`${root}/#contact`)}>{ru?'Обсудить объём':'Discuss the scope'} ↗</a></div></article>)}
+ </div>
+ <div class="pricing-notes"><p>{ru?'Сроки — календарные недели реализации после согласования объёма, материалов, доступов и даты старта. Планируем работу вдвоём; крупные проекты разбиваем на этапы. Текущую загрузку и время на обратную связь учитываем до фиксации графика.':'Timelines are calendar weeks of implementation after scope, materials, access and the start date are agreed. We plan as a team of two and split larger projects into stages. Existing commitments and feedback time are considered before confirming a schedule.'}</p><p>{ru?'Домен, хостинг, платные API, подписки и лицензии не включены. Подготовку большого объёма контента, переводы и дополнительные интеграции указываем отдельно. Бюджет интернет-магазина или сложной системы рассчитываем по её функциям.':'Domain, hosting, paid APIs, subscriptions and licences are excluded. Large-scale content preparation, translation and additional integrations are listed separately. Online stores and complex systems are estimated by their actual features.'}</p><p>{ru?'Все суммы — в рублях за указанный объём, не за месяц. Диапазон не заменяет согласованную смету.':'All amounts are in Russian roubles for the stated scope, not per month. A range does not replace an agreed estimate.'}</p></div>
+</section>

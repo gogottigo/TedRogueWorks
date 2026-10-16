@@ -1,0 +1,25 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import Pricing from './Pricing.astro';
+import {studioCopy} from '../data/studio';
+import {commercialPolicy} from '../data/commercial';
+import {sitePath} from '../i18n/paths';
+import type {Locale} from '../i18n/ui';
+import '../styles/studio.css';
+interface Props{locale:Locale}
+const {locale}=Astro.props,copy=studioCopy[locale],ru=locale==='ru',root=ru?'':'/en';
+---
+<SiteLayout title={copy.title} description={copy.description} locale={locale}>
+ <article class="studio-page" data-studio-locale={locale}>
+  <header class="studio-intro"><p class="studio-eyebrow">{copy.kicker}</p><h1>{copy.headline.split('\n').map(line=><span>{line}</span>)}</h1><div class="studio-intro-bottom"><p>{copy.intro}</p><nav class="studio-shortcuts" aria-label={ru?'На этой странице':'On this page'}><a class="studio-action" href="#pricing">{ru?'Стоимость и сроки':'Pricing and timelines'} ↓</a><a class="studio-action" href="#terms">{ru?'Условия':'Terms'} ↓</a><a class="studio-action" href="#faq">FAQ ↓</a></nav></div></header>
+  <section class="studio-block studio-team" aria-labelledby="team-title"><div class="studio-block-heading"><p class="studio-eyebrow">{ru?'КОМАНДА':'THE TEAM'}</p><h2 id="team-title">{copy.teamLabel}</h2></div><div class="studio-team-body"><p class="studio-team-count" aria-hidden="true">0{commercialPolicy.teamSize}</p><p>{copy.teamText}</p><a class="studio-action" href={sitePath(`${root}/projects/`)}>{ru?'Посмотреть наши проекты':'See our work'} ↗</a></div></section>
+  <section class="studio-block" aria-labelledby="approach-title"><div class="studio-block-heading"><p class="studio-eyebrow">{ru?'ПОДХОД':'APPROACH'}</p><h2 id="approach-title">{copy.approachTitle}</h2></div><div class="studio-columns">{copy.principles.map((item,i)=><div><p class="studio-small-index">0{i+1}</p><h3>{item.title}</h3><p>{item.text}</p></div>)}</div><div class="studio-specialties">{copy.specialties.map(item=><div><h3>{item.title}</h3><p>{item.text}</p></div>)}</div></section>
+  <Pricing locale={locale}/>
+  <section class="studio-block" id="workflow" aria-labelledby="workflow-title"><div class="studio-block-heading"><p class="studio-eyebrow">{ru?'ПРОЦЕСС':'PROCESS'}</p><h2 id="workflow-title">{copy.processTitle}</h2></div><ol class="studio-steps">{copy.steps.map((step,i)=><li><span class="studio-small-index">0{i+1}</span><div><h3>{step.title}</h3><p>{step.text}</p><p class="studio-step-output">{step.output}</p></div></li>)}</ol></section>
+  <section class="studio-block" id="terms" aria-labelledby="terms-title"><div class="studio-block-heading"><p class="studio-eyebrow">{ru?'ОПЛАТА И ИЗМЕНЕНИЯ':'PAYMENT AND CHANGES'}</p><h2 id="terms-title">{copy.paymentTitle}</h2><p class="studio-payment-intro">{copy.paymentIntro}</p></div><div class="studio-columns">{copy.paymentSteps.map(item=><div><h3>{item.title}</h3><p>{item.text}</p></div>)}</div></section>
+  <section class="studio-block" id="assurance" aria-labelledby="assurance-title" data-defect-days={commercialPolicy.defectDays}><div class="studio-block-heading"><p class="studio-eyebrow">{ru?'ОТВЕТСТВЕННОСТЬ':'RESPONSIBILITY'}</p><h2 id="assurance-title">{copy.assuranceTitle}</h2></div><div class="studio-columns">{copy.assurances.map(item=><div><h3>{item.title}</h3><p>{item.text}</p></div>)}</div></section>
+  <section class="studio-block studio-handover" id="handover" aria-labelledby="handover-title"><div class="studio-block-heading"><p class="studio-eyebrow">{ru?'ПЕРЕДАЧА':'HANDOVER'}</p><h2 id="handover-title">{copy.handoverTitle}</h2></div><ul>{copy.handover.map(item=><li>{item}</li>)}</ul></section>
+  <section class="studio-block" id="faq" aria-labelledby="faq-title"><div class="studio-block-heading"><p class="studio-eyebrow">FAQ</p><h2 id="faq-title">{copy.faqTitle}</h2></div><div class="studio-faq">{copy.faqs.map((faq,i)=><details><summary><span class="studio-small-index">0{i+1}</span><span>{faq.q}</span><span class="faq-symbol" aria-hidden="true">+</span></summary><p>{faq.a}</p></details>)}</div></section>
+  <section class="studio-final"><h2>{copy.ctaTitle}</h2><p>{copy.ctaText}</p><a class="studio-action" href={sitePath(`${root}/#contact`)}>{ru?'Рассказать о проекте':'Tell us about your project'} ↗</a></section>
+ </article>
+</SiteLayout>

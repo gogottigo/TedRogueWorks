@@ -1,7 +1,7 @@
 ---
 import type { Locale } from '../i18n/ui';
 import { ui } from '../i18n/ui';
-import { sitePath } from '../i18n/paths';
+import { translationPath } from '../i18n/paths';
 
 interface Props {
   locale: Locale;
@@ -9,8 +9,7 @@ interface Props {
 }
 
 const { locale, translationHref } = Astro.props;
-const fallbackHref = locale === 'ru' ? '/en/blog/' : '/blog/';
-const href = sitePath(translationHref ?? fallbackHref);
+const href = translationPath(Astro.url.pathname, locale, translationHref);
 ---
 
 <a href={href}>{ui[locale].language}</a>

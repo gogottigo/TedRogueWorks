@@ -1,0 +1,19 @@
+{
+  "pages": 17,
+  "visits": 102,
+  "widths": [
+    320,
+    360,
+    390,
+    430,
+    768,
+    1440
+  ],
+  "overflows": [],
+  "pageErrors": [],
+  "httpErrors": [],
+  "browser": "153.0.8010.0",
+  "previewColors": "PASS on all 5 placements",
+  "languageNavigation": "PASS: 3 round trips",
+  "form": "PASS: required fields, Cyrillic, special characters, multiline; window.open intercepted"
+}

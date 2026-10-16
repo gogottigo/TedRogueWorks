@@ -15,7 +15,7 @@ interface Props {
 const { title, description, locale, pubDate, translationHref } = Astro.props;
 ---
 
-<SiteLayout title={title} description={description} locale={locale}>
+<SiteLayout title={title} description={description} locale={locale} translationHref={translationHref}>
   <article class="mx-auto max-w-3xl">
     <a class="text-sm text-lime-300" href={sitePath(locale === 'ru' ? '/blog/' : '/en/blog/')}>
       {locale === 'ru' ? '← К блогу' : '← Back to blog'}

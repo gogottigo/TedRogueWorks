@@ -1,0 +1,272 @@
+[
+  {
+    "file": "public/images/projects/profistal14/home-320.webp",
+    "sha256": "3404c3c357faf782bbb98fb7d7f2e2ed5779a5f7fd3a8dbbe14a11929d36bc1c",
+    "width": 320,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profistal14/home-360.webp",
+    "sha256": "0d573e592fac611dfe43eea5872aed608058b09e3dfeafb8129cf4aea3997b45",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profistal14/home-390.webp",
+    "sha256": "17b7218337052e46dfb0a97657c7f1e5c72009dbad9d2cb4891bb1306672a704",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profistal14/home-430.webp",
+    "sha256": "88deedf8e0059e96af07ef570c0a4d34981a6ed083c7d6cacdb6d9ba4b6b971f",
+    "width": 430,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profistal14/home-768.webp",
+    "sha256": "fcc3cc446cd09e79f3a27bf40d9ebf418c44fb4c2e50f89c64620f0efd0ab53b",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "public/images/projects/profistal14/home-1440.webp",
+    "sha256": "8bea27307991d28e5dcfb165261dd86a84d954241d88d7f5446cbd0999060156",
+    "width": 1440,
+    "height": 960
+  },
+  {
+    "file": "public/images/projects/profistal14/catalog-320.webp",
+    "sha256": "ebeb82732923012e2acff13060f99986cce0d9b091f0e950277c57ac59c2f8ec",
+    "width": 320,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profistal14/catalog-360.webp",
+    "sha256": "8cfe013c19c8df9789e4b4238a3b03c237d362b01212a5f96a3c873d93a6e26c",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profistal14/catalog-390.webp",
+    "sha256": "57ffea9b366ca3e3a244bbd4d67d4c1d63f44baef88a7f07b59011a2b9459ec0",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profistal14/catalog-430.webp",
+    "sha256": "c61f6979bd9b498e4c9c258fdfeb1326f7896ea6f28970a73cfe2de69dfa1569",
+    "width": 430,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profistal14/catalog-768.webp",
+    "sha256": "f759d546467e54f1f12006e340b6dbdd75fb701b660b1d9ab793c364d06d6a7c",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "public/images/projects/profistal14/catalog-1440.webp",
+    "sha256": "baf65c093ff4320984374be3a5ed71ef4046ddb2690f5c997ea266713b222d1d",
+    "width": 1440,
+    "height": 960
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/home-320.webp",
+    "sha256": "56aee34dc194983fe89e85d8f3eafd6f4e1a03d1a9731396ef1def3d2c29e5c4",
+    "width": 320,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/home-360.webp",
+    "sha256": "82417ca6fef80728d53df4258f8dbdeb6869e3b6e2bcb8a6a4b1bb69c22049ed",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/home-390.webp",
+    "sha256": "52a736dd314bff7bcaa9f9b3e8244b2b5145123758e02e5b5e3bef0cb613357b",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/home-430.webp",
+    "sha256": "7a4f0a880b562124c827da79f9d8a4888ffd7918edf54caee182dacc752b1b66",
+    "width": 430,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/home-768.webp",
+    "sha256": "dc0ad8c55edc0d2be19e2a01165250cec37a638f4ab201e5bcc6e635a50c3c20",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/home-1440.webp",
+    "sha256": "a22054aa08bd167df1003ec56f314f17661ea208c8a487d9ec53a2d9e4a131df",
+    "width": 1440,
+    "height": 960
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/catalog-320.webp",
+    "sha256": "7c10fb822be2ddccab42fcb72c3f054edb1cf55dce858a4bbc6ec0c0be6cc00a",
+    "width": 320,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/catalog-360.webp",
+    "sha256": "3d0bbc934c9eb31f1ae3943a7d99123ed3876416921a05474ac07afa6557d6a5",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/catalog-390.webp",
+    "sha256": "e8dcb1c87e3fb848d6e776288260fc6e8e4b7831518aa695be5533da1c34eea7",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/catalog-430.webp",
+    "sha256": "d22e79088a5c3ba674f5499d1523860dc7a00831e216911f7d0c744c080df0eb",
+    "width": 430,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/catalog-768.webp",
+    "sha256": "ce4cfb7ccd089468a73733d4d48b3575e97ea34130ee51ef549f53f0320c8fbd",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "public/images/projects/profsanteh-plus/catalog-1440.webp",
+    "sha256": "a390a1a4fa90db530b2a81f1aa01287d2836811d7f6f3b0b7fab7be1f3663a32",
+    "width": 1440,
+    "height": 960
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/home-320.webp",
+    "sha256": "96039363913ff0cbbc03f0c0a0a1b1ea149c2b7a809ffb0641dadfd2746894d9",
+    "width": 320,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/home-360.webp",
+    "sha256": "ce9ff6b46790a4564a69d436e0c5842d6fe4957f4866238e2cb4b210215b25b7",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/home-390.webp",
+    "sha256": "3b9d22321b3b6cde1cc12fe19b9d231d3d62945a94a6ede9a094b9d80f43d6ce",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/home-430.webp",
+    "sha256": "c4a0f333310c8ede95192332aaeb50296f1cc26d173ab44d10b50f20ebf9e3e3",
+    "width": 430,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/home-768.webp",
+    "sha256": "0c79fcd8c61be7efb44b75fe88759454f597028b3482a3fd94e2ff055d4a5ffd",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/home-1440.webp",
+    "sha256": "abe2095dc0420a4d0fa611bd370905d36519590b65603e9a9e71e98ee0ab08e1",
+    "width": 1440,
+    "height": 960
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/catalog-320.webp",
+    "sha256": "1d56147fb7a804dd6fe084289b364356db91b590506f263606036a0297c2b057",
+    "width": 320,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/catalog-360.webp",
+    "sha256": "5f96e3bff4c9cee8533a7420fd2d55d9ffb5f20ebf92d98c2837a7b05e9e00f7",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/catalog-390.webp",
+    "sha256": "3a9bf5988ffa8ba780d8c1248e1d17e0ddb3e2fd3deb6bf17e8c266f3b99cbf0",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/catalog-430.webp",
+    "sha256": "7d23e27b265f14768962fa974438a60476433ea7f35a323ce28366feae6fe846",
+    "width": 430,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/catalog-768.webp",
+    "sha256": "08156eaa85ed84d058f75c71d43c526317c0281a2907af17300afb8e24c11f43",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/catalog-1440.webp",
+    "sha256": "f71859dfa4db95db5906eb73656eed24fc2226e9114fed25c101f75eba81e168",
+    "width": 1440,
+    "height": 960
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/cart-320.webp",
+    "sha256": "7baf8543504854216c082a3925d4a1737d484e9a54b1c2811db52108219eaa27",
+    "width": 320,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/cart-360.webp",
+    "sha256": "5124c97c7f18436b4698d705e4de50cb9266a1ed7d36090c5c46bc6b5e1fb8f3",
+    "width": 360,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/cart-390.webp",
+    "sha256": "a5da135d99e2dfcc7b96e39f41ec8fb0e25fb6839b8161086e44f871b488f564",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/cart-430.webp",
+    "sha256": "bf762535ec610723b434c056a4fd2c5b5feecc05a07a1fe2ae7e3866773f77ec",
+    "width": 430,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/cart-768.webp",
+    "sha256": "f555551f758cf656a2e072360b18b2a5a11a43f8e82d3171cdc15c4e43509b58",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/cart-1440.webp",
+    "sha256": "9d2038abd06d135d041d51c02287cd5a96d139d33bebe0c21315b9f4a27c2f03",
+    "width": 1440,
+    "height": 960
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/staff-390.webp",
+    "sha256": "06078d4fad4a84014441f24fd5024b7e17506458a654af9698a56b6852ebd053",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/staff-768.webp",
+    "sha256": "da7ca333b1a86c8a307cbef99afe65f7b7a84ba831a2dd38b1b291da717ba17c",
+    "width": 768,
+    "height": 960
+  },
+  {
+    "file": "public/images/projects/pekarnya-chudes/staff-1440.webp",
+    "sha256": "ebc3604b07882f2d2a607a275d6bcd514f42bee1b9488ddfeb33ba12769cf122",
+    "width": 1440,
+    "height": 960
+  }
+]

@@ -1,8 +1,9 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
+import { siteConfig } from './site.config.mjs';
 
 export default defineConfig({
-  site: 'https://trwstudio.art',
+  site: siteConfig.url,
   base: '/',
   output: 'static',
   i18n: {

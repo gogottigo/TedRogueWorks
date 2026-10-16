@@ -28,6 +28,13 @@ body {
   color: var(--ink);
 }
 
+/* Large display headings must not widen the page on narrow screens. */
+h1,
+h2,
+h3 {
+  overflow-wrap: anywhere;
+}
+
 a {
   color: inherit;
   text-underline-offset: 0.2em;
@@ -781,7 +788,7 @@ a:focus-visible {
 
 .projects-title {
   margin: 0 0 0 -0.06em;
-  font-size: clamp(5rem, 13vw, 10.5rem);
+  font-size: clamp(3.5rem, 10vw, 8rem);
   font-weight: 550;
   line-height: 0.84;
   letter-spacing: -0.095em;
@@ -1250,7 +1257,7 @@ a:focus-visible {
   }
 
   .projects-title {
-    font-size: clamp(5rem, 19vw, 8rem);
+    font-size: clamp(2.65rem, 13.5vw, 6rem);
   }
 
   .projects-intro-copy > p {
@@ -1323,3 +1330,16 @@ a:focus-visible {
     animation: none;
   }
 }
+
+/* Primary/secondary actions use the same blue underlined treatment in RU and EN. */
+body.studio-site :is(a,button).studio-action {
+  display:inline-flex; align-items:center; justify-content:flex-start; gap:10px;
+  width:fit-content; max-width:100%; min-height:44px; padding:10px 0 7px;
+  border:0; border-bottom:1px solid var(--cobalt); border-radius:0;
+  background:transparent; color:var(--cobalt); font:inherit; font-size:.94rem;
+  font-weight:500; line-height:1.5; letter-spacing:normal; text-decoration:none;
+  cursor:pointer; transition:color .18s,border-color .18s;
+}
+body.studio-site :is(a,button).studio-action:hover { color:var(--ink); border-bottom-color:var(--ink); background:transparent; }
+body.studio-site :is(a,button).studio-action:focus-visible { outline:2px solid var(--cobalt); outline-offset:4px; }
+body.studio-site button.studio-action:disabled { opacity:.55; cursor:default; }

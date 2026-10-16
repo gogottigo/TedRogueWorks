@@ -1,11 +1,11 @@
 export const ui = {
   ru: {
     home: 'Главная',
-    about: 'Обо мне',
+    about: 'О студии',
     projects: 'Проекты',
     blog: 'Блог',
     contact: 'Контакты',
-    language: 'English',
+    language: 'Английская версия',
     backToBlog: 'Вернуться в блог',
   },
   en: {

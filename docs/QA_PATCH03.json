@@ -1,0 +1,35 @@
+{
+  "pages": 19,
+  "visits": 114,
+  "widths": [
+    320,
+    360,
+    390,
+    430,
+    768,
+    1440
+  ],
+  "overflows": [],
+  "pageErrors": [],
+  "httpErrors": [],
+  "browser": "153.0.8010.0",
+  "realPreviews": "PASS: all 3 project captures load in RU/EN",
+  "caseGalleries": "PASS: all 6 cases, every image, arrows, keyboard, Escape and focus return",
+  "languageNavigation": "PASS: 3 round trips",
+  "homeParity": "PASS: identical section/component structure in RU and EN",
+  "services": "PASS: 8 service CTA and localized payload checks; typed draft preserved",
+  "form": "PASS: original RU message retained; RU/EN validation, default and selected services, Unicode and multiline; window.open intercepted",
+  "noJavaScript": "PASS: contact anchors and direct Telegram links; inactive form does not submit",
+  "mobileMenu": "PASS: RU/EN tap, Escape/focus, outside click, responsive reset",
+  "cta": "PASS: shared blue underlined actions, transparent background",
+  "animation": "PASS: shared orbit in RU/EN; disabled for reduced motion",
+  "nestedPreview": "PASS: all 19 pages styled; image, case, language, footer and JS under /spck-preview/TRW_Studio/dist/",
+  "localFilePreview": "PASS: all 19 pages styled; root launcher, image, inline JS, case and language via file://",
+  "extraChecks": {
+    "caseScreenshots": 18,
+    "nestedGallery": "PASS",
+    "fileGallery": "PASS",
+    "noJavaScriptImageLink": "PASS"
+  },
+  "projectCaptures": 45
+}

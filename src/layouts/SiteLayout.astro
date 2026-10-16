@@ -2,14 +2,17 @@
 import Header from '../components/Header.astro';
 import type { Locale } from '../i18n/ui';
 import '../styles/global.css';
+import { sitePath } from '../i18n/paths';
+import { siteConfig } from '../../site.config.mjs';
 
 interface Props {
   title: string;
   description: string;
   locale: Locale;
+  translationHref?: string;
 }
 
-const { title, description, locale } = Astro.props;
+const { title, description, locale, translationHref } = Astro.props;
 ---
 
 <!doctype html>
@@ -18,40 +21,42 @@ const { title, description, locale } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#f4f2ec" />
+    <meta name="theme-color" content={siteConfig.themeColor} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="TRW Studio" />
+    <meta property="og:site_name" content={siteConfig.name} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site).href} />
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={sitePath('/favicon.svg')} />
     <title>{title}</title>
   </head>
-  <body>
+  <body class="studio-site">
     <div class="mx-auto min-h-screen w-full max-w-6xl px-5 sm:px-8">
-      <Header locale={locale} />
+      <Header locale={locale} translationHref={translationHref} />
       <main class:list={['pt-10 pb-16 sm:pt-16 sm:pb-24', ['/', '/en/'].includes(Astro.url.pathname) && 'home-main']}>
         <slot />
       </main>
       <footer class="site-footer">
-        <a href="/">TRW Studio</a>
+        <a href={sitePath(locale === 'ru' ? '/' : '/en/')}>{siteConfig.name}</a>
         <nav aria-label={locale === 'ru' ? 'Навигация в подвале' : 'Footer navigation'}>
-          <a href={locale === 'ru' ? '/projects/' : '/en/projects/'}>{locale === 'ru' ? 'Проекты' : 'Projects'}</a>
-          <a href={locale === 'ru' ? '/#services' : '/en/#services'}>{locale === 'ru' ? 'Услуги' : 'Services'}</a>
-          <a href={locale === 'ru' ? '/about/' : '/en/about/'}>{locale === 'ru' ? 'Студия' : 'Studio'}</a>
-          <a href={locale === 'ru' ? '/contact/' : '/en/contact/'}>{locale === 'ru' ? 'Контакты' : 'Contact'}</a>
-          <a href={locale === 'ru' ? '/blog/' : '/en/blog/'}>{locale === 'ru' ? 'Блог' : 'Journal'}</a>
-          <a href="https://t.me/gogottigotti" target="_blank" rel="noopener noreferrer">Telegram ↗</a>
+          <a href={sitePath(locale === 'ru' ? '/projects/' : '/en/projects/')}>{locale === 'ru' ? 'Проекты' : 'Projects'}</a>
+          <a href={sitePath(locale === 'ru' ? '/#services' : '/en/#services')}>{locale === 'ru' ? 'Услуги' : 'Services'}</a>
+          <a href={sitePath(locale === 'ru' ? '/about/#pricing' : '/en/about/#pricing')}>{locale === 'ru' ? 'Стоимость' : 'Pricing'}</a>
+          <a href={sitePath(locale === 'ru' ? '/about/#terms' : '/en/about/#terms')}>{locale === 'ru' ? 'Условия' : 'Terms'}</a>
+          <a href={sitePath(locale === 'ru' ? '/about/' : '/en/about/')}>{locale === 'ru' ? 'Студия' : 'Studio'}</a>
+          <a href={sitePath(locale === 'ru' ? '/contact/' : '/en/contact/')}>{locale === 'ru' ? 'Контакты' : 'Contact'}</a>
+          <a href={sitePath(locale === 'ru' ? '/blog/' : '/en/blog/')}>{locale === 'ru' ? 'Блог' : 'Journal'}</a>
+          <a href={siteConfig.telegram.url} target="_blank" rel="noopener noreferrer">Telegram ↗</a>
         </nav>
-        <span>© {new Date().getFullYear()} TRW Studio</span>
+        <span>© {new Date().getFullYear()} {siteConfig.name}</span>
       </footer>
     </div>
   </body>
 </html>
 
 <style>
-  main.home-main { padding-top: clamp(2.875rem, 6.9vw, 4.125rem); }
+  main.home-main { padding-top: clamp(1.4rem, 4vw, 3rem); }
   .site-footer { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:18px; padding:22px 0; border-top:1px solid var(--rule); color:var(--muted); font-size:.75rem; }
   .site-footer > a { color:var(--ink); font-weight:600; text-decoration:none; }
   .site-footer nav { display:flex; flex-wrap:wrap; gap:10px 18px; }

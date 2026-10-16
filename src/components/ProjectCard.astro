@@ -24,8 +24,17 @@ const { index, label, type, client, title, description, href, linkLabel, id } = 
       <p class="project-client">{client}</p>
       <h2 id={id} class="project-case-title project-card-title">{title}</h2>
       <p class="project-summary">{description}</p>
-      <a class="project-repo-link" href={href}>{linkLabel} <span class="project-link-arrow" aria-hidden="true">↗</span></a>
+      <a class="studio-action project-repo-link" href={href}>{linkLabel} <span class="project-link-arrow" aria-hidden="true">↗</span></a>
     </div>
     <slot name="preview" />
   </div>
 </section>
+
+<style>
+  .project-case {
+    --work-ink: var(--ink, #181a1d);
+    --work-muted: var(--muted, #686a6b);
+    --work-blue: var(--cobalt, #1648d8);
+    --work-rule: var(--rule, rgba(24, 26, 29, 0.19));
+  }
+</style>

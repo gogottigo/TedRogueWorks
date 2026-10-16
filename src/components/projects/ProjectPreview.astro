@@ -1,0 +1,19 @@
+---
+import { imagePath, projects, type ProjectId } from '../../data/projects';
+import { sitePath } from '../../i18n/paths';
+interface Props { id: ProjectId; locale: 'ru'|'en'; }
+const {id,locale}=Astro.props;
+const mobile=id==='pekarnya-chudes';
+const name=projects[locale].find(p=>p.id===id)!.name;
+const width=mobile?390:1440;
+---
+<figure class:list={['project-preview','real-project-preview',{'profistal-real-preview':id==='profistal14','is-miniapp':mobile}]}>
+ <img src={sitePath(imagePath(id,'home',width))} alt={`${name} — ${locale==='ru'?(mobile?'витрина Mini App':'главная страница'):(mobile?'Mini App storefront':'homepage')}`} width={width} height={mobile?844:960} loading="lazy" />
+ <figcaption>{locale==='ru'?(mobile?'Mini App · локальный запуск · демоданные':'Скриншот локальной сборки'):(mobile?'Mini App · local run · demo data':'Screenshot of a local build')}</figcaption>
+</figure>
+<style>
+.real-project-preview{margin:0;min-width:0;background:#e7e6e0;padding:clamp(12px,2vw,24px);display:flex;flex-direction:column;justify-content:center;gap:12px;overflow:hidden}
+.real-project-preview img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;object-position:top;background:white;border:1px solid #d2d2cb;box-shadow:0 8px 22px #181a1d12}
+.real-project-preview.is-miniapp img{width:210px;max-width:100%;aspect-ratio:390/844;max-height:440px;align-self:center;border-radius:8px}
+.real-project-preview figcaption{font-size:11px;line-height:1.5;color:#55585b;letter-spacing:.03em}
+</style>

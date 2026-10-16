@@ -1,0 +1,17 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import ProjectCard from '../ProjectCard.astro';
+import ProjectPreview from './ProjectPreview.astro';
+import {projects} from '../../data/projects';
+import {sitePath} from '../../i18n/paths';
+import '../../styles/cases.css';
+interface Props{locale:'ru'|'en'}
+const {locale}=Astro.props;const ru=locale==='ru',root=ru?'':'/en';
+---
+<SiteLayout title={ru?'Проекты — TRW Studio':'Projects — TRW Studio'} description={ru?'Сайты и Telegram-сервисы TRW Studio: реальные интерфейсы, задачи и выполненные работы.':'TRW Studio websites and Telegram services: actual interfaces, project tasks and delivered work.'} locale={locale}>
+ <div class="projects-page portfolio-page">
+  <section class="portfolio-intro"><p class="case-eyebrow">{ru?'ИЗБРАННЫЕ РАБОТЫ / 2026':'SELECTED WORK / 2026'}</p><h1>{ru?'Проекты студии.':'Our projects.'}</h1><div class="portfolio-lead"><p>{ru?'Сайт мастерской, сервис пекарни и каталог сантехники. В каждом кейсе — задача, выполненная работа и настоящие экраны.':'A workshop website, a bakery service and a plumbing catalog. Each case covers the task, delivered work and actual screens.'}</p><span>03 <small>{ru?'кейса':'cases'}</small></span></div></section>
+  {projects[locale].map(p=><ProjectCard index={p.index} label={ru?'КЕЙС':'CASE'} type={p.type} client={p.location} title={`${p.name}.`} description={p.summary} href={sitePath(`${root}/projects/${p.id}/`)} linkLabel={ru?'Посмотреть кейс':'View case study'} id={`${p.id}-title`}><ProjectPreview slot="preview" id={p.id} locale={locale}/></ProjectCard>)}
+  <section class="case-cta"><h2>{ru?'Нужен похожий проект?':'Have a similar project in mind?'}</h2><p>{ru?'Расскажите, что должно измениться в работе вашего бизнеса. Обсудим подходящий объём и следующий шаг.':'Tell us what needs to change in your business. We can discuss the scope and the next step.'}</p><a class="studio-action" href={sitePath(`${root}/#contact`)}>{ru?'Обсудить задачу':'Discuss your project'} ↗</a></section>
+ </div>
+</SiteLayout>
