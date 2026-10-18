@@ -1,0 +1,116 @@
+{
+  "metadata": [
+    {
+      "route": "/",
+      "status": "PASS"
+    },
+    {
+      "route": "/about/",
+      "status": "PASS"
+    },
+    {
+      "route": "/blog/",
+      "status": "PASS"
+    },
+    {
+      "route": "/blog/redmi-13c-home-server/",
+      "status": "PASS"
+    },
+    {
+      "route": "/contact/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/about/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/blog/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/blog/redmi-13c-home-server/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/contact/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/projects/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/projects/pekarnya-chudes/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/projects/pravoslavnii-mir/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/projects/profistal14/",
+      "status": "PASS"
+    },
+    {
+      "route": "/en/projects/profsanteh-plus/",
+      "status": "PASS"
+    },
+    {
+      "route": "/projects/",
+      "status": "PASS"
+    },
+    {
+      "route": "/projects/pekarnya-chudes/",
+      "status": "PASS"
+    },
+    {
+      "route": "/projects/pravoslavnii-mir/",
+      "status": "PASS"
+    },
+    {
+      "route": "/projects/profistal14/",
+      "status": "PASS"
+    },
+    {
+      "route": "/projects/profsanteh-plus/",
+      "status": "PASS"
+    }
+  ],
+  "gallery": [
+    "PASS: stable toolbar across landscape/portrait images; full image fits",
+    "PASS: delayed/failed load preserves dialog size; next image recovers"
+  ],
+  "pinch": [
+    {
+      "factor": 1.5,
+      "closeReachable": true
+    },
+    {
+      "factor": 2,
+      "closeReachable": true
+    },
+    {
+      "factor": 2.5,
+      "closeReachable": true
+    }
+  ],
+  "notFound": [
+    {
+      "base": "https://trwstudio.art",
+      "styled": true,
+      "homeLink": true
+    },
+    {
+      "base": "https://gogottigo.github.io/TedRogueWorks",
+      "styled": true,
+      "homeLink": true
+    }
+  ],
+  "headingChecks": 72,
+  "physicalAndroid": "OPEN: physical rotation, text setting, generated Telegram draft and gallery recheck require user device"
+}

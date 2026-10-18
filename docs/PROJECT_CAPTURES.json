@@ -1,359 +1,256 @@
-[
-  {
-    "slug": "profistal14",
-    "screen": "home",
-    "width": 320,
-    "height": 844,
-    "overflow": 47,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "catalog",
-    "width": 320,
-    "height": 844,
-    "overflow": 47,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "home",
-    "width": 360,
-    "height": 844,
-    "overflow": 7,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "catalog",
-    "width": 360,
-    "height": 844,
-    "overflow": 7,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "home",
-    "width": 390,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "catalog",
-    "width": 390,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "home",
-    "width": 430,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "catalog",
-    "width": 430,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "home",
-    "width": 768,
-    "height": 1024,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "catalog",
-    "width": 768,
-    "height": 1024,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "home",
-    "width": 1440,
-    "height": 960,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profistal14",
-    "screen": "catalog",
-    "width": 1440,
-    "height": 960,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "home",
-    "width": 320,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "catalog",
-    "width": 320,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "cart",
-    "width": 320,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "home",
-    "width": 360,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "catalog",
-    "width": 360,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "cart",
-    "width": 360,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "home",
-    "width": 390,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "catalog",
-    "width": 390,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "cart",
-    "width": 390,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "home",
-    "width": 430,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "catalog",
-    "width": 430,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "cart",
-    "width": 430,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "home",
-    "width": 768,
-    "height": 1024,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "catalog",
-    "width": 768,
-    "height": 1024,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "cart",
-    "width": 768,
-    "height": 1024,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "home",
-    "width": 1440,
-    "height": 960,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "catalog",
-    "width": 1440,
-    "height": 960,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "cart",
-    "width": 1440,
-    "height": 960,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "staff",
-    "width": 390,
-    "height": 844,
-    "overflow": 0
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "staff",
-    "width": 768,
-    "height": 960,
-    "overflow": 0
-  },
-  {
-    "slug": "pekarnya-chudes",
-    "screen": "staff",
-    "width": 1440,
-    "height": 960,
-    "overflow": 0
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "home",
-    "width": 320,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "catalog",
-    "width": 320,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "home",
-    "width": 360,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "catalog",
-    "width": 360,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "home",
-    "width": 390,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "catalog",
-    "width": 390,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "home",
-    "width": 430,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "catalog",
-    "width": 430,
-    "height": 844,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "home",
-    "width": 768,
-    "height": 1024,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "catalog",
-    "width": 768,
-    "height": 1024,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "home",
-    "width": 1440,
-    "height": 960,
-    "overflow": 0,
-    "errors": []
-  },
-  {
-    "slug": "profsanteh",
-    "screen": "catalog",
-    "width": 1440,
-    "height": 960,
-    "overflow": 0,
-    "errors": []
-  }
-]
+{
+  "date": "2026-10-17",
+  "browser": "Chromium 153.0.8010.0",
+  "scope": "Actual local applications, curated scenes. Bakery uses synthetic identity/payment transport and demo orders. PM includes documented source CSS corrections. Not native Telegram or physical Android.",
+  "captures": [
+    {
+      "project": "profistal14",
+      "scene": "gallery",
+      "width": 1440,
+      "height": 960,
+      "bytes": 117504,
+      "sha256": "adadd59b4a69370846315dc417669f619cbcccd8db1b8332ed9c913960a81598",
+      "original_png_sha256": "e8343e4a91a7249e94f80cc9a037d6effb02b84267f24a186d3bcc56a9ee757c",
+      "route": "http://127.0.0.1:8091/",
+      "scrollY": 849,
+      "overflow": 0,
+      "path": "images/projects/profistal14/gallery-1440.webp"
+    },
+    {
+      "project": "profistal14",
+      "scene": "catalog",
+      "width": 1440,
+      "height": 960,
+      "bytes": 94820,
+      "sha256": "e41c4b1e3cf72cee34eea8822ae6ed618170339f9a7bfe6cde0682c7706f1368",
+      "original_png_sha256": "cd63950b851ffe8f37c5270c121eee45ae597eb15a830a0c099758cb987e0736",
+      "route": "http://127.0.0.1:8091/",
+      "scrollY": 895,
+      "overflow": 0,
+      "path": "images/projects/profistal14/catalog-1440.webp"
+    },
+    {
+      "project": "profistal14",
+      "scene": "gallery",
+      "width": 390,
+      "height": 844,
+      "bytes": 44954,
+      "sha256": "7f7d5f37a172a93688ff9f9c3d1297407aff0fb3e0fc35cb5a84fb9266cd080e",
+      "original_png_sha256": "cb0b402b8f814ec83de3183d5010e2ce61f1f17927a42432ad6b92417182a454",
+      "route": "http://127.0.0.1:8091/",
+      "scrollY": 849,
+      "overflow": 0,
+      "path": "images/projects/profistal14/gallery-390.webp"
+    },
+    {
+      "project": "profistal14",
+      "scene": "works",
+      "width": 768,
+      "height": 1024,
+      "bytes": 80124,
+      "sha256": "c01601b8b292355bb78927708e80c4ad4a98b7e09e5cb3fb94509a9ed92fe592",
+      "original_png_sha256": "91fc129dc51dd489fc5182a4e9db3a42dfea65faf7737f2cda467227aac21d09",
+      "route": "http://127.0.0.1:8091/",
+      "scrollY": 3776,
+      "overflow": 0,
+      "path": "images/projects/profistal14/works-768.webp"
+    },
+    {
+      "project": "profsanteh-plus",
+      "scene": "catalog",
+      "width": 1440,
+      "height": 960,
+      "bytes": 175648,
+      "sha256": "8857e20a1e61e899df1d2ad28f2447724d1cefcdeb930737cb1201f25641497b",
+      "original_png_sha256": "e4ccbac5d4f98e102b0754bad5a3881907f41f847d11abf9b6a3caf49d09e9a6",
+      "route": "http://127.0.0.1:8092/catalog/",
+      "scrollY": 408,
+      "overflow": 0,
+      "path": "images/projects/profsanteh-plus/catalog-1440.webp"
+    },
+    {
+      "project": "profsanteh-plus",
+      "scene": "catalog",
+      "width": 390,
+      "height": 844,
+      "bytes": 35844,
+      "sha256": "b1777031817e34b9cf96be683c24c05e45149d279c5f316ae8fbdbf50a21d1af",
+      "original_png_sha256": "71f8484f5e4f2daadd4a013666def9272eb3e9c77d0c995d38795ccafba5c606",
+      "route": "http://127.0.0.1:8092/catalog/",
+      "scrollY": 1803,
+      "overflow": 0,
+      "path": "images/projects/profsanteh-plus/catalog-390.webp"
+    },
+    {
+      "project": "profsanteh-plus",
+      "scene": "pumps",
+      "width": 768,
+      "height": 1024,
+      "bytes": 66986,
+      "sha256": "f0036528470f8e638400fdca1e44a0fae98733f3983871196269069a24dea68b",
+      "original_png_sha256": "d86890eb6f1d3131963e28a683e8916b28e39917ec5559220bbb5b4e887031ec",
+      "route": "http://127.0.0.1:8092/catalog/nasosnoe-oborudovanie/",
+      "scrollY": 0,
+      "overflow": 0,
+      "path": "images/projects/profsanteh-plus/pumps-768.webp"
+    },
+    {
+      "project": "profsanteh-plus",
+      "scene": "category",
+      "width": 1440,
+      "height": 960,
+      "bytes": 67832,
+      "sha256": "80e6058689039cf4b469b089331e83cf62a3ded030cdff1fdd0c67d1aa377eef",
+      "original_png_sha256": "0b64ffbec810a09c91fa8cb83dfe7f748ca265c79afda635b2f157cedad118ee",
+      "route": "http://127.0.0.1:8092/catalog/polipropilenovye-truby-i-fitingi/",
+      "scrollY": 0,
+      "overflow": 0,
+      "path": "images/projects/profsanteh-plus/category-1440.webp",
+      "selection_note": "Patch07: selected existing real Patch06 source capture; not a newly run browser capture."
+    },
+    {
+      "project": "pekarnya-chudes",
+      "scene": "selection",
+      "width": 390,
+      "height": 844,
+      "bytes": 78392,
+      "sha256": "73cd18cc85fad268ade08dd3971bb43e50608270a99b74461f2dfda2a7103cc4",
+      "original_png_sha256": "913039f24a6bf848717af5263a7db98ec68995a6eb473433bcda7750dc4bb17a",
+      "route": "http://127.0.0.1:8088/app",
+      "scrollY": 429,
+      "overflow": 0,
+      "path": "images/projects/pekarnya-chudes/selection-390.webp"
+    },
+    {
+      "project": "pekarnya-chudes",
+      "scene": "catalog",
+      "width": 390,
+      "height": 844,
+      "bytes": 51720,
+      "sha256": "eca9f6b22d4703e5c3b691befd7a3c74705efd41cebbdda6818526f3252c3201",
+      "original_png_sha256": "dafc510e697c5eac628f697742ccdf822b6050071fe8a8944c1ebcf79387ba7b",
+      "route": "http://127.0.0.1:8088/app",
+      "scrollY": 293,
+      "overflow": 0,
+      "path": "images/projects/pekarnya-chudes/catalog-390.webp"
+    },
+    {
+      "project": "pekarnya-chudes",
+      "scene": "product",
+      "width": 390,
+      "height": 844,
+      "bytes": 33008,
+      "sha256": "2e7f274d37256e85a3df7ca4c14b74c45de33f8fe9126f894d2be80c5f3cf83a",
+      "original_png_sha256": "edb90c97f8e9fa1f9cf65c578eb7056a97d4758036a9118f9278b1489f9559d1",
+      "route": "http://127.0.0.1:8088/app",
+      "scrollY": 293,
+      "overflow": 0,
+      "path": "images/projects/pekarnya-chudes/product-390.webp"
+    },
+    {
+      "project": "pekarnya-chudes",
+      "scene": "cart",
+      "width": 390,
+      "height": 844,
+      "bytes": 26796,
+      "sha256": "0b29b80e8eec123711ab241374941ae6945eb9fd135e5b94c651f51d83f56e8b",
+      "original_png_sha256": "3a5b84e0f1d78b9b9fbe522a5df88fa634a3fe15e74a982f3834dd57ba29a325",
+      "route": "http://127.0.0.1:8088/app",
+      "scrollY": 0,
+      "overflow": 0,
+      "path": "images/projects/pekarnya-chudes/cart-390.webp"
+    },
+    {
+      "project": "pekarnya-chudes",
+      "scene": "orders",
+      "width": 768,
+      "height": 1280,
+      "bytes": 59872,
+      "sha256": "cd8f780709ff47cd974b2e203a17bbbf61a6e15830257f5bea6e2d907131806d",
+      "original_png_sha256": "e818216a79a7be9d49fa02699159643bbfcb7208227af348455eb9ebdc66f4dd",
+      "route": "http://127.0.0.1:8088/app",
+      "scrollY": 339,
+      "overflow": 0,
+      "path": "images/projects/pekarnya-chudes/orders-768.webp"
+    },
+    {
+      "project": "pekarnya-chudes",
+      "scene": "order-detail",
+      "width": 390,
+      "height": 844,
+      "bytes": 22694,
+      "sha256": "7507778fed59e6e86cbdecb8f61c89db5c4fafe17f7e3d0f026bd6b957383dc9",
+      "original_png_sha256": "286632e27b3f7eebf9113af37f51a5c6269c1dbd28e07a04347c81d158e4fb31",
+      "route": "http://127.0.0.1:8088/app",
+      "scrollY": 659,
+      "overflow": 0,
+      "path": "images/projects/pekarnya-chudes/order-detail-390.webp"
+    },
+    {
+      "project": "pekarnya-chudes",
+      "scene": "inventory",
+      "width": 768,
+      "height": 1024,
+      "bytes": 42542,
+      "sha256": "5d86d65a8241b3c076193d9d887df7dd284861ad0a5b6e48d4fcb3073631fb50",
+      "original_png_sha256": "28a3b775a727d1c0b2e0c45bbdc65f0a147c4a82cf204957f73232fd90b76607",
+      "route": "http://127.0.0.1:8088/app",
+      "scrollY": 262,
+      "overflow": 0,
+      "path": "images/projects/pekarnya-chudes/inventory-768.webp"
+    },
+    {
+      "project": "pravoslavnii-mir",
+      "scene": "catalog",
+      "width": 1440,
+      "height": 960,
+      "bytes": 138542,
+      "sha256": "a4fab3c6c9a14513f0d5c77ffec583b68e58eb6e6f8035c7b15414ae86829a8c",
+      "original_png_sha256": "afeb4cda26668cf170cefffb37e0970237c3df86dabc3f88bf0c111b3f261692",
+      "route": "http://127.0.0.1:8093/catalog/catalog.html?q=%D0%A1%D0%BE%D0%B1%D0%BE%D1%80+%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8F+%D0%A7%D1%83%D0%B4%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D1%86%D0%B0+%D0%B2+%D0%9A%D1%80%D0%BE%D0%BD%D1%88%D1%82%D0%B0%D0%B4%D1%82%D0%B5&region=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3",
+      "scrollY": 577,
+      "overflow": 0,
+      "path": "images/projects/pravoslavnii-mir/catalog-1440.webp"
+    },
+    {
+      "project": "pravoslavnii-mir",
+      "scene": "catalog",
+      "width": 390,
+      "height": 844,
+      "bytes": 42912,
+      "sha256": "affd4c7cf4276e2df263771843ae841027f9ce6add3444e69bf51563dcaa1251",
+      "original_png_sha256": "a84752f1a29159cd9c0eb493043e13ca02d7a39b9d0f9bd95ed88a302990b3e2",
+      "route": "http://127.0.0.1:8093/catalog/catalog.html?q=%D0%A1%D0%BE%D0%B1%D0%BE%D1%80+%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8F+%D0%A7%D1%83%D0%B4%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D1%86%D0%B0+%D0%B2+%D0%9A%D1%80%D0%BE%D0%BD%D1%88%D1%82%D0%B0%D0%B4%D1%82%D0%B5&region=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3",
+      "scrollY": 749,
+      "overflow": 0,
+      "path": "images/projects/pravoslavnii-mir/catalog-390.webp"
+    },
+    {
+      "project": "pravoslavnii-mir",
+      "scene": "place",
+      "width": 1440,
+      "height": 960,
+      "bytes": 179078,
+      "sha256": "2e9445847683870458bd84f49bf3fab5e35618e495d9e022a87cae2814199879",
+      "original_png_sha256": "846aa21683f0be654832ff62691ff1003d2397bf977c2ba4e487a926594fae29",
+      "route": "http://127.0.0.1:8093/objects/place.html?id=pm-2c968bfea4065961a0854ed8a289aae2",
+      "scrollY": 0,
+      "overflow": 0,
+      "path": "images/projects/pravoslavnii-mir/place-1440.webp"
+    },
+    {
+      "project": "pravoslavnii-mir",
+      "scene": "library",
+      "width": 1440,
+      "height": 960,
+      "bytes": 98064,
+      "sha256": "c2495ced0fa23a0bd65c9c7b0b1c22ff30ef5c19acf963380bdb17ac7000f96b",
+      "original_png_sha256": "c908f7fefc921124db095bd1db9b7a67cc1dce6bb102ee297008e7ff2b92ff85",
+      "route": "http://127.0.0.1:8093/library.html?availability=local_text",
+      "scrollY": 488,
+      "overflow": 0,
+      "path": "images/projects/pravoslavnii-mir/library-1440.webp"
+    }
+  ],
+  "patch07_note": "Existing source captures retained. One Santeh scene reselected; no fresh browser run in Patch07."
+}

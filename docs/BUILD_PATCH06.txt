@@ -1,0 +1,52 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> build
+> astro build && node scripts/search-assets.mjs && node scripts/portable-build.mjs
+
+▶ Astro collects anonymous usage data.
+  This information helps us improve Astro.
+  Run "astro telemetry disable" to opt-out.
+  https://astro.build/telemetry
+
+19:26:22 [content] Syncing content
+19:26:22 [content] Synced content
+19:26:22 [types] Generated 538ms
+19:26:22 [build] output: "static"
+19:26:22 [build] mode: "static"
+19:26:22 [build] directory: /workspace/scratch/b4000c7371e4/patch06-work/TRW_Studio/dist/
+19:26:22 [build] Collecting build info...
+19:26:22 [build] ✓ Completed in 590ms.
+19:26:22 [build] Building static entrypoints...
+19:26:22 [vite] ✓ built in 434ms
+19:26:22 [vite] ✓ built in 24ms
+19:26:22 [build] Rearranging server assets...
+
+ generating static routes 
+19:26:22   ├─ /404.html (+11ms) 
+19:26:22   ├─ /about/index.html (+14ms) 
+19:26:22   ├─ /blog/index.html (+3ms) 
+19:26:22   ├─ /blog/redmi-13c-home-server/index.html (+3ms) 
+19:26:22   ├─ /contact/index.html (+3ms) 
+19:26:22   ├─ /en/about/index.html (+3ms) 
+19:26:22   ├─ /en/blog/index.html (+2ms) 
+19:26:22   ├─ /en/blog/redmi-13c-home-server/index.html (+2ms) 
+19:26:22   ├─ /en/contact/index.html (+2ms) 
+19:26:22   ├─ /en/projects/pekarnya-chudes/index.html (+4ms) 
+19:26:22   ├─ /en/projects/pravoslavnii-mir/index.html (+2ms) 
+19:26:22   ├─ /en/projects/profistal14/index.html (+2ms) 
+19:26:22   ├─ /en/projects/profsanteh-plus/index.html (+2ms) 
+19:26:22   ├─ /en/projects/index.html (+2ms) 
+19:26:22   ├─ /en/index.html (+3ms) 
+19:26:22   ├─ /projects/pekarnya-chudes/index.html (+2ms) 
+19:26:22   ├─ /projects/pravoslavnii-mir/index.html (+2ms) 
+19:26:22   ├─ /projects/profistal14/index.html (+1ms) 
+19:26:22   ├─ /projects/profsanteh-plus/index.html (+2ms) 
+19:26:22   ├─ /projects/index.html (+1ms) 
+19:26:22   ├─ /index.html (+2ms) 
+19:26:22 ✓ Completed in 89ms.
+
+19:26:22 [build] ✓ Completed in 580ms.
+19:26:22 [build] 21 page(s) built in 1.17s
+19:26:22 [build] Complete!
+Search assets: 20 canonical routes, error page excluded.
+Portable build: 21 HTML pages; 0 self-contained modules inlined; 3 local font faces embedded; production canonical URLs retained.

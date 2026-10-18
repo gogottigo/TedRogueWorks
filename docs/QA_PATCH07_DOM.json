@@ -1,0 +1,137 @@
+{
+  "kind": "jsdom logic and static metadata; NO layout engine/browser/device verification",
+  "galleries": [
+    {
+      "route": "projects/profistal14",
+      "screens": 4,
+      "loadZoomPanFitNavigationFocusClose": true,
+      "exactOneToOne": true,
+      "simulatedViewportResize": true,
+      "errorRecoveryAndStaleLoad": true
+    },
+    {
+      "route": "projects/pekarnya-chudes",
+      "screens": 7,
+      "loadZoomPanFitNavigationFocusClose": true,
+      "exactOneToOne": true,
+      "simulatedViewportResize": true,
+      "errorRecoveryAndStaleLoad": true
+    },
+    {
+      "route": "projects/profsanteh-plus",
+      "screens": 4,
+      "loadZoomPanFitNavigationFocusClose": true,
+      "exactOneToOne": true,
+      "simulatedViewportResize": true,
+      "errorRecoveryAndStaleLoad": true
+    },
+    {
+      "route": "projects/pravoslavnii-mir",
+      "screens": 4,
+      "loadZoomPanFitNavigationFocusClose": true,
+      "exactOneToOne": true,
+      "simulatedViewportResize": true,
+      "errorRecoveryAndStaleLoad": true
+    },
+    {
+      "route": "en/projects/profistal14",
+      "screens": 4,
+      "loadZoomPanFitNavigationFocusClose": true,
+      "exactOneToOne": true,
+      "simulatedViewportResize": true,
+      "errorRecoveryAndStaleLoad": true
+    },
+    {
+      "route": "en/projects/pekarnya-chudes",
+      "screens": 7,
+      "loadZoomPanFitNavigationFocusClose": true,
+      "exactOneToOne": true,
+      "simulatedViewportResize": true,
+      "errorRecoveryAndStaleLoad": true
+    },
+    {
+      "route": "en/projects/profsanteh-plus",
+      "screens": 4,
+      "loadZoomPanFitNavigationFocusClose": true,
+      "exactOneToOne": true,
+      "simulatedViewportResize": true,
+      "errorRecoveryAndStaleLoad": true
+    },
+    {
+      "route": "en/projects/pravoslavnii-mir",
+      "screens": 4,
+      "loadZoomPanFitNavigationFocusClose": true,
+      "exactOneToOne": true,
+      "simulatedViewportResize": true,
+      "errorRecoveryAndStaleLoad": true
+    }
+  ],
+  "forms": [
+    {
+      "route": "",
+      "MAXOption": true,
+      "encodedShareText": true,
+      "whitespaceBlocked": true,
+      "nativeTelegram": "Not exercised; Patch06 verified by user video 1072"
+    },
+    {
+      "route": "contact",
+      "MAXOption": true,
+      "encodedShareText": true,
+      "whitespaceBlocked": true,
+      "nativeTelegram": "Not exercised; Patch06 verified by user video 1072"
+    },
+    {
+      "route": "en/",
+      "MAXOption": true,
+      "encodedShareText": true,
+      "whitespaceBlocked": true,
+      "nativeTelegram": "Not exercised; Patch06 verified by user video 1072"
+    },
+    {
+      "route": "en/contact",
+      "MAXOption": true,
+      "encodedShareText": true,
+      "whitespaceBlocked": true,
+      "nativeTelegram": "Not exercised; Patch06 verified by user video 1072"
+    }
+  ],
+  "metadata": [
+    "about/index.html",
+    "blog/index.html",
+    "blog/redmi-13c-home-server/index.html",
+    "contact/index.html",
+    "en/about/index.html",
+    "en/blog/index.html",
+    "en/blog/redmi-13c-home-server/index.html",
+    "en/contact/index.html",
+    "en/index.html",
+    "en/projects/index.html",
+    "en/projects/pekarnya-chudes/index.html",
+    "en/projects/pravoslavnii-mir/index.html",
+    "en/projects/profistal14/index.html",
+    "en/projects/profsanteh-plus/index.html",
+    "index.html",
+    "projects/index.html",
+    "projects/pekarnya-chudes/index.html",
+    "projects/pravoslavnii-mir/index.html",
+    "projects/profistal14/index.html",
+    "projects/profsanteh-plus/index.html"
+  ],
+  "prices": [
+    {
+      "locale": "ru",
+      "allSevenRangesUnchanged": true,
+      "defectWindow": 30
+    },
+    {
+      "locale": "en",
+      "allSevenRangesUnchanged": true,
+      "defectWindow": 30
+    }
+  ],
+  "limits": [
+    "DOM report does not measure layout; see QA_PATCH07_BROWSER.json for real Chromium results",
+    "Physical Android system text and physical gallery recheck remain open"
+  ]
+}

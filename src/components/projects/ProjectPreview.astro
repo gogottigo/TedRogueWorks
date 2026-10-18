@@ -1,19 +1,38 @@
 ---
 import { imagePath, projects, type ProjectId } from '../../data/projects';
 import { sitePath } from '../../i18n/paths';
-interface Props { id: ProjectId; locale: 'ru'|'en'; }
-const {id,locale}=Astro.props;
-const mobile=id==='pekarnya-chudes';
+interface Props { id:ProjectId; locale:'ru'|'en'; href?:string; priority?:boolean; }
+const {id,locale,href,priority=false}=Astro.props;
+const covers={
+ profistal14:{scene:'catalog',width:1440,height:960,ru:'Каталог и галерея изделий',en:'Catalog and product gallery'},
+ 'profsanteh-plus':{scene:'catalog',width:1440,height:960,ru:'Категории инженерной сантехники',en:'Plumbing product categories'},
+ 'pekarnya-chudes':{scene:'selection',width:390,height:844,ru:'Витрина и заказы · демоверсия',en:'Storefront and orders · demo'},
+ 'pravoslavnii-mir':{scene:'place',width:1440,height:960,ru:'Карточка места · в разработке',en:'Place details · in development'}
+};
+const cover=covers[id],ru=locale==='ru';
+const secondary=id==='profistal14'?{scene:'gallery',width:390,height:844}:id==='pekarnya-chudes'?{scene:'order-detail',width:390,height:844}:null;
 const name=projects[locale].find(p=>p.id===id)!.name;
-const width=mobile?390:1440;
+const target=href||sitePath(`${ru?'':'/en'}/projects/${id}/`);
 ---
-<figure class:list={['project-preview','real-project-preview',{'profistal-real-preview':id==='profistal14','is-miniapp':mobile}]}>
- <img src={sitePath(imagePath(id,'home',width))} alt={`${name} — ${locale==='ru'?(mobile?'витрина Mini App':'главная страница'):(mobile?'Mini App storefront':'homepage')}`} width={width} height={mobile?844:960} loading="lazy" />
- <figcaption>{locale==='ru'?(mobile?'Mini App · локальный запуск · демоданные':'Скриншот локальной сборки'):(mobile?'Mini App · local run · demo data':'Screenshot of a local build')}</figcaption>
+<figure class:list={['project-preview','real-project-preview',`preview-${id}`,{'preview-paired':!!secondary}]}>
+ <a class="project-preview-link" href={target} aria-label={`${ru?'Посмотреть проект':'View project'}: ${name}`}>
+  <div class="preview-canvas">
+   <img class="preview-main" src={sitePath(imagePath(id,cover.scene,cover.width))} alt={`${name} — ${cover[locale]}`} width={cover.width} height={cover.height} loading={priority?'eager':'lazy'} fetchpriority={priority?'high':'auto'} decoding="async"/>
+   {secondary&&<img class="preview-secondary" src={sitePath(imagePath(id,secondary.scene,secondary.width))} alt={ru?(id==='profistal14'?'Мобильная галерея изделий':'Рабочая карточка заказа'):(id==='profistal14'?'Mobile product gallery':'Staff order detail')} width={secondary.width} height={secondary.height} loading="lazy" decoding="async"/>}
+  </div>
+ </a>
+ <figcaption><span>{cover[locale]}</span><span class="preview-open">{ru?'Смотреть':'Explore'} ↗</span></figcaption>
 </figure>
 <style>
-.real-project-preview{margin:0;min-width:0;background:#e7e6e0;padding:clamp(12px,2vw,24px);display:flex;flex-direction:column;justify-content:center;gap:12px;overflow:hidden}
-.real-project-preview img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;object-position:top;background:white;border:1px solid #d2d2cb;box-shadow:0 8px 22px #181a1d12}
-.real-project-preview.is-miniapp img{width:210px;max-width:100%;aspect-ratio:390/844;max-height:440px;align-self:center;border-radius:8px}
-.real-project-preview figcaption{font-size:11px;line-height:1.5;color:#55585b;letter-spacing:.03em}
+.real-project-preview{margin:0;min-width:0;background:#e7e6e0;padding:clamp(12px,2vw,20px);display:flex;flex-direction:column;gap:12px}
+.project-preview-link{display:block;min-width:0;width:100%;outline-offset:5px}
+.preview-canvas{position:relative;width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;gap:12px;overflow:hidden}
+.real-project-preview img{display:block;min-width:0;height:auto;object-fit:contain;background:white;border:1px solid #d2d2cb;box-shadow:0 6px 18px #181a1d12}
+.preview-main{width:100%;max-height:100%}
+.preview-paired.preview-profistal14 .preview-main{width:72%;align-self:center}
+.preview-profistal14 .preview-secondary{width:24%;max-height:100%;object-fit:contain}
+.preview-pekarnya-chudes .preview-main,.preview-pekarnya-chudes .preview-secondary{width:auto;max-width:46%;height:100%;object-fit:contain}
+.real-project-preview figcaption{font-size:.8125rem;line-height:1.5;color:#444749;display:flex;gap:12px;justify-content:space-between;align-items:baseline}
+.preview-open{flex-shrink:0;color:var(--cobalt)}
+@media(max-width:540px){.real-project-preview{padding:12px;gap:10px}.preview-canvas{aspect-ratio:4/3}.preview-open{font-size:.8125rem}}
 </style>

@@ -1,0 +1,8 @@
+const a=state.pages.staff,fs=require('fs');
+await a.setViewportSize({width:768,height:1280});await a.locator('.staff-menu summary').click();await a.getByRole('tab',{name:'Заказы',exact:true}).click();await a.locator('.staff-order-card').first().waitFor();await a.waitForTimeout(300);
+for(let i=0;i<3;i++){await a.locator('.staff-order-card').first().evaluate(e=>scrollBy({top:e.getBoundingClientRect().top-270,behavior:'instant'}));await a.waitForTimeout(300);}
+const b=await a.locator('.staff-order-card').first().boundingBox();await a.screenshot({path:root+'/patch06-captures/pekarnya-chudes-orders-768.png'});
+await a.locator('.staff-menu summary').click();await a.getByRole('tab',{name:'Остатки',exact:true}).click();await a.setViewportSize({width:768,height:1024});await a.locator('.staff-stock-card').first().waitFor();await a.waitForTimeout(300);for(let i=0;i<3;i++){await a.locator('.staff-stock-card').first().evaluate(e=>scrollBy({top:e.getBoundingClientRect().top-270,behavior:'instant'}));await a.waitForTimeout(300);}await a.screenshot({path:root+'/patch06-captures/pekarnya-chudes-inventory-768.png'});
+const steel=state.pages.steel;await steel.locator('[data-gallery=works]').click();await state.capture(steel,'profistal14','works',768,1024);
+const san=state.pages.santeh;await san.setViewportSize({width:1440,height:760});await san.getByRole('heading',{name:'Что можно подобрать в этой категории',exact:true}).evaluate(e=>scrollTo({top:e.getBoundingClientRect().top+scrollY-120,behavior:'instant'}));await state.capture(san,'profsanteh-plus','guidance',1440,760);
+fs.writeFileSync(root+'/patch06-captures/capture-log.json',JSON.stringify(state.captureLog,null,2));return {firstOrderBounds:b,stock:await a.locator('.staff-stock-card').first().boundingBox()};

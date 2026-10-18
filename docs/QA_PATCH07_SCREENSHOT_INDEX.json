@@ -1,0 +1,1001 @@
+{
+  "scope": "Internal browser QA frames; paths relative to the task QA directory, not delivered project files.",
+  "files": [
+    {
+      "path": "fixed/about-1440-normal.png",
+      "sha256": "7309a9a62107dabf743a77f586b1d3350ec248842b7cd2408d0d6b5ad33f425c"
+    },
+    {
+      "path": "fixed/about-320-normal.png",
+      "sha256": "c9909c98e71afdb1c099f5186cefe9abd6da4c9d36e83050c53201bbe3e55d5a"
+    },
+    {
+      "path": "fixed/about-320-text200.png",
+      "sha256": "8986f23533161c8d46cafc37f554bd21fca066f8fa5932b0f86ab1ddcd4b9304"
+    },
+    {
+      "path": "fixed/about-390-normal.png",
+      "sha256": "1b2bfd1c31bafbb7f4db0fa83af57501d2d0530b5e461037ba93a5985f64b682"
+    },
+    {
+      "path": "fixed/about-390-text200.png",
+      "sha256": "ea99e12d7b31f794ff312154982b7421ecb61907f9b471ad3342fce511d8f1ce"
+    },
+    {
+      "path": "fixed/about-768-normal.png",
+      "sha256": "c0af9d3b38fdd63e0127af58ea2b5892c22008369f28f505f74031b4fe3d8869"
+    },
+    {
+      "path": "fixed/about-768-text200.png",
+      "sha256": "be55be775fccee01ad915dc9db2c6ac0ed76bf25be9c5539eb7948143b1c0339"
+    },
+    {
+      "path": "fixed/en-320-text200.png",
+      "sha256": "0ecbc5eb925a2560b45b217ee1f30d28458ed212efe41ed4e12a94dffeb0eb84"
+    },
+    {
+      "path": "fixed/en-390-text200.png",
+      "sha256": "f03e7a736020e21d64e7a5d9ba5c47f19e667dda898e5fd9b5fbea4e523f1bad"
+    },
+    {
+      "path": "fixed/en-about-320-text200.png",
+      "sha256": "0271a81d531cf104faa876938e35de5b1fed5a32872140f9f6e0105ec0840b5b"
+    },
+    {
+      "path": "fixed/en-about-390-text200.png",
+      "sha256": "d2de4750c8e0b9425257d4098f628e280d0b591bd44f3a8e51125d3dd9f7f963"
+    },
+    {
+      "path": "fixed/en-home-320-font100-final.png",
+      "sha256": "9780daf048b22b8aac960d429deab4ce474c3510650575250444fbfd9cb30080"
+    },
+    {
+      "path": "fixed/en-home-320-font200-final.png",
+      "sha256": "791f7cd4d6c46ffd860bda449a3d035f43c24c9f2c294cc926a316cfa6ce6f1c"
+    },
+    {
+      "path": "fixed/en-home-390-font100-final.png",
+      "sha256": "b7d2dcdcd2ab31e293f320dfc032cb24ba6e06a515f4743fbdc321b66468fd03"
+    },
+    {
+      "path": "fixed/en-home-390-font200-final.png",
+      "sha256": "383dbc622da1bc89ad78af287f9b603341bc02e2fd71fd6ed396544da95f4c53"
+    },
+    {
+      "path": "fixed/en-home-768-font100-final.png",
+      "sha256": "845191106fc0aaffdd324ee3f90d9f6605642817c56ae7c913bf16fbf73e3421"
+    },
+    {
+      "path": "fixed/en-home-768-font200-final.png",
+      "sha256": "855f6fdcd4624e784672762b0f4ab62b36b087a03ec14ee8084861f4c97e1d85"
+    },
+    {
+      "path": "fixed/home-1440-normal.png",
+      "sha256": "70c5a3a53c6595adb3492f01d52d28f2773bc1a5f4a6686b8166c7a8d4682631"
+    },
+    {
+      "path": "fixed/home-320-font100-final.png",
+      "sha256": "2988a60da0a1a7794c3ac59dcf7a1651ce1a7126c049aa4cb17a59d64d79da60"
+    },
+    {
+      "path": "fixed/home-320-font200-final.png",
+      "sha256": "80f5c7534b300fff464b24fa5f9fbc6da63226a7ed05780e13fbcfd09c83930a"
+    },
+    {
+      "path": "fixed/home-320-normal.png",
+      "sha256": "2988a60da0a1a7794c3ac59dcf7a1651ce1a7126c049aa4cb17a59d64d79da60"
+    },
+    {
+      "path": "fixed/home-320-text200.png",
+      "sha256": "4f1cc4b451f7b8a038112250192ccbb98561bb428d8a56e3cfc21e4c39f69a6b"
+    },
+    {
+      "path": "fixed/home-390-font100-final.png",
+      "sha256": "ac54e3dc598c3f24f30402512ecb51b805af4683eb177f2f7ccc76a5875b9159"
+    },
+    {
+      "path": "fixed/home-390-font200-final.png",
+      "sha256": "e79dfaf639198950c4c51b6ff6a7a66e6b0faf73fcd60214963fd83ced19b5be"
+    },
+    {
+      "path": "fixed/home-390-normal.png",
+      "sha256": "ac54e3dc598c3f24f30402512ecb51b805af4683eb177f2f7ccc76a5875b9159"
+    },
+    {
+      "path": "fixed/home-390-text200.png",
+      "sha256": "2ecdb938f0b5220065c8a377b6f90b509aa37ca9de524aa1cb6f9af0202548bf"
+    },
+    {
+      "path": "fixed/home-768-font100-final.png",
+      "sha256": "b6ecb2e0b04c631ab0d15cd6ed21d76d95bc807c348d23b04d6a5a773f4370d6"
+    },
+    {
+      "path": "fixed/home-768-font200-final.png",
+      "sha256": "a17c5d9ccac37618e9c7849bedbd92c7437a31ed36a4fc8f243165b90ede1e18"
+    },
+    {
+      "path": "fixed/home-768-normal.png",
+      "sha256": "65d67ea6365e6e5633592ac07b25a419bc00dd33ff1996d471957ab3b42f5dd2"
+    },
+    {
+      "path": "fixed/home-768-text200.png",
+      "sha256": "173b8f7cd87065159f86c0c4ca3aee9c68be8bbec6ab8a8acb35875250de2b28"
+    },
+    {
+      "path": "fixed/projects-1440-normal.png",
+      "sha256": "6a41cd21847c5bff4140288f4200a99dc62758fbba458afb6492b91966da214c"
+    },
+    {
+      "path": "fixed/projects-320-normal.png",
+      "sha256": "e537f7c1fff3f31f845dcaa7fe2490aa5bef28ec4e06e3198174e8ce85e4b54a"
+    },
+    {
+      "path": "fixed/projects-390-normal.png",
+      "sha256": "e676c45d4ccaced91df42c4e363244588fff6482327702008a99d0040b3dcaec"
+    },
+    {
+      "path": "fixed/projects-768-normal.png",
+      "sha256": "2b15634dff04d2912661c4eab1bbc4e515380f801d1fa376e7e265e0a48fcc84"
+    },
+    {
+      "path": "fixed/projects-pravoslavnii-mir-768-text200.png",
+      "sha256": "cb8a7f5925722da238343681592e5d6829e39b9b776f3d656fddf01fed7b92b9"
+    },
+    {
+      "path": "interactions/en-pekarnya-chudes-0-fit.png",
+      "sha256": "cf88b9fa5502adc0d616036513e63e37582f683bde25b514c6b930dd0b23db8e"
+    },
+    {
+      "path": "interactions/en-pekarnya-chudes-6-fit.png",
+      "sha256": "2f0b34d6b8138d1e7b8d4cc505acefec3f2fd54a5baa8915fb3d6510f07b509a"
+    },
+    {
+      "path": "interactions/en-pekarnya-chudes-review-fit.png",
+      "sha256": "cf88b9fa5502adc0d616036513e63e37582f683bde25b514c6b930dd0b23db8e"
+    },
+    {
+      "path": "interactions/en-pekarnya-chudes-zoom.png",
+      "sha256": "ffa55dc8c073a1ccb18920c7739b6697c947d8935ee03970203b97741b2e35eb"
+    },
+    {
+      "path": "interactions/en-pravoslavnii-mir-0-fit.png",
+      "sha256": "bb1fa702ed4f5022b04e5a5517f6610ae0bd895b2fb63be02e916290c24b358b"
+    },
+    {
+      "path": "interactions/en-pravoslavnii-mir-3-fit.png",
+      "sha256": "aadcb942fb75f5da79226c0bd14d94d407e0a329fd8654154dd7953fd7c014dc"
+    },
+    {
+      "path": "interactions/en-pravoslavnii-mir-review-fit.png",
+      "sha256": "bb1fa702ed4f5022b04e5a5517f6610ae0bd895b2fb63be02e916290c24b358b"
+    },
+    {
+      "path": "interactions/en-pravoslavnii-mir-zoom.png",
+      "sha256": "8669bb989df272aafb46a41e74bacc3eac020c6cd02b2d32d94f2dc74c9a48f8"
+    },
+    {
+      "path": "interactions/en-profistal14-0-fit.png",
+      "sha256": "ee8813a28fcdae0581ecb699180f800c09e79507ff37708a90784ed5c1729ce8"
+    },
+    {
+      "path": "interactions/en-profistal14-3-fit.png",
+      "sha256": "20786dbc260977cc3d494b23cec0d7fd155684a60c19424bc618c58aef66e11b"
+    },
+    {
+      "path": "interactions/en-profistal14-review-fit.png",
+      "sha256": "ee8813a28fcdae0581ecb699180f800c09e79507ff37708a90784ed5c1729ce8"
+    },
+    {
+      "path": "interactions/en-profistal14-zoom.png",
+      "sha256": "70d68d715a7fee60b6b38b123026e019084bd836e52c01a5a15d4f25e2d30c3a"
+    },
+    {
+      "path": "interactions/en-profsanteh-plus-0-fit.png",
+      "sha256": "c89ebb887ab7c58e7ae1dcb744fa6d392a48968026052e14286b805097272f34"
+    },
+    {
+      "path": "interactions/en-profsanteh-plus-3-fit.png",
+      "sha256": "2f94ea533dc6df3d8577f250276191e171a630cd29471e746c5e4096ec16a8c4"
+    },
+    {
+      "path": "interactions/en-profsanteh-plus-review-fit.png",
+      "sha256": "c89ebb887ab7c58e7ae1dcb744fa6d392a48968026052e14286b805097272f34"
+    },
+    {
+      "path": "interactions/en-profsanteh-plus-zoom.png",
+      "sha256": "57ee7aa591a5d6b974e759f11aa2409589af7757da692effc341706ca636f215"
+    },
+    {
+      "path": "interactions/pekarnya-chudes-0-fit.png",
+      "sha256": "707b088feac2cf6a5eebe0e77e710d8e152ee22410440c6a0b1320e59b6ee20d"
+    },
+    {
+      "path": "interactions/pekarnya-chudes-6-fit.png",
+      "sha256": "6bc8e41a64a89b60e65f4e700155ba9ce3b1a170c5891ef19ac3f8d9397cb79c"
+    },
+    {
+      "path": "interactions/pekarnya-chudes-review-fit.png",
+      "sha256": "707b088feac2cf6a5eebe0e77e710d8e152ee22410440c6a0b1320e59b6ee20d"
+    },
+    {
+      "path": "interactions/pekarnya-chudes-settled.png",
+      "sha256": "707b088feac2cf6a5eebe0e77e710d8e152ee22410440c6a0b1320e59b6ee20d"
+    },
+    {
+      "path": "interactions/pekarnya-chudes-zoom.png",
+      "sha256": "cf1e6d9eb764404bff916ea2b8167d2c47d1cae8c8972227dac758262828d564"
+    },
+    {
+      "path": "interactions/pm-render-debug.png",
+      "sha256": "eece15f366fa5e7008bbdbf1b57c8fcabb8f27eea07655db7d5b4d21b047d3ad"
+    },
+    {
+      "path": "interactions/pravoslavnii-mir-0-fit.png",
+      "sha256": "eece15f366fa5e7008bbdbf1b57c8fcabb8f27eea07655db7d5b4d21b047d3ad"
+    },
+    {
+      "path": "interactions/pravoslavnii-mir-3-fit.png",
+      "sha256": "616918b50239554ba281bfb13df9ba4be435d67fcf4695fe4732025f6a691978"
+    },
+    {
+      "path": "interactions/pravoslavnii-mir-review-fit.png",
+      "sha256": "eece15f366fa5e7008bbdbf1b57c8fcabb8f27eea07655db7d5b4d21b047d3ad"
+    },
+    {
+      "path": "interactions/pravoslavnii-mir-settled.png",
+      "sha256": "eece15f366fa5e7008bbdbf1b57c8fcabb8f27eea07655db7d5b4d21b047d3ad"
+    },
+    {
+      "path": "interactions/pravoslavnii-mir-zoom.png",
+      "sha256": "e5e1775619883dade13b008dafee22f1ebcc6331eeef4d50ee5cce175727a8e9"
+    },
+    {
+      "path": "interactions/profistal14-0-fit.png",
+      "sha256": "93faf4fb5d0afb578929833518cba52b3c68092a9b25ad4980f5b69f1d5f8c91"
+    },
+    {
+      "path": "interactions/profistal14-3-fit.png",
+      "sha256": "1b7f2ff9011c5eef4de3453b23504572d200c836f179e0d55880c215aab50123"
+    },
+    {
+      "path": "interactions/profistal14-review-fit.png",
+      "sha256": "93faf4fb5d0afb578929833518cba52b3c68092a9b25ad4980f5b69f1d5f8c91"
+    },
+    {
+      "path": "interactions/profistal14-zoom.png",
+      "sha256": "8ef3daecd2a752358526c9febb07d0e7d7bf9679a68c808fa1746e92d1bb148a"
+    },
+    {
+      "path": "interactions/profsanteh-plus-0-fit.png",
+      "sha256": "8be4348bfe54b620565ea4422cef0c31f40070e36525947c0e01ec211a10bce0"
+    },
+    {
+      "path": "interactions/profsanteh-plus-3-fit.png",
+      "sha256": "91040acce36b93a23001b4d4d5ae63dc11cf7a2890d12c1bc1199a1788d9507a"
+    },
+    {
+      "path": "interactions/profsanteh-plus-review-fit.png",
+      "sha256": "8be4348bfe54b620565ea4422cef0c31f40070e36525947c0e01ec211a10bce0"
+    },
+    {
+      "path": "interactions/profsanteh-plus-zoom.png",
+      "sha256": "44b5da5eef6ed248229c54e981776214883a4515eaa0271d86539abc8b669c02"
+    },
+    {
+      "path": "pages/about-1440-bottom.png",
+      "sha256": "e0bf7118b6ec4ee6fd7157536721c75f9aef2221c2cf631c355b3d4859acf803"
+    },
+    {
+      "path": "pages/about-1440-middle.png",
+      "sha256": "e5bff1e94fefae3b24a257eac50c1b035a7b8efa2054e32cca2ed632545810d6"
+    },
+    {
+      "path": "pages/about-1440-top.png",
+      "sha256": "7309a9a62107dabf743a77f586b1d3350ec248842b7cd2408d0d6b5ad33f425c"
+    },
+    {
+      "path": "pages/about-320-bottom.png",
+      "sha256": "a3cef7c086d4c11f89a53cf3ddfe04cd5e14be9b62958012d189389e5ca54c01"
+    },
+    {
+      "path": "pages/about-320-middle.png",
+      "sha256": "2725faecd2b8f59538c4dd7d215b6a1d1675a1289d93ecc2a133bbc3087df549"
+    },
+    {
+      "path": "pages/about-320-top.png",
+      "sha256": "c9909c98e71afdb1c099f5186cefe9abd6da4c9d36e83050c53201bbe3e55d5a"
+    },
+    {
+      "path": "pages/about-360-bottom.png",
+      "sha256": "397f2375fda37f27cd0e23f04f12f869af14b0f1ce6ba47db571b87a5c092c28"
+    },
+    {
+      "path": "pages/about-360-middle.png",
+      "sha256": "658e4f002846a1229608b46d4149741e5f5faa19587bab6c7ced5a7ea14f6562"
+    },
+    {
+      "path": "pages/about-360-top.png",
+      "sha256": "ce031f5c5b184fe10969f14b99bffb811b11e48ec27411f716e18bc5ae8380c7"
+    },
+    {
+      "path": "pages/about-390-bottom.png",
+      "sha256": "9ea02ba3e4720d2746ee648909bf4abc56bd365e808a94ae92d6b9714028c73b"
+    },
+    {
+      "path": "pages/about-390-middle.png",
+      "sha256": "7bef4113e1591a7b743cc3aef611dc8c072bcd094fc99ff0a2e0b42e5980fb15"
+    },
+    {
+      "path": "pages/about-390-top.png",
+      "sha256": "1b2bfd1c31bafbb7f4db0fa83af57501d2d0530b5e461037ba93a5985f64b682"
+    },
+    {
+      "path": "pages/about-430-bottom.png",
+      "sha256": "0145364cb2749547d11c4890518fead8f8f15250d274df634f814806ac96d42e"
+    },
+    {
+      "path": "pages/about-430-middle.png",
+      "sha256": "5349ffad7a79a82ecf2d5939b12c94103e94235126602bc72c7e71ed48c148b0"
+    },
+    {
+      "path": "pages/about-430-top.png",
+      "sha256": "0d3a9d7c60203f3df6eb975ed7abf6d7aa6e34e7af4aa85c33a5c2f534293dd3"
+    },
+    {
+      "path": "pages/about-768-bottom.png",
+      "sha256": "075a82e4a3fb28b3ff05859553e7a7de8481d333d38308c4dc00d43e46ffde09"
+    },
+    {
+      "path": "pages/about-768-middle.png",
+      "sha256": "c2dad4c403cbf424890cacfbc35577bac4c64a6661e501532f199e4befa5888c"
+    },
+    {
+      "path": "pages/about-768-top.png",
+      "sha256": "c0af9d3b38fdd63e0127af58ea2b5892c22008369f28f505f74031b4fe3d8869"
+    },
+    {
+      "path": "pages/en-1440-bottom.png",
+      "sha256": "27ca2764ecb294ce4e123ae3daf52e8f6626d0f266dd952982b500f666534199"
+    },
+    {
+      "path": "pages/en-1440-middle.png",
+      "sha256": "8288d267a2eed6f56e374c48a9d157f5c33be4c41c837c8624c743f23d446a1a"
+    },
+    {
+      "path": "pages/en-1440-top.png",
+      "sha256": "8b0cea31442560e8d1980627439b87c405701fa66fedd2bdf5787c9386b641fd"
+    },
+    {
+      "path": "pages/en-320-bottom.png",
+      "sha256": "3315f415f58f34f324d34f81f1d86c45c191709f0bd95d21a4cc0351c70d9cf4"
+    },
+    {
+      "path": "pages/en-320-middle.png",
+      "sha256": "334ad73bec5dee27994916b8eb9170ab447acee0afcc5089b8b61c999bc6c0ae"
+    },
+    {
+      "path": "pages/en-320-top.png",
+      "sha256": "9780daf048b22b8aac960d429deab4ce474c3510650575250444fbfd9cb30080"
+    },
+    {
+      "path": "pages/en-360-bottom.png",
+      "sha256": "503480d89dc1ad8599e98e6d81d4b78142c83396fd9e17527819407ed83f9121"
+    },
+    {
+      "path": "pages/en-360-middle.png",
+      "sha256": "2ba7f86d517263df80b0af975007e44ece436675d4d58c848c1612ab8028cc68"
+    },
+    {
+      "path": "pages/en-360-top.png",
+      "sha256": "e2dcae65ac21afb1ff2d77173a5e919cdce2afeb4cda8d68554fb71fcf779342"
+    },
+    {
+      "path": "pages/en-390-bottom.png",
+      "sha256": "716d4114d643ff5701a935aa0c30f4e84b6b0ec61bb53bb807e9424633483320"
+    },
+    {
+      "path": "pages/en-390-middle.png",
+      "sha256": "8135d0e2dab4856f669603e7c94e959772e4f2de2f12c50c5991e6d0438ecc1a"
+    },
+    {
+      "path": "pages/en-390-top.png",
+      "sha256": "b7d2dcdcd2ab31e293f320dfc032cb24ba6e06a515f4743fbdc321b66468fd03"
+    },
+    {
+      "path": "pages/en-430-bottom.png",
+      "sha256": "afe8a122bc1c7476c0f5975bd57d56c6fa8910273e1ba8d21624581a16f11e13"
+    },
+    {
+      "path": "pages/en-430-middle.png",
+      "sha256": "ccb94f8c276f736e1dca76fcb8c8fd08cfc83837af334b7a8e91f8908ddfecfa"
+    },
+    {
+      "path": "pages/en-430-top.png",
+      "sha256": "fb9a4e2f644492741a4f80b0842110c84f1965c41debb73a211cf7d758123573"
+    },
+    {
+      "path": "pages/en-768-bottom.png",
+      "sha256": "e08dbc4b949ff88fb5b97c9340ad54682517e023753002a763d6a0d881370745"
+    },
+    {
+      "path": "pages/en-768-middle.png",
+      "sha256": "62a7a77343beb0ef61c58d96d6ec1b77195e10b69fa28ca360090d0a4b21b90a"
+    },
+    {
+      "path": "pages/en-768-top.png",
+      "sha256": "2b9fee0bf4f9174198956b65be6340d7bfef4f07878e124fd5edacb553a4825f"
+    },
+    {
+      "path": "pages/home-1440-bottom.png",
+      "sha256": "9816848321ae733fcf30361f319af6a2cad0f0efc64f504bc61ac7b07a4e36ed"
+    },
+    {
+      "path": "pages/home-1440-middle.png",
+      "sha256": "6bae3786803ebc05a6060a027e5bd81347987a559af20a91c42bdce32d747377"
+    },
+    {
+      "path": "pages/home-1440-top.png",
+      "sha256": "70c5a3a53c6595adb3492f01d52d28f2773bc1a5f4a6686b8166c7a8d4682631"
+    },
+    {
+      "path": "pages/home-320-bottom.png",
+      "sha256": "1955864cfb950811b13c2c427b8a9192e372beb1e3c7bfbf0b25bee313973fb3"
+    },
+    {
+      "path": "pages/home-320-middle.png",
+      "sha256": "288137df12d88921a50355f4bb11f9b7d6ba1fb32297bcc2bf575dd2512522ae"
+    },
+    {
+      "path": "pages/home-320-top.png",
+      "sha256": "2988a60da0a1a7794c3ac59dcf7a1651ce1a7126c049aa4cb17a59d64d79da60"
+    },
+    {
+      "path": "pages/home-360-bottom.png",
+      "sha256": "3f90808311c4fcf949ccd6f828f6b1caceb18a3f54a657574ada5f68c6df864d"
+    },
+    {
+      "path": "pages/home-360-middle.png",
+      "sha256": "887215ceb06cb36efbbd2a33c5277f9181287cb710e9c18b5575011a570605c0"
+    },
+    {
+      "path": "pages/home-360-top.png",
+      "sha256": "22b33d8bfce29c8c2edc3bd147382389c3fc690ba987dd270a0d7873f23b15e0"
+    },
+    {
+      "path": "pages/home-390-bottom.png",
+      "sha256": "6bf30c788378c83f91586b84366c7514f2856a55d8d9abf855d9f15fe1d07b44"
+    },
+    {
+      "path": "pages/home-390-middle.png",
+      "sha256": "2f76ba925c298e859aad23dd295cace420b6dffd0a11e58c884fc90d9ff5ee06"
+    },
+    {
+      "path": "pages/home-390-top.png",
+      "sha256": "ac54e3dc598c3f24f30402512ecb51b805af4683eb177f2f7ccc76a5875b9159"
+    },
+    {
+      "path": "pages/home-430-bottom.png",
+      "sha256": "e7c2640c21a46f5771c32aa4d11a589f23d8502ecd2a4abd7c507e98516524cf"
+    },
+    {
+      "path": "pages/home-430-middle.png",
+      "sha256": "39a6633f2c6a41be49e98482bb370c9196f11b3a39d9b55468ed45274ade01ab"
+    },
+    {
+      "path": "pages/home-430-top.png",
+      "sha256": "0ebefc5a6d5ef571daed3b8f32c0de94396c8317f7a58e65de9c1a659f70b7f8"
+    },
+    {
+      "path": "pages/home-768-bottom.png",
+      "sha256": "2f4fa367ef2b939a3fe22fceb2107e81c5e7fa3b0806ee43c455ea2070fbcb32"
+    },
+    {
+      "path": "pages/home-768-middle.png",
+      "sha256": "7d5241d41b9214e3b02707a833a111df87fc7ff8d3dc901e24cdab03ed16338f"
+    },
+    {
+      "path": "pages/home-768-top.png",
+      "sha256": "65d67ea6365e6e5633592ac07b25a419bc00dd33ff1996d471957ab3b42f5dd2"
+    },
+    {
+      "path": "pages/projects-1440-bottom.png",
+      "sha256": "c1c7294b746c8ef12bb7eea318e7610aa1800becf1272838bbfd4508b955144b"
+    },
+    {
+      "path": "pages/projects-1440-middle.png",
+      "sha256": "362ceafe51d7c243e68856e562412e7526229e36e36987b846bd3163726cdd76"
+    },
+    {
+      "path": "pages/projects-1440-top.png",
+      "sha256": "6a41cd21847c5bff4140288f4200a99dc62758fbba458afb6492b91966da214c"
+    },
+    {
+      "path": "pages/projects-320-bottom.png",
+      "sha256": "83980633dd85d6c79a87017dd09217eb1c2489b7ac6ae482604462239751829f"
+    },
+    {
+      "path": "pages/projects-320-middle.png",
+      "sha256": "a5a177d5b186ddc5215d5ff2219fe698a9b3ed1a8add7920a4c90b9bacb1a0bd"
+    },
+    {
+      "path": "pages/projects-320-top.png",
+      "sha256": "e537f7c1fff3f31f845dcaa7fe2490aa5bef28ec4e06e3198174e8ce85e4b54a"
+    },
+    {
+      "path": "pages/projects-360-bottom.png",
+      "sha256": "f7a1b4bc2c427609e2c2c25a97e7306d5dee40fa7b7c5adf3a9c395f1c57e925"
+    },
+    {
+      "path": "pages/projects-360-middle.png",
+      "sha256": "d759c33ff942cd9fa4d0e8054592e3fb522a298172271ab3d19523e38a3c7d52"
+    },
+    {
+      "path": "pages/projects-360-top.png",
+      "sha256": "fc45c8227630b744f5658d8c9a626b35a0d0ad541bd54c0bd820efdf1f0dcca8"
+    },
+    {
+      "path": "pages/projects-390-bottom.png",
+      "sha256": "e6e14629aea6118dfb2834ea71ab1f60dbb5b9de269c6dfba0d03a794e57c6d2"
+    },
+    {
+      "path": "pages/projects-390-middle.png",
+      "sha256": "fbefc17ee7ae17b21270f625c2d7c8a82717c5b014703cb049ce0c6626828535"
+    },
+    {
+      "path": "pages/projects-390-top.png",
+      "sha256": "e676c45d4ccaced91df42c4e363244588fff6482327702008a99d0040b3dcaec"
+    },
+    {
+      "path": "pages/projects-430-bottom.png",
+      "sha256": "c0a92fd0616f137c5a3db3f75e9c4e9c6845d900ffdfe00cb4b7cf7879eb2f6a"
+    },
+    {
+      "path": "pages/projects-430-middle.png",
+      "sha256": "eb5227f26af97e2eef856ac50730ae8d4efa0fe77afd67405f89e3e363c75877"
+    },
+    {
+      "path": "pages/projects-430-top.png",
+      "sha256": "9dd7e577447aaea69b5b27d43769768762f7c1b5100afa975c5db22c390bb745"
+    },
+    {
+      "path": "pages/projects-768-bottom.png",
+      "sha256": "c12af88a307aed238aedbef111ed3b36411967ad4eb9bf9518b7baea4569e897"
+    },
+    {
+      "path": "pages/projects-768-middle.png",
+      "sha256": "b4d87bbb799c6f0fd20c0c877be51946911cbdfdc3400bb5a56a66425357b91e"
+    },
+    {
+      "path": "pages/projects-768-top.png",
+      "sha256": "2b15634dff04d2912661c4eab1bbc4e515380f801d1fa376e7e265e0a48fcc84"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-1440-bottom.png",
+      "sha256": "2b6f85ed590fe30c20f3bd0e1f2120d6edfa5f436f7f3627a458ce4e553214b3"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-1440-middle.png",
+      "sha256": "8ec602b2d9dc176b88c8b9de1babb05a63e608c516951eb36f709fe2fc27b7b1"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-1440-top.png",
+      "sha256": "319f5dc04b1fc70bcd0b5ba6fe22795de87b11192685d2d528f181d6556e4613"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-320-bottom.png",
+      "sha256": "1fa5d3bc66ffe0182598a8ffa31eb10fd5ab8ada27369e69eaebf231646369b4"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-320-middle.png",
+      "sha256": "5cf7e9de86cf5ea3feac4ef9b50a88c8c81598675d0f219fb247790207cdfbdc"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-320-top.png",
+      "sha256": "4834158db0baf884cb7f9ce9e5699701acc4a646c684a8bee7ea371335ba5c4f"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-360-bottom.png",
+      "sha256": "fd7dca3b1489ec7d8e97e0408e2290e0dcc0f93591da000c962f82a944279c10"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-360-middle.png",
+      "sha256": "00c9844de2d34bb3d11838efcca0d14e7f99575d4a476e1aca54d5bb0b1bc229"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-360-top.png",
+      "sha256": "a7563e5b5d6a7546b0312056be69a176b573aa7fb31e97af56ed1037a4a1b2c5"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-390-bottom.png",
+      "sha256": "641e07027f0f44fad865b3bc1ae1fafcd78923dd6fbf897f068639219e4ee00c"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-390-middle.png",
+      "sha256": "5a5841ee712f38e012d67682891109e661010109de84ffab94d2e1f4f0e25ebd"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-390-top.png",
+      "sha256": "45633520b3fa5ca3380d47a482629a81fd9221a2fa5366b3dee7b00e809fc9cb"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-430-bottom.png",
+      "sha256": "492bd0f235fa967b7a48ed662cf1389fee033739c68b4cf884a6b80cc671ff60"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-430-middle.png",
+      "sha256": "395023126991908979e98ba08f0b852a37cb75090a23582ee1a44969ead68ddf"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-430-top.png",
+      "sha256": "c80b36d7c7cbd4e9164333d53a2beb036cc9c531ca3cd5e39e32dec18fc8a7ec"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-768-bottom.png",
+      "sha256": "d519017ba6c1f46051b135c0a38d3f694f4a04882cfc3d3fec2c9fcdc46c214f"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-768-middle.png",
+      "sha256": "f284e205e74e609630537c1e18e5f44992e7c73b03aea3a62c1a71bdfce93fbe"
+    },
+    {
+      "path": "pages/projects-pekarnya-chudes-768-top.png",
+      "sha256": "b4efa1ba861a88d10be14262ed81e34cab75f3f8fbf4a3bfb86eaca82ae78ce8"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-1440-bottom.png",
+      "sha256": "33884abba23f7242799bf5ec7ad5be63b9ce77706cd06381db386b65e1a2f5cf"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-1440-middle.png",
+      "sha256": "81c7291d145a170e93f63130398266373f4382ea38fa0ae1e7cb710214784a0c"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-1440-top.png",
+      "sha256": "ce0c728ecc8f4cfcfa26a1fc7347e049468579858682a8510040791fb86c6403"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-320-bottom.png",
+      "sha256": "3c7caa79250c5a6a51ccb026ab49b711927468593526ee2fbf3e44d7b87ce54a"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-320-middle.png",
+      "sha256": "04654390b79b736ef326b3c306d83754e9ffccd3dbd55cb050cb7981782737d3"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-320-top.png",
+      "sha256": "7e5011581e9ef352413339bb99e2e9f44113e55ff15618f13a3a0faa18099097"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-360-bottom.png",
+      "sha256": "d459ad4a42842fa66cdfde872aef6c6e69e7ebf42b1120fcd04b0d8b2ac6e970"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-360-middle.png",
+      "sha256": "4a8d7bad9f3bc63c0ab52f946b5b033d0d10a75c17e58f20d06ce1a68465d3bb"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-360-top.png",
+      "sha256": "ba893375c1a429179461cec10699d7a0ddf4b444cbd7c4d1bafc91ea8789e153"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-390-bottom.png",
+      "sha256": "ecd58f50893dfef7e9dc72591141e75f5ce3b2430272e9116292849c69c7b305"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-390-middle.png",
+      "sha256": "2367ac948493c1eef38846d6333cbc0f73e6d7290345b7272fff8e03ff594304"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-390-top.png",
+      "sha256": "5ab7d1c9a80851453581398655f389d54d32b5fcd0b45bdd4708b21573b42b81"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-430-bottom.png",
+      "sha256": "b5297fc178f175245145005b9cd76aa34e3bae20daffe9abcca18b0ac1621ba4"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-430-middle.png",
+      "sha256": "a72eecd6afc220162297cb3d0eb8e63247766e827b97f6209641ae27fbea28c4"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-430-top.png",
+      "sha256": "636fbc52db51867e6934240e403659da3c90c6678d5005fa42cc9678579d86f0"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-768-bottom.png",
+      "sha256": "e60c74bf84d7d801cdfe30e75f3ff4f5908df836208cf523cdc8fe817c79c510"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-768-middle.png",
+      "sha256": "157c7cf2864db98357da7f2cafe0eb3a3293a9ee8aeafa85f1c3e8493267f54d"
+    },
+    {
+      "path": "pages/projects-pravoslavnii-mir-768-top.png",
+      "sha256": "245b2a941661ab25b476c9db7ff3de56d605687285d24c6e5e50f2c9e9f49ad2"
+    },
+    {
+      "path": "pages/projects-profistal14-1440-bottom.png",
+      "sha256": "6ab6f7a898cfe5339965692e76ecdbcbff5ed0542076be79a5048b7380fefd71"
+    },
+    {
+      "path": "pages/projects-profistal14-1440-middle.png",
+      "sha256": "7813aed9bf59cca29ce57c3435cf5565767866d7464e2f5f900a505f7cc646dc"
+    },
+    {
+      "path": "pages/projects-profistal14-1440-top.png",
+      "sha256": "066f40cc8e97a28081f00038b24ba1e86f61d294a200ea606e4d9b9bc4e58ccc"
+    },
+    {
+      "path": "pages/projects-profistal14-320-bottom.png",
+      "sha256": "8c1aaa614c4c61534b7ae61dd5bfa60ade948ce32ca289e3f6fa48c53e7d1ae5"
+    },
+    {
+      "path": "pages/projects-profistal14-320-middle.png",
+      "sha256": "47618d77a054dd9ffb30857607431e25f526a397016f59ceb8241a624bbbc311"
+    },
+    {
+      "path": "pages/projects-profistal14-320-top.png",
+      "sha256": "7a690d53461193bf155919fd44040b6f8b495ce8409e9365daa62825650c93c0"
+    },
+    {
+      "path": "pages/projects-profistal14-360-bottom.png",
+      "sha256": "20204b9aed2b6c6c33b6f7e412f3166d56a561b109242b5ba2d082c0875efb03"
+    },
+    {
+      "path": "pages/projects-profistal14-360-middle.png",
+      "sha256": "29c501c1bbc58822d8300dd4d00f8db9e4ca0f2720471f5eb91c34f81894d8fc"
+    },
+    {
+      "path": "pages/projects-profistal14-360-top.png",
+      "sha256": "a12cc83205c394b299d50863a9b284c6c940e7c38c131999772c9d161d1901ad"
+    },
+    {
+      "path": "pages/projects-profistal14-390-bottom.png",
+      "sha256": "395e2adec15c23b2f3dec8ea1327e8265d25eb714d685fe7b71197c887c03eec"
+    },
+    {
+      "path": "pages/projects-profistal14-390-middle.png",
+      "sha256": "f3b8f6b6f0c2809d619fee4074f62a50402a6c1bac67f5bb76227d6df20f0deb"
+    },
+    {
+      "path": "pages/projects-profistal14-390-top.png",
+      "sha256": "d62229439ce9a8ac53edcb6fa14f16d0f9762255e6000f77c7daa3d18631bef2"
+    },
+    {
+      "path": "pages/projects-profistal14-430-bottom.png",
+      "sha256": "6c885b36bfd211426041c2d528b6375fb28272b483fb9c3cba23aa206882bc93"
+    },
+    {
+      "path": "pages/projects-profistal14-430-middle.png",
+      "sha256": "2915d163a9a5ca12c81842c19a29577f818febd229bffc900b4aeed427eb5f4d"
+    },
+    {
+      "path": "pages/projects-profistal14-430-top.png",
+      "sha256": "0eaee29929eed1eda35595c24958feb866273fe19b53f0098daa06e51653b67a"
+    },
+    {
+      "path": "pages/projects-profistal14-768-bottom.png",
+      "sha256": "ce0205807d444d3ed4c6793b576f2fff91a76c0cc7300b78f8bef3d6bf87759a"
+    },
+    {
+      "path": "pages/projects-profistal14-768-middle.png",
+      "sha256": "161213771e8168a371b3f473cc640c9357dbd338835dd32bb053abfefa60b612"
+    },
+    {
+      "path": "pages/projects-profistal14-768-top.png",
+      "sha256": "a84751ac502d7eee81c55b234a60067bc84ea069f607ce19e4f37ea1286faf17"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-1440-bottom.png",
+      "sha256": "2767ebc9395d07520a23e37f848c76479e2b99e0aa4076f3a2fc0eb6bb9521a4"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-1440-middle.png",
+      "sha256": "578806382fecb96370254e2bd867ecb69be651cb443857615ece7d7a56c76728"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-1440-top.png",
+      "sha256": "e796cbe5bda71ddadacf68c648f9670a10926673ec95bfd7a7ee5d2651c6c42c"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-320-bottom.png",
+      "sha256": "f12a052d3aad1c0a3288c69e54a7d7d37b61d7392d79acd55286c02c815aa74a"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-320-middle.png",
+      "sha256": "b6243a179c256260806af7352c0f03113b3740fea754b17416ba72b6d44e31fe"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-320-top.png",
+      "sha256": "f7f77e497eaa08859b0b4259a0ca456dd1cd7b25f8baf7b18a3aa1c15b1497f8"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-360-bottom.png",
+      "sha256": "33119cba56dd05a290a46d545720ba202e7620539d3310df30dd2c8f2ea55d82"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-360-middle.png",
+      "sha256": "e94dd31b9574861464266f284f72a33290fa42b8f862444b0e35170e68436821"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-360-top.png",
+      "sha256": "88e8839f35783879a5b1fa2fe3a669395e29d8b70e3a6afa4b97024ebf827356"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-390-bottom.png",
+      "sha256": "f412f8550a6cdb2cf274f5d6fa066ae7fb53f0a0e381d7f4e597250e4603a3d2"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-390-middle.png",
+      "sha256": "476a1ef8046d6987818bbc01e509515993239c055ea5b06a89bd7f9a87cd1bb6"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-390-top.png",
+      "sha256": "32cc0bd6839551701f8280d0c7ba235f945c3b34d662aea6d5124b7c3f6d5af8"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-430-bottom.png",
+      "sha256": "147b8abc9d53a054fa10349f87fb1cbab148fa40f4b0610f4cb9183ebf1b03fd"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-430-middle.png",
+      "sha256": "66ca3cb923b7000d5c5639d13959936614a1952987627fd984db1d876974dbc6"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-430-top.png",
+      "sha256": "81fcd772954ac99981f2563e02ff92900d3e118f00e42231cada30287be772db"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-768-bottom.png",
+      "sha256": "ae31fec752361d15daa12fe0f8ae90adb1141da2e195cf0d8cdc920016c0ded1"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-768-middle.png",
+      "sha256": "150ad9f941a0ee513ee5817d0e2d0f55a65263f1f58e781af1e638f991ae08f4"
+    },
+    {
+      "path": "pages/projects-profsanteh-plus-768-top.png",
+      "sha256": "c6aa6f4f36ec090bf67dcb44fe7fb5e8e95f60815abce7949d0e11dd4d5433f1"
+    },
+    {
+      "path": "stress/about-text200.png",
+      "sha256": "0c5da7a26c030828e74cffb0df0146a1899f2f8cff50abb6eccb41592458ffbb"
+    },
+    {
+      "path": "stress/en-about-text200.png",
+      "sha256": "c25ccfbab170ca92706a0fb9709ccc7fddd5af3f2f6218b3c78627e6a0204915"
+    },
+    {
+      "path": "stress/en-page-scale-1.5.png",
+      "sha256": "edf3e2c843502c3202176e011a0e8a300f7e406f481b452dc693eaced2377d13"
+    },
+    {
+      "path": "stress/en-page-scale-2.5.png",
+      "sha256": "d632f2b66254275370502ce8ee695a6fffc301dd4df4682f595293cd6a951a7c"
+    },
+    {
+      "path": "stress/en-page-scale-2.png",
+      "sha256": "2912f3cf10f1b210b937a5d443880b52fa2824ccc2931d4c02cb6461ca836658"
+    },
+    {
+      "path": "stress/en-pekarnya-chudes-320x568-font100-rotated.png",
+      "sha256": "7cdcd29cdcb41ed0061799a8c99424741d31cb27351cf5700e31a2c54f669ec4"
+    },
+    {
+      "path": "stress/en-pekarnya-chudes-320x568-font200-rotated.png",
+      "sha256": "a2c9744583bf105d314991becd76496c2cb16a694085e33da7d98960f6ddaa3a"
+    },
+    {
+      "path": "stress/en-pekarnya-chudes-390x420-font100-rotated.png",
+      "sha256": "292b8339b83a90c760fd988673db9720e3e1a9d752f95f2ea996f8f9ff145756"
+    },
+    {
+      "path": "stress/en-pekarnya-chudes-390x420-font200-rotated.png",
+      "sha256": "7a03faed39fbab9c03155efbb9b27460d9c7b6bd198e16a83c5f3e4ba0c1616f"
+    },
+    {
+      "path": "stress/en-pekarnya-chudes-568x320-font100-rotated.png",
+      "sha256": "28af65d62635d24e34330cfa6152be272281e78cc6e5cae4bd075858e36e9264"
+    },
+    {
+      "path": "stress/en-pekarnya-chudes-568x320-font200-rotated.png",
+      "sha256": "cc49cb68f41f99e0845b3ec78386844eef1c8756bc281d74477c116c087b127f"
+    },
+    {
+      "path": "stress/en-pravoslavnii-mir-320x568-font100-rotated.png",
+      "sha256": "101663069eb02e3a58903402580bca795fc4442da94cd57375488969f3e1816d"
+    },
+    {
+      "path": "stress/en-pravoslavnii-mir-320x568-font200-rotated.png",
+      "sha256": "346e6e20e9b3f2afa42982e21a965478ebf6f593e8a8bcd1d19712e6be50bd0a"
+    },
+    {
+      "path": "stress/en-pravoslavnii-mir-390x420-font100-rotated.png",
+      "sha256": "b23b738dd0156ccb5aec440f3d3c5a2a078ac5dad3a36b7a12714b2aa27e30c1"
+    },
+    {
+      "path": "stress/en-pravoslavnii-mir-390x420-font200-rotated.png",
+      "sha256": "e315522b300c859b2406248cb5f072007ea584f300936e3083e31e0baa0db424"
+    },
+    {
+      "path": "stress/en-pravoslavnii-mir-568x320-font100-rotated.png",
+      "sha256": "2c2d660bfc9d0a02942c0c4c5467d021c8e8d309edd7e6263d8370ef53c10bcc"
+    },
+    {
+      "path": "stress/en-pravoslavnii-mir-568x320-font200-rotated.png",
+      "sha256": "50de03200f2d1877eb2672cf9d4b7cec27de9cdf91804fc3048605b24f79bffa"
+    },
+    {
+      "path": "stress/en-text200.png",
+      "sha256": "37beb7f7adb7079c08f8488e3d743c4e5bd8fb0e8c0b841f78bd67e69a4616d2"
+    },
+    {
+      "path": "stress/gallery-loading.png",
+      "sha256": "003fe7351d4af7ce96d1f58677174a4453befc987b699a231a1f56fb98239c2e"
+    },
+    {
+      "path": "stress/home-text200.png",
+      "sha256": "ec6e9e45d656e783905b9d58e8c14017914b1061c65064d0a6f6415eb9df334f"
+    },
+    {
+      "path": "stress/page-scale-1.5.png",
+      "sha256": "42589393b07370581fd5ac3bbe86fe11d9507e1b3a17c993a8ded23d45d89fcb"
+    },
+    {
+      "path": "stress/page-scale-2.5.png",
+      "sha256": "74546bb4706a307ca0ddc2c222619b8d60f5dd2e86186f423de57180b1d812fe"
+    },
+    {
+      "path": "stress/page-scale-2.png",
+      "sha256": "8d8da27fdf34033f4179280a730fd8fb6f36b92bfb1a8586708807a2a3b4406b"
+    },
+    {
+      "path": "stress/pekarnya-chudes-320x568-font100-rotated.png",
+      "sha256": "1a8097cfd4de0231c3fac365e41a5df1fe306053c797dfdef02342c78db5a15c"
+    },
+    {
+      "path": "stress/pekarnya-chudes-320x568-font200-rotated.png",
+      "sha256": "291703b8f69d961cf210b74e4a14f3b8f275969917ebc60e91f8c6ac57b2b361"
+    },
+    {
+      "path": "stress/pekarnya-chudes-390x420-font100-rotated.png",
+      "sha256": "0a63c229b63389b0f0bb158c0bab650b7a3beee325a1786d2256eccc7b345bc3"
+    },
+    {
+      "path": "stress/pekarnya-chudes-390x420-font200-rotated.png",
+      "sha256": "78ae8c564bf49f082c7f5622e74f55d99512d71736746d665315a67eef42c2b5"
+    },
+    {
+      "path": "stress/pekarnya-chudes-568x320-font100-rotated.png",
+      "sha256": "7893108b421e3206075892e44ebc13fc925681b920aadb71a810bbbb35802334"
+    },
+    {
+      "path": "stress/pekarnya-chudes-568x320-font200-rotated.png",
+      "sha256": "a057e80b3446377e2071ea265c4220337ed8fa36e4f81b4f30bb2b7346282d8b"
+    },
+    {
+      "path": "stress/pravoslavnii-mir-320x568-font100-rotated.png",
+      "sha256": "d9157633244e1f331c87562b013c75257c570af63876fd7927c7ca5dea530df6"
+    },
+    {
+      "path": "stress/pravoslavnii-mir-320x568-font200-rotated.png",
+      "sha256": "c877b696e534a3765fc78a8003c100aa6250c0e3f7bd5156c688889cb278075d"
+    },
+    {
+      "path": "stress/pravoslavnii-mir-390x420-font100-rotated.png",
+      "sha256": "1ad56d4a33d356932e9babc2d62f56222a2f8040f0b2ef5773121b64923595e3"
+    },
+    {
+      "path": "stress/pravoslavnii-mir-390x420-font200-rotated.png",
+      "sha256": "b9c98cdd3b98c0f6a8a7a24f119cd46778d15a7ce1731fe95e0b1d7099da7d43"
+    },
+    {
+      "path": "stress/pravoslavnii-mir-568x320-font100-rotated.png",
+      "sha256": "2af6caa833b3a7b3e3845a51ea78b78c9697dae3893c7c12b94a888cfd2c6c01"
+    },
+    {
+      "path": "stress/pravoslavnii-mir-568x320-font200-rotated.png",
+      "sha256": "cb029d5cd9d9481d4f5466724200f57da710beed72992cc659799ae9f7eac459"
+    }
+  ]
+}

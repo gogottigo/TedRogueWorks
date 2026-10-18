@@ -1,0 +1,71 @@
+{
+  "pages": 21,
+  "visits": 126,
+  "widths": [
+    320,
+    360,
+    390,
+    430,
+    768,
+    1440
+  ],
+  "overflows": [],
+  "pageErrors": [],
+  "httpErrors": [],
+  "browser": "153.0.8010.0",
+  "realPreviews": "PASS: all 4 project captures load in RU/EN",
+  "caseGalleries": "PASS: all 8 localized cases, every image, arrows, keyboard, Escape and focus return",
+  "commercial": "PASS: 7 matching prices/time ranges, 30-day policy, 16 FAQ keyboard interactions, RU/EN contact Share flow, pricing/terms navigation",
+  "languageNavigation": "PASS: 3 round trips",
+  "homeParity": "PASS: identical section/component structure in RU and EN",
+  "services": "PASS: 8 service CTA and localized payload checks; typed draft preserved",
+  "form": "PASS: original RU message retained; RU/EN validation, default and selected services, Unicode and multiline; window.open intercepted",
+  "noJavaScript": "PASS: home/contact anchors and direct Telegram links; inactive forms; RU/EN FAQ and prices without JS",
+  "mobileMenu": "PASS: RU/EN tap, Escape/focus, outside click, responsive reset",
+  "cta": "PASS: shared blue underlined actions, transparent background",
+  "animation": "PASS: shared orbit in RU/EN; disabled for reduced motion",
+  "nestedPreview": "PASS: all 21 pages styled; image, case, language, footer and JS under /spck-preview/TRW_Studio/dist/",
+  "localFilePreview": "PASS: all 21 pages styled; root launcher, image, inline JS, case and language via file://",
+  "newContentTextScaling": [
+    {
+      "route": "/about/",
+      "scale": 125,
+      "overflow": 0
+    },
+    {
+      "route": "/about/",
+      "scale": 200,
+      "overflow": 0
+    },
+    {
+      "route": "/contact/",
+      "scale": 125,
+      "overflow": 0
+    },
+    {
+      "route": "/contact/",
+      "scale": 200,
+      "overflow": 0
+    },
+    {
+      "route": "/en/about/",
+      "scale": 125,
+      "overflow": 0
+    },
+    {
+      "route": "/en/about/",
+      "scale": 200,
+      "overflow": 0
+    },
+    {
+      "route": "/en/contact/",
+      "scale": 125,
+      "overflow": 0
+    },
+    {
+      "route": "/en/contact/",
+      "scale": 200,
+      "overflow": 0
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/portable-build.mjs",
+    "build": "astro build && node scripts/search-assets.mjs && node scripts/portable-build.mjs",
     "preview": "astro preview",
     "check": "astro check --yes"
   },

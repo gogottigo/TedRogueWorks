@@ -66,14 +66,14 @@ export const pricing: PriceItem[] = [
     min: 45000,
     max: 90000,
     weeks: [3, 5],
-    title: { ru: 'Telegram-бот', en: 'Telegram bot' },
+    title: { ru: 'Бот для Telegram или MAX', en: 'Telegram or MAX bot' },
     scope: {
-      ru: 'Один основной сценарий: заявки или запись, уведомления и одна простая связь с таблицей либо CRM.',
-      en: 'One main journey: enquiries or bookings, notifications and one simple spreadsheet or CRM connection.',
+      ru: 'Одна платформа — Telegram или MAX. Заявки или запись, уведомления и одна простая связь с таблицей либо CRM.',
+      en: 'One platform — Telegram or MAX. Enquiries or bookings, notifications and one simple spreadsheet or CRM connection.',
     },
     boundary: {
-      ru: 'Без Mini App, сложной оплаты и рабочего кабинета персонала.',
-      en: 'Excludes a Mini App, complex payments and a staff workspace.',
+      ru: 'Без мини-приложения, сложной оплаты и кабинета персонала. Условия подключения платформы проверяем до старта; её модерация в срок разработки не входит.',
+      en: 'Excludes a mini app, complex payments and a staff workspace. Platform connection requirements are reviewed first; its moderation time is outside the development estimate.',
     },
   },
   {
@@ -84,12 +84,12 @@ export const pricing: PriceItem[] = [
     weeks: [8, 12],
     title: { ru: 'Первая версия Mini App', en: 'First Mini App release' },
     scope: {
-      ru: 'Один основной путь покупателя, интерфейс в Telegram, серверная часть, бот уведомлений и простой кабинет оператора.',
-      en: 'One core customer journey, a Telegram interface, backend, notification bot and a simple operator workspace.',
+      ru: 'Один основной путь покупателя в Telegram или MAX: интерфейс, серверная часть, бот уведомлений и простой кабинет оператора. Одна платформа.',
+      en: 'One core customer journey in Telegram or MAX: interface, backend, notification bot and a simple operator workspace. One platform.',
     },
     boundary: {
-      ru: 'Состав оплаты и интеграций фиксируем в смете. Полная система со складом, несколькими ролями и аналитикой — отдельная оценка.',
-      en: 'Payments and integrations are specified in the estimate. A full system with warehouse workflows, multiple roles and analytics needs a separate estimate.',
+      ru: 'Оплату, интеграции и условия подключения фиксируем до старта. Вторая платформа, склад, несколько ролей и аналитика — отдельная оценка.',
+      en: 'Payments, integrations and connection requirements are agreed first. A second platform, warehouse workflows, multiple roles and analytics need a separate estimate.',
     },
   },
   {

@@ -3,8 +3,8 @@ import SiteLayout from '../layouts/SiteLayout.astro';
 import { sitePath } from '../i18n/paths';
 ---
 
-<SiteLayout title="Страница не найдена — TRW Studio" description="Запрошенная страница не найдена." locale="ru">
+<SiteLayout title="Страница не найдена — TRW Studio" description="Запрошенная страница не найдена." locale="ru" noindex>
   <h1 class="text-5xl font-semibold tracking-tight">404</h1>
   <p class="mt-6 text-lg text-white/65">Страница не найдена.</p>
-  <a class="mt-8 inline-block text-lime-300" href={sitePath('/')}>На главную</a>
+  <a class="studio-action mt-8 inline-block text-lime-300" href={sitePath('/')}>На главную</a>
 </SiteLayout>

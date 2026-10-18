@@ -29,13 +29,13 @@ const alternateHref = translationPath(Astro.url.pathname, locale, translationHre
 
 <style>
   .site-header { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:22px 0; border-bottom:1px solid var(--rule); }
-  .site-wordmark { color:var(--ink); font-size:1.05rem; font-weight:650; letter-spacing:-.055em; text-decoration:none; white-space:nowrap; }
+  .site-wordmark { gap:.15em; display:inline-flex; align-items:center; min-height:44px; color:var(--ink); font-size:1.05rem; font-weight:650; letter-spacing:-.055em; text-decoration:none; white-space:nowrap; }
   .site-wordmark span { color:var(--muted); font-weight:450; }
   .site-nav { display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-end; gap:10px clamp(14px,2.4vw,30px); color:var(--muted); font-size:.83rem; }
-  .site-nav a { text-decoration:none; }
+  .site-nav a { display:inline-flex; align-items:center; min-height:44px; text-decoration:none; }
   .site-nav a:hover,.site-nav a:focus-visible { color:var(--cobalt); }
   .site-nav a:focus-visible,.site-wordmark:focus-visible { outline:2px solid var(--cobalt); outline-offset:4px; }
-  .site-nav .language-link { color:var(--ink); font-size:.7rem; font-weight:600; letter-spacing:.06em; }
+  .site-nav .language-link { min-width:44px; justify-content:center; color:var(--ink); font-size:.7rem; font-weight:600; letter-spacing:.06em; }
   .nav-toggle { display:none; align-items:center; gap:10px; min-height:44px; padding:8px 10px; color:var(--ink); font:inherit; font-size:.85rem; background:transparent; border:1px solid var(--rule); cursor:pointer; }
   .nav-toggle:focus-visible { outline:2px solid var(--cobalt); outline-offset:3px; }
   .nav-bars { width:17px; display:grid; gap:4px; }
@@ -44,12 +44,14 @@ const alternateHref = translationPath(Astro.url.pathname, locale, translationHre
   [data-menu-open] .nav-bars i:nth-child(2) { opacity:0; }
   [data-menu-open] .nav-bars i:last-child { transform:translateY(-5px) rotate(-45deg); }
   @media(max-width:760px) {
-    .site-header { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:10px 16px; padding:12px 0; }
-    .site-nav { grid-column:1/-1; justify-content:flex-start; gap:0; font-size:.94rem; }
+    .site-header { display:flex; flex-wrap:wrap; align-items:center; gap:10px 12px; padding:12px 0; }
+    .site-wordmark { flex-shrink:0; }
+    .nav-toggle { margin-left:auto; }
+    .site-nav { width:100%; justify-content:flex-start; gap:0; font-size:.94rem; }
     .site-nav a { display:flex; align-items:center; min-height:44px; padding:8px 12px; }
     .site-header[data-menu-ready] .nav-toggle { display:inline-flex; }
     .site-header[data-menu-ready]:not([data-menu-open]) .site-nav { display:none; }
-    .site-header[data-menu-open] .site-nav { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); border-top:1px solid var(--rule); padding-top:8px; }
+    .site-header[data-menu-open] .site-nav { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,max(7.5rem,45%)),1fr)); border-top:1px solid var(--rule); padding-top:8px; }
   }
 </style>
 
@@ -69,6 +71,7 @@ const alternateHref = translationPath(Astro.url.pathname, locale, translationHre
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && header.hasAttribute('data-menu-open')) { setOpen(false); button.focus(); }
     });
+    header.addEventListener('focusout', () => { requestAnimationFrame(() => { if (!header.contains(document.activeElement)) setOpen(false); }); });
     document.addEventListener('click', (event) => { if (!header.contains(event.target as Node)) setOpen(false); });
     window.matchMedia('(min-width:761px)').addEventListener('change', (event) => { if (event.matches) setOpen(false); });
   });

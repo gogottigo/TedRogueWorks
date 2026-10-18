@@ -1,0 +1,14 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> check
+> astro check --yes
+
+23:16:13 [content] Syncing content
+23:16:13 [content] Synced content
+23:16:13 [types] Generated 479ms
+23:16:13 [check] Getting diagnostics for Astro files in /workspace/scratch/b4000c7371e4/patch06-work/TRW_Studio...
+Result (57 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+

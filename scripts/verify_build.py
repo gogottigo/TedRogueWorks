@@ -112,8 +112,8 @@ def main():
     for url in ['/', '/en/', '/projects/', '/en/projects/']:
         text = (ROOT / url.lstrip('/') / 'index.html').read_text()
         indices = re.findall(r'<p class="project-case-index"[^>]*>(\d+)', text)
-        if indices != ['01', '02', '03']:
-            errors.append(f'{url}: project order is not 01, 02, 03')
+        if indices != ['01', '02', '03', '04']:
+            errors.append(f'{url}: project order is not 01, 02, 03, 04')
     for file in ROOT.rglob('*.html'):
         text = file.read_text()
         if re.search(r'(?:href|src|poster|action)="/(?!/)', text):

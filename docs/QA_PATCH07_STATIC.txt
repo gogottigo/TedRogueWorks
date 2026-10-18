@@ -1,0 +1,1 @@
+PASS: 21 HTML pages; 676 local links/resources/fragments; H1, IDs, document languages, translation routes, footer and form settings.

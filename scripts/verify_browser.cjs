@@ -49,6 +49,7 @@ async function run(launchOptions = {}) {
       await page.setViewportSize({ width, height: 900 });
       for (const url of routes) {
         await page.goto(origin + url);
+        await page.evaluate(()=>document.fonts.ready);
         assert.equal(await page.locator('h1').count(), 1, url);
         const expected = url === '/404.html' ? '/en/' : url.startsWith('/en/') ? url.slice(3) : '/en' + url;
         assert.equal(routePath(await page.locator('.language-link').evaluate(e => e.href)), expected, url);
@@ -60,6 +61,16 @@ async function run(launchOptions = {}) {
             .slice(-8));
           report.overflows.push({ url, width, scrollWidth: size.scroll, elements });
         }
+        if(process.env.QA_SCREENSHOTS && (!process.env.QA_CAPTURE_ROUTES || process.env.QA_CAPTURE_ROUTES.split(',').includes(url))){
+          fs.mkdirSync(path.join(process.env.QA_SCREENSHOTS,'pages'),{recursive:true});
+          await page.locator('img[src]').evaluateAll(items=>{items.forEach(i=>i.loading='eager');return Promise.all(items.map(i=>i.decode().catch(()=>{})));});
+          const name=url==='/'?'home':url.replace(/^\/|\/$/g,'').replaceAll('/','-');
+          const height=await page.evaluate(()=>document.documentElement.scrollHeight);
+          for(const [part,top] of [['top',0],['middle',Math.max(0,(height-900)/2)],['bottom',Math.max(0,height-900)]]){
+            await page.evaluate(async y=>{window.scrollTo({top:y,behavior:'instant'});await new Promise(requestAnimationFrame);},top);
+            await page.screenshot({path:path.join(process.env.QA_SCREENSHOTS,'pages',`${name}-${width}-${part}.png`)});
+          }
+        }
         report.visits++;
       }
     }
@@ -67,17 +78,17 @@ async function run(launchOptions = {}) {
     for (const url of ['/', '/en/', '/projects/', '/en/projects/']) {
       await page.goto(origin + url);
       const images = page.locator('.real-project-preview img');
-      assert.equal(await images.count(), 3);
+      assert.equal(await images.count(), 4);
       await images.evaluateAll(items => items.forEach(image => image.loading = 'eager'));
       await page.waitForFunction(() => [...document.querySelectorAll('.real-project-preview img')].every(i => i.complete && i.naturalWidth > 0));
     }
-    report.realPreviews = 'PASS: all 3 project captures load in RU/EN';
+    report.realPreviews = 'PASS: all 4 project captures load in RU/EN';
     for (const url of ['/', '/en/', '/projects/', '/en/projects/']) {
       await page.goto(origin + url);
       const indices = await page.locator('.project-case-index').allTextContents();
-      assert.deepEqual(indices.map(s => s.trim().slice(0, 2)), ['01', '02', '03']);
+      assert.deepEqual(indices.map(s => s.trim().slice(0, 2)), ['01', '02', '03', '04']);
     }
-    for (const rootPath of ['', '/en']) for (const slug of ['profistal14', 'pekarnya-chudes', 'profsanteh-plus']) {
+    for (const rootPath of ['', '/en']) for (const slug of ['profistal14', 'pekarnya-chudes', 'profsanteh-plus', 'pravoslavnii-mir']) {
       const route = rootPath + '/projects/' + slug + '/';
       await page.goto(origin + route);
       await page.setViewportSize({width:390,height:844});
@@ -100,7 +111,7 @@ async function run(launchOptions = {}) {
       await page.locator('dialog').waitFor({state:'hidden'});
       assert(await links.first().evaluate(e=>e===document.activeElement));
     }
-    report.caseGalleries='PASS: all 6 cases, every image, arrows, keyboard, Escape and focus return';
+    report.caseGalleries='PASS: all 8 localized cases, every image, arrows, keyboard, Escape and focus return';
     await page.setViewportSize({width:1440,height:900});
     // Patch 04: shared commercial data, native FAQ and contact form journeys.
     const commercial = [];
@@ -279,6 +290,9 @@ async function run(launchOptions = {}) {
     // The same dist must work under a directory mount, without rewriting the domain settings.
     const prefix = '/spck-preview/TRW_Studio/dist';
     await page.setViewportSize({ width: 1440, height: 900 });
+    // Finish the previous document before observing requests from the nested mount.
+    // Resizing can otherwise trigger its pending responsive/lazy image requests.
+    await page.goto('about:blank');
     const escaped = [];
     const watch = req => { const u = new URL(req.url()); if (u.origin === origin && !u.pathname.startsWith(prefix + '/')) escaped.push(u.pathname); };
     page.on('request', watch);
@@ -299,7 +313,7 @@ async function run(launchOptions = {}) {
     assert(await page.locator('#project-form button').isEnabled());
     page.off('request', watch);
     assert.deepEqual(escaped, []);
-    report.nestedPreview = 'PASS: all 19 pages styled; image, case, language, footer and JS under /spck-preview/TRW_Studio/dist/';
+    report.nestedPreview = 'PASS: all 21 pages styled; image, case, language, footer and JS under /spck-preview/TRW_Studio/dist/';
     // Test every page as a local file, then the archive root launcher.
     for (const url of routes) {
       const file = url.endsWith('.html') ? path.join(root, url) : path.join(root, url, 'index.html');
@@ -316,7 +330,7 @@ async function run(launchOptions = {}) {
     assert.equal(page.url(), pathToFileURL(path.join(root, 'projects/profistal14/index.html')).href);
     await page.locator('.language-link').click();
     assert.equal(page.url(), pathToFileURL(path.join(root, 'en/projects/profistal14/index.html')).href);
-    report.localFilePreview = 'PASS: all 19 pages styled; root launcher, image, inline JS, case and language via file://';
+    report.localFilePreview = 'PASS: all 21 pages styled; root launcher, image, inline JS, case and language via file://';
     if (process.env.QA_SCREENSHOTS) {
       fs.mkdirSync(process.env.QA_SCREENSHOTS, { recursive: true });
       for (const width of [390, 1440]) {

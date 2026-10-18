@@ -1,0 +1,67 @@
+// Source attribution retained from the supplied PM v1.75 registry.
+export const pmPhotoCredits = [
+  {
+    "author": "Никонико962",
+    "caption": "Никольский Морской собор в Кронштадте 2023 02",
+    "content_sha256": "bef61e8bd3f904e3b662d9135b5457b461c1f18f7aad1d40337a69f8effff2eb",
+    "content_size_bytes": 95314,
+    "height": 766,
+    "identity_status": "preliminary_visual_review",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "local_path": "assets/place-media/pm-3ee6ccab5d575de18bd94c9a95ca579c.webp",
+    "modifications": "Resized WebP copy, EXIF removed",
+    "rights_status": "source_metadata_not_rechecked",
+    "role": "cover",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9_%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%B2_%D0%9A%D1%80%D0%BE%D0%BD%D1%88%D1%82%D0%B0%D0%B4%D1%82%D0%B5_2023_02.png",
+    "width": 1150
+  },
+  {
+    "author": "Антон Шестаков",
+    "caption": "Морской собор Святителя Николая Чудотворца и Богоявления",
+    "content_sha256": "e8d3b0d282f94136b92ed766941652c5bbc74b70895ca109e1e2a3fb25119b23",
+    "content_size_bytes": 275146,
+    "height": 766,
+    "identity_status": "preliminary_visual_review",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "local_path": "assets/place-media/pm-d3be800e597b5c47af4ca606573464c7.webp",
+    "modifications": "Resized WebP copy, EXIF removed",
+    "rights_status": "source_metadata_not_rechecked",
+    "role": "cover",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%A1%D0%B2%D1%8F%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8F_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8F_%D0%A7%D1%83%D0%B4%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D1%86%D0%B0_%D0%B8_%D0%91%D0%BE%D0%B3%D0%BE%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.jpg",
+    "width": 1150
+  },
+  {
+    "author": "Nikitamon",
+    "caption": "Собор Николая Чудотворца",
+    "content_sha256": "f3a5a29dcddc8d3923cc3fde9671b8bcf599dd26e1845968ab123a1e6ae14195",
+    "content_size_bytes": 132546,
+    "height": 863,
+    "identity_status": "preliminary_visual_review",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "local_path": "assets/place-media/pm-ebbf7c6fafe55a64bef9228f3e9841d8.webp",
+    "modifications": "Resized WebP copy, EXIF removed",
+    "rights_status": "source_metadata_not_rechecked",
+    "role": "cover",
+    "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%BE%D0%B1%D0%BE%D1%80_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8F_%D0%A7%D1%83%D0%B4%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D1%86%D0%B0.JPG",
+    "width": 1150
+  },
+  {
+    "author": "Godot13",
+    "caption": "RUS-2016-Aerial-SPB-Alexander Nevsky Lavra",
+    "content_sha256": "3623aed85e886cfafb30e3dc04c319c61743fb9b2439b67617fb61fe645da409",
+    "content_size_bytes": 301416,
+    "height": 766,
+    "identity_status": "preliminary_visual_review",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "local_path": "assets/place-media/pm-2c968bfea4065961a0854ed8a289aae2.webp",
+    "modifications": "Resized WebP copy, EXIF removed",
+    "rights_status": "source_metadata_not_rechecked",
+    "role": "cover",
+    "source_page": "https://commons.wikimedia.org/wiki/File:RUS-2016-Aerial-SPB-Alexander_Nevsky_Lavra.jpg",
+    "width": 1150
+  }
+];

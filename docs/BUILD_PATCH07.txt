@@ -1,0 +1,47 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> build
+> astro build && node scripts/search-assets.mjs && node scripts/portable-build.mjs
+
+23:16:17 [content] Syncing content
+23:16:17 [content] Synced content
+23:16:17 [types] Generated 448ms
+23:16:17 [build] output: "static"
+23:16:17 [build] mode: "static"
+23:16:17 [build] directory: /workspace/scratch/b4000c7371e4/patch06-work/TRW_Studio/dist/
+23:16:17 [build] Collecting build info...
+23:16:17 [build] ✓ Completed in 495ms.
+23:16:17 [build] Building static entrypoints...
+23:16:18 [vite] ✓ built in 393ms
+23:16:18 [vite] ✓ built in 25ms
+23:16:18 [build] Rearranging server assets...
+
+ generating static routes
+23:16:18   ├─ /404.html (+10ms)
+23:16:18   ├─ /about/index.html (+8ms)
+23:16:18   ├─ /blog/index.html (+3ms)
+23:16:18   ├─ /blog/redmi-13c-home-server/index.html (+3ms)
+23:16:18   ├─ /contact/index.html (+3ms)
+23:16:18   ├─ /en/about/index.html (+3ms)
+23:16:18   ├─ /en/blog/index.html (+2ms)
+23:16:18   ├─ /en/blog/redmi-13c-home-server/index.html (+2ms)
+23:16:18   ├─ /en/contact/index.html (+3ms)
+23:16:18   ├─ /en/projects/pekarnya-chudes/index.html (+4ms)
+23:16:18   ├─ /en/projects/pravoslavnii-mir/index.html (+2ms)
+23:16:18   ├─ /en/projects/profistal14/index.html (+2ms)
+23:16:18   ├─ /en/projects/profsanteh-plus/index.html (+1ms)
+23:16:18   ├─ /en/projects/index.html (+3ms)
+23:16:18   ├─ /en/index.html (+3ms)
+23:16:18   ├─ /projects/pekarnya-chudes/index.html (+2ms)
+23:16:18   ├─ /projects/pravoslavnii-mir/index.html (+2ms)
+23:16:18   ├─ /projects/profistal14/index.html (+2ms)
+23:16:18   ├─ /projects/profsanteh-plus/index.html (+2ms)
+23:16:18   ├─ /projects/index.html (+2ms)
+23:16:18   ├─ /index.html (+3ms)
+23:16:18 ✓ Completed in 84ms.
+
+23:16:18 [build] ✓ Completed in 533ms.
+23:16:18 [build] 21 page(s) built in 1.03s
+23:16:18 [build] Complete!
+Search assets: 20 canonical routes, error page excluded.
+Portable build: 21 HTML pages; 8 self-contained modules inlined; 3 local font faces embedded; production canonical URLs retained.

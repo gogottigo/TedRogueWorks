@@ -1,18 +1,25 @@
 ---
-import {imagePath,type CaseCopy} from '../../data/projects';
-import {sitePath} from '../../i18n/paths';
-interface Props {project:CaseCopy;locale:'ru'|'en'}
-const {project,locale}=Astro.props; const ru=locale==='ru';
+import { imagePath, type CaseCopy } from '../../data/projects';
+import { sitePath } from '../../i18n/paths';
+import { pmPhotoCredits } from '../../data/photoCredits';
+interface Props { project:CaseCopy; locale:'ru'|'en' }
+const {project,locale}=Astro.props,ru=locale==='ru';
 ---
 <section class="case-gallery" data-gallery aria-labelledby="screens-title">
- <div class="case-section-heading"><p class="case-eyebrow">{ru?'ИНТЕРФЕЙС':'INTERFACE'}</p><h2 id="screens-title">{ru?'Проект в работе':'The working interface'}</h2></div>
- <p class="case-capture-note">{project.capture} {ru?'Нажмите на экран для увеличения.':'Select a screen to enlarge it.'}</p>
+ <div class="case-section-heading"><p class="case-eyebrow">{ru?'ИНТЕРФЕЙС':'INTERFACE'}</p><h2 id="screens-title">{ru?'Экраны проекта':'Project screens'}</h2></div>
+ <p class="case-capture-note">{project.capture} {ru?'Откройте экран и нажмите «Увеличить», чтобы рассмотреть детали.':'Open a screen and choose “Enlarge” to inspect the details.'}</p>
+ {project.id==='pravoslavnii-mir'&&<details class="case-photo-credits"><summary>{ru?'Фотографии мест: авторы и источники':'Place photographs: authors and sources'}</summary><ul>{pmPhotoCredits.map(photo=><li><a href={photo.source_page} target="_blank" rel="noopener noreferrer">{photo.caption}</a> — {photo.author} · <a href={photo.license_url} target="_blank" rel="noopener noreferrer">{photo.license}</a></li>)}</ul><p>{ru?'Фотографии показаны внутри снимков интерфейса; исходные WebP уменьшены, EXIF удалён.':'Photographs appear within interface screenshots; the source WebP copies were resized and EXIF removed.'}</p></details>}
  <div class="case-screens">
- {project.screens.map(screen=><figure class:list={{'screen-mobile':screen.width<500}}><a class="screen-link" href={sitePath(imagePath(project.id,screen.name,screen.width))} data-caption={`${screen.label} · ${screen.width} × ${screen.height}`} aria-label={`${ru?'Увеличить':'Enlarge'}: ${screen.label}`}><img src={sitePath(imagePath(project.id,screen.name,screen.width))} alt={screen.label} width={screen.width} height={screen.height} loading="lazy" /></a><figcaption>{screen.label}<span>{screen.width} × {screen.height} px</span></figcaption></figure>)}
+ {project.screens.map(screen=><figure class:list={{'screen-mobile':screen.width<500}}><a class="screen-link" href={sitePath(imagePath(project.id,screen.name,screen.width))} data-width={screen.width} data-caption={`${screen.label} · ${screen.width} × ${screen.height}`} aria-label={`${ru?'Увеличить':'Enlarge'}: ${screen.label}`}><img src={sitePath(imagePath(project.id,screen.name,screen.width))} alt={screen.label} width={screen.width} height={screen.height} loading="lazy" decoding="async"/></a><figcaption>{screen.label}<span>{screen.width} × {screen.height} px</span></figcaption></figure>)}
  </div>
- <dialog class="screen-dialog" aria-label={ru?'Просмотр экранов проекта':'Project screen viewer'}>
-  <div class="screen-toolbar"><button type="button" class="studio-action" data-prev aria-label={ru?'Предыдущий экран':'Previous screen'}>←</button><p aria-live="polite" data-screen-caption></p><button type="button" class="studio-action" data-next aria-label={ru?'Следующий экран':'Next screen'}>→</button><button type="button" class="studio-action" data-close>{ru?'Закрыть':'Close'} ×</button></div>
-  <div class="screen-zoom"><img alt="" /></div>
+ <dialog class="screen-dialog" aria-label={ru?'Просмотр экранов проекта':'Project screen viewer'} data-loading-label={ru?'Загрузка экрана…':'Loading screen…'} data-error-label={ru?'Не удалось загрузить экран. Откройте оригинал по ссылке.':'Unable to load the screen. Use the original image link.'}>
+  <div class="screen-toolbar">
+   <div class="screen-toolbar-head"><p aria-live="polite" data-screen-caption></p><button type="button" class="studio-action" data-close autofocus>{ru?'Закрыть':'Close'} ×</button></div>
+   <div class="screen-controls"><button type="button" class="studio-action" data-prev aria-label={ru?'Предыдущий экран':'Previous screen'}>←</button><button type="button" class="studio-action" data-zoom aria-pressed="false" aria-controls="screen-image-area" data-fit-label={ru?'Экран целиком':'Show full screen'} data-actual-label={ru?'Увеличить':'Enlarge'}>{ru?'Увеличить':'Enlarge'}</button><button type="button" class="studio-action" data-native aria-pressed="false" aria-label={ru?'Исходный размер, один к одному':'Original pixel size, one to one'}>1:1</button><a class="studio-action" data-original target="_blank" rel="noopener noreferrer">{ru?'Оригинал':'Original'} ↗</a><button type="button" class="studio-action" data-next aria-label={ru?'Следующий экран':'Next screen'}>→</button></div>
+   <p class="screen-view-hint" data-view-hint data-native-hint={ru?'Размер 1:1 · перемещайте изображение для просмотра':'Original pixel size · move the image to inspect'} data-fit-hint={ru?'Экран целиком · увеличьте для чтения деталей':'Full screen · enlarge to read details'} data-zoom-hint={ru?'Увеличено · перемещайте изображение пальцем или мышью':'Enlarged · move the image with your finger or mouse'} aria-live="polite">{ru?'Экран целиком · увеличьте для чтения деталей':'Full screen · enlarge to read details'}</p>
+  </div>
+  <p class="screen-load-status" role="status" data-screen-status></p>
+  <div class="screen-zoom" id="screen-image-area" tabindex="0" aria-label={ru?'Изображение; после увеличения прокручивайте или перетаскивайте для просмотра':'Image; after enlarging, scroll or drag to inspect'}><img alt="" draggable="false"/></div>
  </dialog>
 </section>
 <script>
@@ -21,15 +28,79 @@ const {project,locale}=Astro.props; const ru=locale==='ru';
   const links=[...gallery.querySelectorAll<HTMLAnchorElement>('.screen-link')];
   const image=dialog?.querySelector<HTMLImageElement>('.screen-zoom img');
   const caption=dialog?.querySelector<HTMLElement>('[data-screen-caption]');
-  if(!dialog||!image||!caption||typeof dialog.showModal!=='function')return;
-  let current=0;
-  const show=(index:number)=>{current=(index+links.length)%links.length;image.src=links[current].href;image.alt=links[current].dataset.caption||'';caption.textContent=`${current+1} / ${links.length} · ${image.alt}`;dialog.querySelector('.screen-zoom')?.scrollTo(0,0);};
-  links.forEach((link,index)=>link.addEventListener('click',event=>{if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();show(index);dialog.showModal();}));
+  const viewport=dialog?.querySelector<HTMLElement>('.screen-zoom');
+  const zoom=dialog?.querySelector<HTMLButtonElement>('[data-zoom]');
+  const original=dialog?.querySelector<HTMLAnchorElement>('[data-original]');
+  const status=dialog?.querySelector<HTMLElement>('[data-screen-status]');
+  const hint=dialog?.querySelector<HTMLElement>('[data-view-hint]');
+  const native=dialog?.querySelector<HTMLButtonElement>('[data-native]');
+  if(!dialog||!image||!caption||!viewport||!zoom||!original||!status||!hint||!native||typeof dialog.showModal!=='function')return;
+  let current=0,opener:HTMLAnchorElement|undefined,request=0;
+  let mode:'fit'|'zoom'|'native'='fit';
+  // Follow the visible viewport during pinch zoom without disabling user zoom.
+  const position=()=>{
+   const v=window.visualViewport,w=v?.width??innerWidth,h=v?.height??innerHeight;
+   const width=Math.min(1400,w*.96),height=h*.94;
+   dialog.style.setProperty('--viewer-left',`${(v?.offsetLeft??0)+(w-width)/2}px`);
+   dialog.style.setProperty('--viewer-top',`${(v?.offsetTop??0)+(h-height)/2}px`);
+   dialog.style.setProperty('--viewer-width',`${width}px`);
+   dialog.style.setProperty('--viewer-height',`${height}px`);
+   if(dialog.hasAttribute('data-actual-size'))dialog.style.setProperty('--image-width',`${mode==='native'?Number(links[current].dataset.width):Math.max(Number(links[current].dataset.width),viewport.clientWidth*1.8)}px`);
+  };
+  const reposition=()=>{if(dialog.open)position();};
+  window.visualViewport?.addEventListener('resize',reposition);
+  window.visualViewport?.addEventListener('scroll',reposition);
+  window.addEventListener('resize',reposition);
+  const fit=()=>{mode='fit';native.setAttribute('aria-pressed','false');dialog.removeAttribute('data-actual-size');zoom.setAttribute('aria-pressed','false');zoom.textContent=zoom.dataset.actualLabel!;hint.textContent=hint.dataset.fitHint!;viewport.scrollTo(0,0);};
+  const show=(index:number)=>{
+   current=(index+links.length)%links.length;
+   const selected=links[current],ticket=++request;
+   fit();image.src=selected.href;image.alt=selected.dataset.caption||'';
+   // Portrait captures need a useful enlargement too, even when the original is only 390px wide.
+   dialog.style.setProperty('--image-width',`${Math.max(Number(selected.dataset.width),viewport.clientWidth*1.8)}px`);
+   original.href=selected.href;caption.textContent=`${current+1} / ${links.length} · ${image.alt}`;
+   status.textContent=dialog.dataset.loadingLabel!;image.hidden=true;viewport.setAttribute('aria-busy','true');zoom.disabled=true;native.disabled=true;
+   image.decode().then(()=>{if(ticket===request){image.hidden=false;status.textContent='';viewport.setAttribute('aria-busy','false');zoom.disabled=false;native.disabled=false;}}).catch(()=>{if(ticket===request){status.textContent=dialog.dataset.errorLabel!;viewport.setAttribute('aria-busy','false');}});
+  };
+  links.forEach((link,index)=>link.addEventListener('click',event=>{
+   if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
+   event.preventDefault();opener=link;show(index);position();document.documentElement.classList.add('gallery-open');dialog.showModal();
+  }));
   gallery.querySelector('[data-prev]')?.addEventListener('click',()=>show(current-1));
   gallery.querySelector('[data-next]')?.addEventListener('click',()=>show(current+1));
   gallery.querySelector('[data-close]')?.addEventListener('click',()=>dialog.close());
-  dialog.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'){event.preventDefault();show(current-1)}if(event.key==='ArrowRight'){event.preventDefault();show(current+1)}});
-  dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close()});
-  dialog.addEventListener('close',()=>links[current].focus());
+  zoom.addEventListener('click',()=>{
+   if(dialog.hasAttribute('data-actual-size'))fit();
+   else{mode='zoom';native.setAttribute('aria-pressed','false');dialog.style.setProperty('--image-width',`${Math.max(Number(links[current].dataset.width),viewport.clientWidth*1.8)}px`);dialog.setAttribute('data-actual-size','');zoom.setAttribute('aria-pressed','true');zoom.textContent=zoom.dataset.fitLabel!;hint.textContent=hint.dataset.zoomHint!;viewport.focus({preventScroll:true});}
+  });
+  native.addEventListener('click',()=>{
+   if(mode==='native'){fit();return;}
+   mode='native';dialog.style.setProperty('--image-width',`${links[current].dataset.width}px`);dialog.setAttribute('data-actual-size','');native.setAttribute('aria-pressed','true');zoom.setAttribute('aria-pressed','true');zoom.textContent=zoom.dataset.fitLabel!;hint.textContent=hint.dataset.nativeHint!;viewport.scrollTo(0,0);viewport.focus({preventScroll:true});
+  });
+  // Touch keeps native two-axis scrolling and browser pinch zoom. Mouse/pen also support dragging.
+  let drag:{id:number;x:number;y:number;left:number;top:number}|undefined;
+  viewport.addEventListener('pointerdown',event=>{
+   if(event.pointerType==='touch'||event.button!==0||!dialog.hasAttribute('data-actual-size'))return;
+   event.preventDefault();drag={id:event.pointerId,x:event.clientX,y:event.clientY,left:viewport.scrollLeft,top:viewport.scrollTop};
+   viewport.setPointerCapture(event.pointerId);viewport.setAttribute('data-dragging','');
+  });
+  viewport.addEventListener('pointermove',event=>{if(drag?.id===event.pointerId){viewport.scrollLeft=drag.left+drag.x-event.clientX;viewport.scrollTop=drag.top+drag.y-event.clientY;}});
+  const stopDrag=()=>{drag=undefined;viewport.removeAttribute('data-dragging');};
+  viewport.addEventListener('pointerup',stopDrag);viewport.addEventListener('pointercancel',stopDrag);viewport.addEventListener('lostpointercapture',stopDrag);
+  dialog.addEventListener('keydown',event=>{
+   if(event.key==='Tab'){
+    const stops=[...dialog.querySelectorAll<HTMLElement>('button,a[href],[tabindex="0"]')].filter(e=>e.getClientRects().length && !e.hasAttribute('disabled'));
+    const first=stops[0],last=stops[stops.length-1],active=document.activeElement;
+    if(event.shiftKey && (active===first || !stops.includes(active as HTMLElement))){event.preventDefault();last?.focus();}
+    else if(!event.shiftKey && (active===last || !stops.includes(active as HTMLElement))){event.preventDefault();first?.focus();}
+    return;
+   }
+   // At 1:1, arrow keys scroll the image rather than unexpectedly changing the screen.
+   if(dialog.hasAttribute('data-actual-size')||event.altKey||event.ctrlKey||event.metaKey)return;
+   if(event.key==='ArrowLeft'){event.preventDefault();show(current-1);}
+   if(event.key==='ArrowRight'){event.preventDefault();show(current+1);}
+  });
+  dialog.addEventListener('click',event=>{if(event.target===dialog)dialog.close();});
+  dialog.addEventListener('close',()=>{request++;stopDrag();document.documentElement.classList.remove('gallery-open');opener?.focus({preventScroll:true});});
  });
 </script>

@@ -16,7 +16,7 @@ export function translationPath(pathname: string, locale: Locale, translationHre
   const normalized = path === '/' ? '/' : `${path.replace(/\/$/, '')}/`;
   const localPath = locale === 'en' ? normalized.replace(/^\/en(?=\/)/, '') || '/' : normalized;
   const paired = ['/', '/about/', '/contact/', '/projects/', '/blog/',
-    '/projects/profistal14/', '/projects/pekarnya-chudes/', '/projects/profsanteh-plus/'];
+    '/projects/profistal14/', '/projects/pekarnya-chudes/', '/projects/profsanteh-plus/', '/projects/pravoslavnii-mir/'];
   const targetRoot = locale === 'ru' ? '/en' : '';
   if (paired.includes(localPath)) return sitePath(`${targetRoot}${localPath}`);
   // An unpublished/missing article translation must never become a broken URL.

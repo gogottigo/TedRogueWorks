@@ -1,0 +1,231 @@
+{
+  "kind": "file/dimension/hash checks and calculated contrast, not browser layout QA",
+  "screens": [
+    {
+      "path": "images/projects/profistal14/gallery-1440.webp",
+      "size": [
+        1440,
+        960
+      ],
+      "sha256": "adadd59b4a69370846315dc417669f619cbcccd8db1b8332ed9c913960a81598"
+    },
+    {
+      "path": "images/projects/profistal14/catalog-1440.webp",
+      "size": [
+        1440,
+        960
+      ],
+      "sha256": "e41c4b1e3cf72cee34eea8822ae6ed618170339f9a7bfe6cde0682c7706f1368"
+    },
+    {
+      "path": "images/projects/profistal14/gallery-390.webp",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "7f7d5f37a172a93688ff9f9c3d1297407aff0fb3e0fc35cb5a84fb9266cd080e"
+    },
+    {
+      "path": "images/projects/profistal14/works-768.webp",
+      "size": [
+        768,
+        1024
+      ],
+      "sha256": "c01601b8b292355bb78927708e80c4ad4a98b7e09e5cb3fb94509a9ed92fe592"
+    },
+    {
+      "path": "images/projects/profsanteh-plus/catalog-1440.webp",
+      "size": [
+        1440,
+        960
+      ],
+      "sha256": "8857e20a1e61e899df1d2ad28f2447724d1cefcdeb930737cb1201f25641497b"
+    },
+    {
+      "path": "images/projects/profsanteh-plus/catalog-390.webp",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "b1777031817e34b9cf96be683c24c05e45149d279c5f316ae8fbdbf50a21d1af"
+    },
+    {
+      "path": "images/projects/profsanteh-plus/pumps-768.webp",
+      "size": [
+        768,
+        1024
+      ],
+      "sha256": "f0036528470f8e638400fdca1e44a0fae98733f3983871196269069a24dea68b"
+    },
+    {
+      "path": "images/projects/profsanteh-plus/category-1440.webp",
+      "size": [
+        1440,
+        960
+      ],
+      "sha256": "80e6058689039cf4b469b089331e83cf62a3ded030cdff1fdd0c67d1aa377eef"
+    },
+    {
+      "path": "images/projects/pekarnya-chudes/selection-390.webp",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "73cd18cc85fad268ade08dd3971bb43e50608270a99b74461f2dfda2a7103cc4"
+    },
+    {
+      "path": "images/projects/pekarnya-chudes/catalog-390.webp",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "eca9f6b22d4703e5c3b691befd7a3c74705efd41cebbdda6818526f3252c3201"
+    },
+    {
+      "path": "images/projects/pekarnya-chudes/product-390.webp",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "2e7f274d37256e85a3df7ca4c14b74c45de33f8fe9126f894d2be80c5f3cf83a"
+    },
+    {
+      "path": "images/projects/pekarnya-chudes/cart-390.webp",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "0b29b80e8eec123711ab241374941ae6945eb9fd135e5b94c651f51d83f56e8b"
+    },
+    {
+      "path": "images/projects/pekarnya-chudes/orders-768.webp",
+      "size": [
+        768,
+        1280
+      ],
+      "sha256": "cd8f780709ff47cd974b2e203a17bbbf61a6e15830257f5bea6e2d907131806d"
+    },
+    {
+      "path": "images/projects/pekarnya-chudes/order-detail-390.webp",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "7507778fed59e6e86cbdecb8f61c89db5c4fafe17f7e3d0f026bd6b957383dc9"
+    },
+    {
+      "path": "images/projects/pekarnya-chudes/inventory-768.webp",
+      "size": [
+        768,
+        1024
+      ],
+      "sha256": "5d86d65a8241b3c076193d9d887df7dd284861ad0a5b6e48d4fcb3073631fb50"
+    },
+    {
+      "path": "images/projects/pravoslavnii-mir/catalog-1440.webp",
+      "size": [
+        1440,
+        960
+      ],
+      "sha256": "a4fab3c6c9a14513f0d5c77ffec583b68e58eb6e6f8035c7b15414ae86829a8c"
+    },
+    {
+      "path": "images/projects/pravoslavnii-mir/catalog-390.webp",
+      "size": [
+        390,
+        844
+      ],
+      "sha256": "affd4c7cf4276e2df263771843ae841027f9ce6add3444e69bf51563dcaa1251"
+    },
+    {
+      "path": "images/projects/pravoslavnii-mir/place-1440.webp",
+      "size": [
+        1440,
+        960
+      ],
+      "sha256": "2e9445847683870458bd84f49bf3fab5e35618e495d9e022a87cae2814199879"
+    },
+    {
+      "path": "images/projects/pravoslavnii-mir/library-1440.webp",
+      "size": [
+        1440,
+        960
+      ],
+      "sha256": "c2495ced0fa23a0bd65c9c7b0b1c22ff30ef5c19acf963380bdb17ac7000f96b"
+    }
+  ],
+  "socialCards": [
+    {
+      "path": "images/social/pekarnya-chudes-en.jpg",
+      "sha256": "f5e624d977e0a14225bff3e0a85441cc16af3b1c540717f444bcaa3fa93a91e8"
+    },
+    {
+      "path": "images/social/pekarnya-chudes-ru.jpg",
+      "sha256": "8566af48546870f1e8ed49ef197f6379b6fa0b3b9251d7d0ce71d2cd7bcccf69"
+    },
+    {
+      "path": "images/social/pravoslavnii-mir-en.jpg",
+      "sha256": "e6b3bda57a21a417373f0d44cc62a0bc88b0931bb276bca2f5d192b5de96fb62"
+    },
+    {
+      "path": "images/social/pravoslavnii-mir-ru.jpg",
+      "sha256": "8dc640041d8689c5392da98a53d5b66f7f15e3b84d4348c19f1c67ef9b51fa61"
+    },
+    {
+      "path": "images/social/profistal14-en.jpg",
+      "sha256": "e22b0f347926536ef8a72e789cb077fe26ad7a9b3a1419297ecc8d8159d139a3"
+    },
+    {
+      "path": "images/social/profistal14-ru.jpg",
+      "sha256": "6add689f10cb0be7f8924f7db9e8c87e1e2963b1e5433e2d65a2db1f18cdc047"
+    },
+    {
+      "path": "images/social/profsanteh-plus-en.jpg",
+      "sha256": "af4e7c18a84c873b656d4483bf362614a8e0e2ca22bb96ccc20e8710ce981f9d"
+    },
+    {
+      "path": "images/social/profsanteh-plus-ru.jpg",
+      "sha256": "23f24779dde39f180f024e6111ac8c89f295759235ade1123a6beb8ad755c8ea"
+    },
+    {
+      "path": "images/social/studio-en.jpg",
+      "sha256": "be08f8f9bef072f67d754375dbf9d11b6f5f98bad6a4b7ce05c7caa921116431"
+    },
+    {
+      "path": "images/social/studio-ru.jpg",
+      "sha256": "f6b7783afb00b5c1d465acdc326c40feddb671bb44d2422a5d601c0952447298"
+    }
+  ],
+  "contrast": [
+    {
+      "foreground": "#565b60",
+      "background": "#f4f2ec",
+      "ratio": 6.13
+    },
+    {
+      "foreground": "#565b60",
+      "background": "#e7e6e0",
+      "ratio": 5.49
+    },
+    {
+      "foreground": "#444749",
+      "background": "#f4f2ec",
+      "ratio": 8.36
+    },
+    {
+      "foreground": "#444749",
+      "background": "#e7e6e0",
+      "ratio": 7.49
+    },
+    {
+      "foreground": "#1648d8",
+      "background": "#f4f2ec",
+      "ratio": 6.35
+    },
+    {
+      "foreground": "#1648d8",
+      "background": "#e7e6e0",
+      "ratio": 5.69
+    }
+  ]
+}

@@ -9,9 +9,9 @@ const { form: copy, services } = homeCopy[locale];
 
 <div class="home-form-wrap">
   <p class="home-contact-intro">{copy.intro}</p>
-  <form id="project-form" data-project-form data-locale={locale} data-site-url={`${siteConfig.url}${locale === 'en' ? '/en/' : '/'}`} data-share-url={siteConfig.telegram.shareUrl}>
-    <label for="project-name">{copy.name}<input id="project-name" name="name" autocomplete="name" maxlength="120" required /></label>
-    <label for="project-reply">{copy.reply}<input id="project-reply" name="reply" autocomplete="off" maxlength="240" placeholder={copy.replyHint} required /></label>
+  <form id="project-form" data-project-form data-locale={locale} data-site-url={`${siteConfig.url}${locale === 'en' ? '/en/' : '/'}`} data-share-url={siteConfig.telegram.shareUrl} aria-describedby="form-note">
+    <label for="project-name">{copy.name}<input id="project-name" name="name" autocomplete="name" enterkeyhint="next" maxlength="120" required /></label>
+    <label for="project-reply">{copy.reply}<input id="project-reply" name="reply" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="next" maxlength="240" placeholder={copy.replyHint} required /></label>
     <label class="home-form-wide" for="project-service">{copy.service}
       <select id="project-service" name="service">
         <option value="">{copy.serviceEmpty}</option>
@@ -30,8 +30,11 @@ const { form: copy, services } = homeCopy[locale];
   document.querySelectorAll<HTMLFormElement>('[data-project-form]').forEach((form) => {
     const button = form.querySelector<HTMLButtonElement>('button[type="submit"]');
     if (button) button.disabled = false;
+    const fields=[...form.querySelectorAll<HTMLInputElement|HTMLTextAreaElement>('input[required],textarea[required]')];
+    fields.forEach(field=>field.addEventListener('input',()=>field.setCustomValidity('')));
     form.addEventListener('submit', (event) => {
       event.preventDefault();
+      fields.forEach(field=>field.setCustomValidity(field.value && !field.value.trim() ? (form.dataset.locale==='en'?'Please enter text, not only spaces.':'Введите текст, а не только пробелы.') : ''));
       if (!form.reportValidity()) return;
       const data = new FormData(form);
       const english = form.dataset.locale === 'en';

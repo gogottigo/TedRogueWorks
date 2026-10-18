@@ -29,11 +29,11 @@ export const studioCopy: Record<Locale, StudioCopy> = {
   ru: {
     title: 'Студия, стоимость и условия работы — TRW Studio',
     description:
-      'Команда из двух человек: сайты, Telegram и автоматизация. Ориентиры цен и сроков, бесплатный первичный разбор, этапы оплаты и передача исходников.',
+      'Команда из двух человек: сайты, боты для Telegram и MAX, автоматизация. Ориентиры цен и сроков, бесплатный первичный разбор, этапы оплаты и передача исходников.',
     kicker: 'СТУДИЯ / ПОДХОД И УСЛОВИЯ',
     headline: 'Небольшая команда.\nПрямой разговор.\nПонятный результат.',
     intro:
-      'Делаем сайты, Telegram-сервисы и связи между рабочими системами. Начинаем с задачи бизнеса, определяем полезный объём и показываем рабочую версию по этапам.',
+      'Делаем сайты, боты и мини-приложения для Telegram и MAX, связываем рабочие системы. Начинаем с задачи бизнеса, определяем полезный объём и показываем рабочую версию по этапам.',
     teamLabel: 'Два человека. Одна команда.',
     teamText:
       'Работаем вдвоём, полностью удалённо. Напрямую обсуждаем с вами задачу, проектируем и разрабатываем решение. На старте определяем, кто ведёт общение и за какой участок отвечает каждый участник. Дату старта согласуем с учётом текущих проектов.',
@@ -43,8 +43,8 @@ export const studioCopy: Record<Locale, StudioCopy> = {
         text: 'Понятно представить предложение, показать ассортимент и дать посетителю путь к обращению.',
       },
       {
-        title: 'Telegram и Mini Apps',
-        text: 'Выбор товаров, заявки, заказы и рабочие экраны там, где клиенту удобно пользоваться сервисом.',
+        title: 'Боты для Telegram и MAX',
+        text: 'Заявки, заказы и рабочие экраны в Telegram или MAX. Выбираем платформу под задачу.',
       },
       {
         title: 'Интеграции и развитие',
@@ -89,21 +89,21 @@ export const studioCopy: Record<Locale, StudioCopy> = {
         output: 'Исходники, необходимые доступы и инструкция в согласованном составе.',
       },
     ],
-    paymentTitle: 'Сначала разберёмся. Потом договоримся об оплате.',
+    paymentTitle: 'Как договоримся об оплате',
     paymentIntro:
-      'За первичный аудит и план работ оплату не берём. После начала реализации платёжные точки определяем по согласованию: по ходу проекта, с привязкой к понятным этапам и показу результата.',
+      'Порядок и суммы платежей согласуем до начала платного этапа. Платежи по ходу проекта связываем с этапами и показом результата.',
     paymentSteps: [
       {
-        title: 'Без оплаты за вход',
-        text: 'Первичный аудит, обсуждение задачи и план — бесплатно и без обязательства заказывать разработку. Это разбор по доступным материалам; масштабное исследование или отдельный прототип, если понадобятся, согласуем до их выполнения.',
+        title: 'Бесплатный первичный разбор',
+        text: 'Аудит по доступным материалам, обсуждение задачи и план — бесплатно, без обязательства заказывать разработку. Отдельное исследование или прототип, если нужны, согласуем заранее.',
       },
       {
         title: 'Условия — до платного этапа',
-        text: 'Суммы, результаты и моменты оплаты записываем заранее. Обязательного процента предоплаты или единой схемы для всех проектов нет.',
+        text: 'Моменты и суммы платежей по ходу реализации фиксируем заранее. Обязательного процента предоплаты нет.',
       },
       {
         title: 'Новые задачи — по согласованию',
-        text: 'Изменение состава, бюджета или графика сначала обсуждаем. Домены, хостинг, подписки и лицензии согласуем отдельно; оплачивать их удобнее с ваших аккаунтов.',
+        text: 'Изменения объёма, бюджета и графика сначала согласуем. Домены, хостинг, подписки и лицензии учитываем отдельно.',
       },
     ],
     assuranceTitle: 'За что отвечаем',
@@ -113,8 +113,8 @@ export const studioCopy: Record<Locale, StudioCopy> = {
         text: 'Проверяем результат по зафиксированным функциям и критериям приёмки. Если часть задачи требует другого решения, обсуждаем это до изменения объёма.',
       },
       {
-        title: `${commercialPolicy.defectDays} дней на наши ошибки`,
-        text: `В течение ${commercialPolicy.defectDays} календарных дней после приёмки этапа принимаем сообщения о воспроизводимых ошибках нашей реализации и исправляем их без доплаты в рамках согласованного объёма. Срок исправления согласуем после диагностики. Заявленные в этот период ошибки доводим до исправления, даже если срок окна уже закончился.`,
+        title: 'Исправления после сдачи',
+        text: `Об ошибках нашей реализации можно сообщить в течение ${commercialPolicy.defectDays} календарных дней после приёмки этапа. Воспроизводимые ошибки в согласованном объёме исправляем бесплатно; срок — после диагностики. Заявленные вовремя ошибки исправим и после окончания этого периода.`,
       },
       {
         title: 'Понятные границы',
@@ -125,7 +125,7 @@ export const studioCopy: Record<Locale, StudioCopy> = {
     handover: [
       'Исходный код и файлы завершённого этапа в согласованном составе.',
       'Доступы к проекту и инструкция по запуску, обновлению или работе с сервисом.',
-      'Домен, хостинг и аккаунты внешних сервисов оформляем на вашу сторону, где это возможно.',
+      'Домен, хостинг и аккаунты внешних сервисов — на вашей стороне, где это возможно.',
       'Показываем, что сделано, какие есть зависимости и что нужно поддерживать после запуска.',
       'Сторонние библиотеки, материалы и лицензии отмечаем отдельно; дальнейшую поддержку согласуем как отдельную работу.',
     ],
@@ -156,6 +156,10 @@ export const studioCopy: Record<Locale, StudioCopy> = {
         a: 'Да, начнём с первичного просмотра доступных исходников и задачи. Затем предложим перечень доработок, бюджет и срок. Если текущая основа ограничивает результат, объясним это до начала реализации.',
       },
       {
+        q: 'Делаете ботов для MAX?',
+        a: 'Да, разрабатываем ботов и мини-приложения для Telegram и MAX. При разборе выбираем платформу и проверяем условия подключения. Оценка относится к одной платформе; адаптацию для второй согласуем отдельно. Пекарня Чудес в портфолио — кейс Telegram.',
+      },
+      {
         q: 'Кто будет общаться со мной?',
         a: 'Один из двух участников команды ведёт общение; ответственного определяем на старте. Работаем удалённо, основной контакт — Telegram. Важные решения по объёму, цене и срокам фиксируем письменно.',
       },
@@ -171,11 +175,11 @@ export const studioCopy: Record<Locale, StudioCopy> = {
   en: {
     title: 'Studio, pricing and working terms — TRW Studio',
     description:
-      'A two-person team for websites, Telegram and automation. Budget and timeline estimates, free initial review, agreed payments and source handover.',
+      'A two-person team for websites, Telegram and MAX bots, and automation. Budget and timeline estimates, free initial review, agreed payments and source handover.',
     kicker: 'STUDIO / APPROACH AND TERMS',
     headline: 'A small team.\nDirect communication.\nA clear result.',
     intro:
-      'We build websites, Telegram services and connections between business systems. We start with your workflow, define a useful scope and show working versions in stages.',
+      'We build websites, bots and mini apps for Telegram and MAX, and connect business systems. We start with your workflow, define a useful scope and show working versions in stages.',
     teamLabel: 'Two people. One team.',
     teamText:
       'We are a team of two working fully remotely. We discuss the task with you directly, plan and build the solution. At the start, we agree who handles communication and each team member’s responsibilities. The start date depends on our existing commitments.',
@@ -185,8 +189,8 @@ export const studioCopy: Record<Locale, StudioCopy> = {
         text: 'Present your offer, show your range and give visitors a clear route to an enquiry.',
       },
       {
-        title: 'Telegram and Mini Apps',
-        text: 'Product selection, enquiries, orders and operational screens in a convenient service interface.',
+        title: 'Telegram and MAX bots',
+        text: 'Enquiries, orders and operational screens in Telegram or MAX. We choose the platform around your task.',
       },
       {
         title: 'Integrations and development',
@@ -231,21 +235,21 @@ export const studioCopy: Record<Locale, StudioCopy> = {
         output: 'Source files, required access and instructions as agreed.',
       },
     ],
-    paymentTitle: 'Understand the task first. Agree payment next.',
+    paymentTitle: 'How we agree payment',
     paymentIntro:
-      'The initial audit and work plan are free. Once implementation starts, payments are arranged by agreement during the project, linked to clear stages and demonstrated results.',
+      'We agree payment amounts and arrangements before paid work begins. Payments during the project are linked to stages and demonstrated results.',
     paymentSteps: [
       {
-        title: 'No charge to get started',
-        text: 'The initial audit, task discussion and plan are free, with no obligation to commission development. This is a review of available materials; extensive research or a separate prototype, if needed, is agreed before we undertake it.',
+        title: 'Free initial review',
+        text: 'An audit of available materials, task discussion and plan are free, with no obligation to commission development. Separate research or a prototype, if needed, is agreed first.',
       },
       {
         title: 'Agree before paid work',
-        text: 'We record amounts, deliverables and payment points in advance. There is no mandatory deposit percentage or single payment schedule for every project.',
+        text: 'We record payment points and amounts during implementation in advance. There is no mandatory deposit percentage.',
       },
       {
         title: 'Agree changes first',
-        text: 'We discuss changes to scope, budget or schedule before proceeding. Domains, hosting, subscriptions and licences are agreed separately and preferably paid through your accounts.',
+        text: 'Scope, budget and schedule changes are agreed first. Domains, hosting, subscriptions and licences are budgeted separately.',
       },
     ],
     assuranceTitle: 'What we take responsibility for',
@@ -255,8 +259,8 @@ export const studioCopy: Record<Locale, StudioCopy> = {
         text: 'We check the result against recorded features and acceptance criteria. If a task requires a different approach, we discuss it before changing the scope.',
       },
       {
-        title: `${commercialPolicy.defectDays}-day defect reporting window`,
-        text: `For ${commercialPolicy.defectDays} calendar days after acceptance of a stage, you can report reproducible defects in our implementation for correction at no extra charge within the agreed scope. We agree the fix schedule after diagnosis. Defects reported during that window remain covered until corrected, even if the window has ended.`,
+        title: 'Corrections after handover',
+        text: `Report defects in our implementation within ${commercialPolicy.defectDays} calendar days after stage acceptance. We correct reproducible defects within the agreed scope free of charge, with timing agreed after diagnosis. Defects reported in time remain covered after that period ends.`,
       },
       {
         title: 'Clear boundaries',
@@ -296,6 +300,10 @@ export const studioCopy: Record<Locale, StudioCopy> = {
       {
         q: 'Can you improve another developer’s website or bot?',
         a: 'Yes. We start by reviewing the available source and your task. We then propose a list of improvements, budget and timeline. If the existing foundation limits the result, we explain that before implementation.',
+      },
+      {
+        q: 'Do you build bots for MAX?',
+        a: 'Yes. We develop bots and mini apps for Telegram and MAX. We choose the platform and check connection requirements during the review. Estimates cover one platform; adapting for a second is agreed separately. Pekarnya Chudes in our portfolio is a Telegram case.',
       },
       {
         q: 'Who will I communicate with?',

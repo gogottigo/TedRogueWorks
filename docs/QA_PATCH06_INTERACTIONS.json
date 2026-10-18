@@ -1,0 +1,356 @@
+{
+  "browser": "153.0.8010.0",
+  "fontChecks": [
+    {
+      "mode": "http",
+      "count": 3,
+      "loaded": true,
+      "family": "\"TRW Inter\", \"Segoe UI\", Arial, sans-serif"
+    },
+    {
+      "mode": "nested",
+      "count": 3,
+      "loaded": true,
+      "family": "\"TRW Inter\", \"Segoe UI\", Arial, sans-serif"
+    },
+    {
+      "mode": "file",
+      "count": 3,
+      "loaded": true,
+      "family": "\"TRW Inter\", \"Segoe UI\", Arial, sans-serif"
+    }
+  ],
+  "galleries": [
+    {
+      "route": "/projects/profistal14/",
+      "pan": true,
+      "focusTrap": true,
+      "returnToOpener": true,
+      "backgroundLocked": true
+    },
+    {
+      "route": "/projects/pekarnya-chudes/",
+      "pan": true,
+      "focusTrap": true,
+      "returnToOpener": true,
+      "backgroundLocked": true
+    },
+    {
+      "route": "/projects/profsanteh-plus/",
+      "pan": true,
+      "focusTrap": true,
+      "returnToOpener": true,
+      "backgroundLocked": true
+    },
+    {
+      "route": "/projects/pravoslavnii-mir/",
+      "pan": true,
+      "focusTrap": true,
+      "returnToOpener": true,
+      "backgroundLocked": true
+    },
+    {
+      "route": "/en/projects/profistal14/",
+      "pan": true,
+      "focusTrap": true,
+      "returnToOpener": true,
+      "backgroundLocked": true
+    },
+    {
+      "route": "/en/projects/pekarnya-chudes/",
+      "pan": true,
+      "focusTrap": true,
+      "returnToOpener": true,
+      "backgroundLocked": true
+    },
+    {
+      "route": "/en/projects/profsanteh-plus/",
+      "pan": true,
+      "focusTrap": true,
+      "returnToOpener": true,
+      "backgroundLocked": true
+    },
+    {
+      "route": "/en/projects/pravoslavnii-mir/",
+      "pan": true,
+      "focusTrap": true,
+      "returnToOpener": true,
+      "backgroundLocked": true
+    }
+  ],
+  "forms": [
+    {
+      "route": "/",
+      "spacesRejected": true,
+      "shortViewport": true,
+      "shareIntercepted": true
+    },
+    {
+      "route": "/contact/",
+      "spacesRejected": true,
+      "shortViewport": true,
+      "shareIntercepted": true
+    },
+    {
+      "route": "/en/",
+      "spacesRejected": true,
+      "shortViewport": true,
+      "shareIntercepted": true
+    },
+    {
+      "route": "/en/contact/",
+      "spacesRejected": true,
+      "shortViewport": true,
+      "shareIntercepted": true
+    }
+  ],
+  "textScaling": [
+    {
+      "page": "404.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "about/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "blog/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "blog/redmi-13c-home-server/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "contact/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/about/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/blog/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/blog/redmi-13c-home-server/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/contact/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/projects/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/projects/pekarnya-chudes/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/projects/pravoslavnii-mir/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/projects/profistal14/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "en/projects/profsanteh-plus/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "projects/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "projects/pekarnya-chudes/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "projects/pravoslavnii-mir/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "projects/profistal14/index.html",
+      "percent": 200,
+      "overflow": 0
+    },
+    {
+      "page": "projects/profsanteh-plus/index.html",
+      "percent": 200,
+      "overflow": 0
+    }
+  ],
+  "tapTargets": [
+    {
+      "route": "/",
+      "status": "PASS"
+    },
+    {
+      "route": "/about/",
+      "status": "PASS"
+    },
+    {
+      "route": "/contact/",
+      "status": "PASS"
+    },
+    {
+      "route": "/blog/redmi-13c-home-server/",
+      "status": "PASS"
+    },
+    {
+      "route": "/projects/profistal14/",
+      "status": "PASS"
+    }
+  ],
+  "mobileCards": "PASS: actual mobile capture, heading/media/detail order and clickable preview in RU/EN",
+  "mobileHeadings": "PASS: project names do not split inside a word on home/projects RU/EN at 320/390 px",
+  "touchEmulation": "PASS: touch context, menu/card/gallery taps, native horizontal pan, close and FAQ; not physical Android",
+  "landscape": "PASS: 844×390 dialog controls reachable",
+  "menuTextScale": "PASS: RU/EN open menus at 320 px and 200% text",
+  "compactGalleries": [
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "scale": 100,
+      "locale": "",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "scale": 100,
+      "locale": "/en",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "scale": 200,
+      "locale": "",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 320,
+        "height": 568
+      },
+      "scale": 200,
+      "locale": "/en",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "scale": 100,
+      "locale": "",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "scale": 100,
+      "locale": "/en",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "scale": 200,
+      "locale": "",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 568,
+        "height": 320
+      },
+      "scale": 200,
+      "locale": "/en",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 420
+      },
+      "scale": 100,
+      "locale": "",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 420
+      },
+      "scale": 100,
+      "locale": "/en",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 420
+      },
+      "scale": 200,
+      "locale": "",
+      "status": "PASS"
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 420
+      },
+      "scale": 200,
+      "locale": "/en",
+      "status": "PASS"
+    }
+  ],
+  "imageFailure": "PASS: explicit load error, original link and recovery on next screen",
+  "article": "PASS: skip to content, native focusable/scrollable code, long content contained",
+  "menuFocus": "PASS",
+  "portableGallery": "PASS: nested HTTP and file:// including actual-size mode",
+  "pageErrors": []
+}

@@ -1,0 +1,7504 @@
+{
+  "browser": "153.0.8010.0",
+  "initial_source_zip_sha256": "0ada1fbff7d56422e2269c921f6538bcf99dafea0bcaa195e2ce7bbc996b4527",
+  "scope": "Real Chromium with Playwright and CDP, initial issued ZIP then revised source/dist. Not jsdom. Physical Android not exercised.",
+  "initial": {
+    "pages": [
+      {
+        "route": "/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 9920,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/404.html",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 12526,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/blog/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 849,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 20230,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 2259,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 9460,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/about/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 11725,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/blog/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 18346,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/contact/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 2135,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/projects/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3975,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 6376,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5174,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4842,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5149,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4237,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 6580,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5503,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5133,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 320,
+        "overflow": 0,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5372,
+        "bodyWidth": 320
+      },
+      {
+        "route": "/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 9559,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/404.html",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/about/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 11940,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/blog/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 19055,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/contact/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 2122,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 9199,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/about/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 11150,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/blog/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 17447,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/contact/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 2061,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/projects/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3975,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 6240,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5045,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4834,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5013,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/projects/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4096,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 6310,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5288,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4949,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 360,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5130,
+        "bodyWidth": 345
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 9330,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/404.html",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 11416,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/blog/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 18134,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 2061,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 9138,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/about/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 10620,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/blog/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 16625,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/contact/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 2034,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/projects/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4037,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 6105,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4961,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4744,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4959,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4053,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 6261,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5188,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4798,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 390,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5028,
+        "bodyWidth": 375
+      },
+      {
+        "route": "/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 9161,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/404.html",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/about/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 10791,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/blog/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 16953,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/contact/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 2021,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 8966,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/about/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 10373,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/blog/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 844,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 15719,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/contact/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 1936,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/projects/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4043,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5853,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4706,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4603,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4676,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/projects/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4070,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 5984,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4861,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4707,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 430,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4832,
+        "bodyWidth": 415
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 6683,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/404.html",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 1024,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 8499,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/blog/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 1024,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 13750,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 1420,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 6430,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/about/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 8060,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/blog/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 1024,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 13112,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/contact/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 1354,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/projects/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3131,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4310,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3465,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3297,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3482,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3193,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4443,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3625,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3386,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 768,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3622,
+        "bodyWidth": 753
+      },
+      {
+        "route": "/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 7328,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/404.html",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 960,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/about/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 7552,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/blog/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 960,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 13189,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/contact/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 1352,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 7356,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/about/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 7337,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/blog/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 960,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 12782,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/contact/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 1352,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/projects/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4083,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4181,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3416,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3307,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3395,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/projects/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4110,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 4247,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3456,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3335,
+        "bodyWidth": 1425
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 1440,
+        "overflow": -15,
+        "images": [],
+        "h1": 1,
+        "docHeight": 3449,
+        "bodyWidth": 1425
+      }
+    ],
+    "screenshots": 144,
+    "previews": [
+      {
+        "width": 320,
+        "items": [
+          {
+            "height": 276,
+            "width": 280,
+            "images": [
+              {
+                "width": 181.5,
+                "height": 121.65625,
+                "natural": [
+                  1440,
+                  960
+                ]
+              },
+              {
+                "width": 60.5,
+                "height": 128.59375,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 276,
+            "width": 280,
+            "images": [
+              {
+                "width": 88.859375,
+                "height": 190,
+                "natural": [
+                  390,
+                  844
+                ]
+              },
+              {
+                "width": 88.859375,
+                "height": 190,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 276,
+            "width": 280,
+            "images": [
+              {
+                "width": 254,
+                "height": 170,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          },
+          {
+            "height": 276,
+            "width": 280,
+            "images": [
+              {
+                "width": 254,
+                "height": 170,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "items": [
+          {
+            "height": 275.25,
+            "width": 305,
+            "images": [
+              {
+                "width": 200.25,
+                "height": 134.15625,
+                "natural": [
+                  1440,
+                  960
+                ]
+              },
+              {
+                "width": 66.75,
+                "height": 142.125,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 294.75,
+            "width": 305,
+            "images": [
+              {
+                "width": 97.53125,
+                "height": 208.75,
+                "natural": [
+                  390,
+                  844
+                ]
+              },
+              {
+                "width": 97.53125,
+                "height": 208.75,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 294.75,
+            "width": 305,
+            "images": [
+              {
+                "width": 279,
+                "height": 186.65625,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          },
+          {
+            "height": 294.75,
+            "width": 305,
+            "images": [
+              {
+                "width": 279,
+                "height": 186.65625,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "items": [
+          {
+            "height": 297.75,
+            "width": 335,
+            "images": [
+              {
+                "width": 222.46875,
+                "height": 148.96875,
+                "natural": [
+                  1440,
+                  960
+                ]
+              },
+              {
+                "width": 74.15625,
+                "height": 158.140625,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 297.75,
+            "width": 335,
+            "images": [
+              {
+                "width": 107.921875,
+                "height": 231.25,
+                "natural": [
+                  390,
+                  844
+                ]
+              },
+              {
+                "width": 107.921875,
+                "height": 231.25,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 317.25,
+            "width": 335,
+            "images": [
+              {
+                "width": 309,
+                "height": 206.65625,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          },
+          {
+            "height": 297.75,
+            "width": 335,
+            "images": [
+              {
+                "width": 309,
+                "height": 206.65625,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "width": 430,
+        "items": [
+          {
+            "height": 327.75,
+            "width": 375,
+            "images": [
+              {
+                "width": 251.265625,
+                "height": 168.171875,
+                "natural": [
+                  1440,
+                  960
+                ]
+              },
+              {
+                "width": 83.75,
+                "height": 178.90625,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 327.75,
+            "width": 375,
+            "images": [
+              {
+                "width": 121.78125,
+                "height": 261.25,
+                "natural": [
+                  390,
+                  844
+                ]
+              },
+              {
+                "width": 121.78125,
+                "height": 261.25,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 327.75,
+            "width": 375,
+            "images": [
+              {
+                "width": 349,
+                "height": 233.328125,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          },
+          {
+            "height": 327.75,
+            "width": 375,
+            "images": [
+              {
+                "width": 349,
+                "height": 233.328125,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "width": 768,
+        "items": [
+          {
+            "height": 320.203125,
+            "width": 360.046875,
+            "images": [
+              {
+                "width": 235.671875,
+                "height": 157.78125,
+                "natural": [
+                  1440,
+                  960
+                ]
+              },
+              {
+                "width": 78.546875,
+                "height": 167.640625,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 320.203125,
+            "width": 360.046875,
+            "images": [
+              {
+                "width": 114.265625,
+                "height": 244.984375,
+                "natural": [
+                  390,
+                  844
+                ]
+              },
+              {
+                "width": 114.265625,
+                "height": 244.984375,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 320.203125,
+            "width": 360.046875,
+            "images": [
+              {
+                "width": 327.328125,
+                "height": 218.875,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          },
+          {
+            "height": 320.203125,
+            "width": 360.046875,
+            "images": [
+              {
+                "width": 327.328125,
+                "height": 218.875,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "items": [
+          {
+            "height": 475.03125,
+            "width": 563.375,
+            "images": [
+              {
+                "width": 375.375,
+                "height": 250.90625,
+                "natural": [
+                  1440,
+                  960
+                ]
+              },
+              {
+                "width": 125.125,
+                "height": 268.453125,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 475.03125,
+            "width": 563.375,
+            "images": [
+              {
+                "width": 181.53125,
+                "height": 390.53125,
+                "natural": [
+                  390,
+                  844
+                ]
+              },
+              {
+                "width": 181.53125,
+                "height": 390.53125,
+                "natural": [
+                  390,
+                  844
+                ]
+              }
+            ]
+          },
+          {
+            "height": 475.03125,
+            "width": 563.375,
+            "images": [
+              {
+                "width": 521.375,
+                "height": 348.25,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          },
+          {
+            "height": 475.03125,
+            "width": 563.375,
+            "images": [
+              {
+                "width": 521.375,
+                "height": 348.25,
+                "natural": [
+                  1440,
+                  960
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "interactions": {
+    "galleries": [
+      {
+        "route": "/projects/profistal14/",
+        "screens": [
+          {
+            "i": 0,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 1,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 2,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 3,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 295.265625,
+              "width": 337.375,
+              "height": 449.84375,
+              "right": 356.171875,
+              "bottom": 745.109375
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          }
+        ],
+        "toolbarPositions": [
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125
+        ],
+        "warnings": [],
+        "toolbarShift": 0,
+        "escapeFocusReturn": true
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "screens": [
+          {
+            "i": 0,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 1,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 2,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 3,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 4,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 239.03125,
+              "width": 337.375,
+              "height": 562.3125,
+              "right": 356.171875,
+              "bottom": 801.34375
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 5,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 6,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 295.265625,
+              "width": 337.375,
+              "height": 449.84375,
+              "right": 356.171875,
+              "bottom": 745.109375
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          }
+        ],
+        "toolbarPositions": [
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125
+        ],
+        "warnings": [],
+        "toolbarShift": 0,
+        "escapeFocusReturn": true
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "screens": [
+          {
+            "i": 0,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 1,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 2,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 295.265625,
+              "width": 337.375,
+              "height": 449.84375,
+              "right": 356.171875,
+              "bottom": 745.109375
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 3,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          }
+        ],
+        "toolbarPositions": [
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125
+        ],
+        "warnings": [],
+        "toolbarShift": 0,
+        "escapeFocusReturn": true
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "screens": [
+          {
+            "i": 0,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 1,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 2,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 3,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          }
+        ],
+        "toolbarPositions": [
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125
+        ],
+        "warnings": [],
+        "toolbarShift": 0,
+        "escapeFocusReturn": true
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "screens": [
+          {
+            "i": 0,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 1,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 2,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 3,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 295.265625,
+              "width": 337.375,
+              "height": 449.84375,
+              "right": 356.171875,
+              "bottom": 745.109375
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          }
+        ],
+        "toolbarPositions": [
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125
+        ],
+        "warnings": [],
+        "toolbarShift": 0,
+        "escapeFocusReturn": true
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "screens": [
+          {
+            "i": 0,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 1,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 2,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 3,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 4,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 239.03125,
+              "width": 337.375,
+              "height": 562.3125,
+              "right": 356.171875,
+              "bottom": 801.34375
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 5,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 6,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 295.265625,
+              "width": 337.375,
+              "height": 449.84375,
+              "right": 356.171875,
+              "bottom": 745.109375
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          }
+        ],
+        "toolbarPositions": [
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125
+        ],
+        "warnings": [],
+        "toolbarShift": 0,
+        "escapeFocusReturn": true
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "screens": [
+          {
+            "i": 0,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 1,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 2,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 295.265625,
+              "width": 337.375,
+              "height": 449.84375,
+              "right": 356.171875,
+              "bottom": 745.109375
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 3,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          }
+        ],
+        "toolbarPositions": [
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125
+        ],
+        "warnings": [],
+        "toolbarShift": 0,
+        "escapeFocusReturn": true
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "screens": [
+          {
+            "i": 0,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 1,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 2,
+            "fit": true,
+            "image": {
+              "x": 54.65625,
+              "y": 232.703125,
+              "width": 265.671875,
+              "height": 574.96875,
+              "right": 320.328125,
+              "bottom": 807.671875
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          },
+          {
+            "i": 3,
+            "fit": true,
+            "image": {
+              "x": 18.796875,
+              "y": 407.71875,
+              "width": 337.375,
+              "height": 224.921875,
+              "right": 356.171875,
+              "bottom": 632.640625
+            },
+            "area": {
+              "x": 8.796875,
+              "y": 222.703125,
+              "width": 372.390625,
+              "height": 594.96875,
+              "right": 381.1875,
+              "bottom": 817.671875
+            }
+          }
+        ],
+        "toolbarPositions": [
+          222.703125,
+          222.703125,
+          222.703125,
+          222.703125
+        ],
+        "warnings": [],
+        "toolbarShift": 0,
+        "escapeFocusReturn": true
+      }
+    ],
+    "forms": [
+      {
+        "route": "/",
+        "validation": true,
+        "encodedShare": true,
+        "service": "Направление: Боты для Telegram и MAX.",
+        "nativeTelegram": "not opened, handoff intercepted without sending"
+      },
+      {
+        "route": "/contact/",
+        "validation": true,
+        "encodedShare": true,
+        "service": "Направление: Боты для Telegram и MAX.",
+        "nativeTelegram": "not opened, handoff intercepted without sending"
+      },
+      {
+        "route": "/en/",
+        "validation": true,
+        "encodedShare": true,
+        "service": "Service: Telegram and MAX bots.",
+        "nativeTelegram": "not opened, handoff intercepted without sending"
+      },
+      {
+        "route": "/en/contact/",
+        "validation": true,
+        "encodedShare": true,
+        "service": "Service: Telegram and MAX bots.",
+        "nativeTelegram": "not opened, handoff intercepted without sending"
+      }
+    ],
+    "menus": [
+      {
+        "width": 320,
+        "menu": "opened, Escape, anchor close"
+      },
+      {
+        "width": 390,
+        "menu": "opened, Escape, anchor close"
+      },
+      {
+        "width": 768,
+        "menu": "desktop navigation"
+      }
+    ],
+    "faq": [
+      {
+        "width": 320,
+        "questions": 9
+      },
+      {
+        "width": 390,
+        "questions": 9
+      },
+      {
+        "width": 768,
+        "questions": 9
+      }
+    ],
+    "errors": []
+  },
+  "stress": {
+    "compact": [
+      {
+        "route": "/projects/profistal14/",
+        "width": 320,
+        "height": 568,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 233.578125,
+            "y": 26.03125,
+            "width": 71,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 233.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 270.1875,
+          "height": 180.125,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 472.625,
+            "y": 14.59375,
+            "width": 71,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 472.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 166.578125,
+            "y": 111.796875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 111.796875,
+            "right": 304.578125,
+            "bottom": 170.59375,
+            "left": 166.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 249.25,
+          "height": 166.171875,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 405.625,
+            "y": 21.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 405.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 568,
+        "height": 320,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 472.625,
+            "y": 14.59375,
+            "width": 71,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 472.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 243,
+          "height": 162,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 233.578125,
+            "y": 26.03125,
+            "width": 71,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 233.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 405.625,
+            "y": 21.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 405.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 110.453125,
+          "height": 73.640625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 166.578125,
+            "y": 111.796875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 111.796875,
+            "right": 304.578125,
+            "bottom": 170.59375,
+            "left": 166.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 390,
+        "height": 420,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 298.1875,
+            "y": 17.59375,
+            "width": 71,
+            "height": 44,
+            "top": 17.59375,
+            "right": 369.1875,
+            "bottom": 61.59375,
+            "left": 298.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 312,
+          "height": 208,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 327.578125,
+            "y": 16.6875,
+            "width": 71,
+            "height": 44,
+            "top": 16.6875,
+            "right": 398.578125,
+            "bottom": 60.6875,
+            "left": 327.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 390,
+        "height": 420,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 231.1875,
+            "y": 60.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 60.1875,
+            "right": 369.1875,
+            "bottom": 118.984375,
+            "left": 231.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 152.765625,
+          "height": 101.84375,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 260.578125,
+            "y": 41.28125,
+            "width": 138,
+            "height": 58.796875,
+            "top": 41.28125,
+            "right": 398.578125,
+            "bottom": 100.078125,
+            "left": 260.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 320,
+        "height": 568,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 233.578125,
+            "y": 26.03125,
+            "width": 71,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 233.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 145.78125,
+          "height": 315.515625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 472.625,
+            "y": 14.59375,
+            "width": 71,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 472.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 166.578125,
+            "y": 92.609375,
+            "width": 138,
+            "height": 58.796875,
+            "top": 92.609375,
+            "right": 304.578125,
+            "bottom": 151.40625,
+            "left": 166.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 76.78125,
+          "height": 166.171875,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 405.625,
+            "y": 21.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 405.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 568,
+        "height": 320,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 472.625,
+            "y": 14.59375,
+            "width": 71,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 472.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 74.84375,
+          "height": 162,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 233.578125,
+            "y": 26.03125,
+            "width": 71,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 233.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 405.625,
+            "y": 21.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 405.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 34.015625,
+          "height": 73.640625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 166.578125,
+            "y": 92.609375,
+            "width": 138,
+            "height": 58.796875,
+            "top": 92.609375,
+            "right": 304.578125,
+            "bottom": 151.40625,
+            "left": 166.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 390,
+        "height": 420,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 298.1875,
+            "y": 17.59375,
+            "width": 71,
+            "height": 44,
+            "top": 17.59375,
+            "right": 369.1875,
+            "bottom": 61.59375,
+            "left": 298.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 96.109375,
+          "height": 208,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 327.578125,
+            "y": 16.6875,
+            "width": 71,
+            "height": 44,
+            "top": 16.6875,
+            "right": 398.578125,
+            "bottom": 60.6875,
+            "left": 327.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 390,
+        "height": 420,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 231.1875,
+            "y": 60.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 60.1875,
+            "right": 369.1875,
+            "bottom": 118.984375,
+            "left": 231.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 47.046875,
+          "height": 101.84375,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 260.578125,
+            "y": 41.28125,
+            "width": 138,
+            "height": 58.796875,
+            "top": 41.28125,
+            "right": 398.578125,
+            "bottom": 100.078125,
+            "left": 260.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 320,
+        "height": 568,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 233.578125,
+            "y": 26.03125,
+            "width": 71,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 233.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 270.1875,
+          "height": 180.125,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 472.625,
+            "y": 14.59375,
+            "width": 71,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 472.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 166.578125,
+            "y": 111.796875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 111.796875,
+            "right": 304.578125,
+            "bottom": 170.59375,
+            "left": 166.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 249.25,
+          "height": 166.171875,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 405.625,
+            "y": 21.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 405.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 568,
+        "height": 320,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 472.625,
+            "y": 14.59375,
+            "width": 71,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 472.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 243,
+          "height": 162,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 233.578125,
+            "y": 26.03125,
+            "width": 71,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 233.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 405.625,
+            "y": 21.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 405.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 110.453125,
+          "height": 73.640625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 166.578125,
+            "y": 111.796875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 111.796875,
+            "right": 304.578125,
+            "bottom": 170.59375,
+            "left": 166.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 390,
+        "height": 420,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 298.1875,
+            "y": 17.59375,
+            "width": 71,
+            "height": 44,
+            "top": 17.59375,
+            "right": 369.1875,
+            "bottom": 61.59375,
+            "left": 298.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 312,
+          "height": 208,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 327.578125,
+            "y": 16.6875,
+            "width": 71,
+            "height": 44,
+            "top": 16.6875,
+            "right": 398.578125,
+            "bottom": 60.6875,
+            "left": 327.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 390,
+        "height": 420,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 231.1875,
+            "y": 60.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 60.1875,
+            "right": 369.1875,
+            "bottom": 118.984375,
+            "left": 231.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 152.765625,
+          "height": 101.84375,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 260.578125,
+            "y": 59.28125,
+            "width": 138,
+            "height": 58.796875,
+            "top": 59.28125,
+            "right": 398.578125,
+            "bottom": 118.078125,
+            "left": 260.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 320,
+        "height": 568,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 233.578125,
+            "y": 26.03125,
+            "width": 71,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 233.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 270.1875,
+          "height": 180.125,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 472.625,
+            "y": 14.59375,
+            "width": 71,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 472.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 166.578125,
+            "y": 111.796875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 111.796875,
+            "right": 304.578125,
+            "bottom": 170.59375,
+            "left": 166.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 249.25,
+          "height": 166.171875,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 405.625,
+            "y": 21.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 405.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 568,
+        "height": 320,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 472.625,
+            "y": 14.59375,
+            "width": 71,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 472.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 243,
+          "height": 162,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 233.578125,
+            "y": 26.03125,
+            "width": 71,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 233.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 405.625,
+            "y": 21.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 405.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 110.453125,
+          "height": 73.640625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 166.578125,
+            "y": 111.796875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 111.796875,
+            "right": 304.578125,
+            "bottom": 170.59375,
+            "left": 166.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 390,
+        "height": 420,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 298.1875,
+            "y": 17.59375,
+            "width": 71,
+            "height": 44,
+            "top": 17.59375,
+            "right": 369.1875,
+            "bottom": 61.59375,
+            "left": 298.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 312,
+          "height": 208,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 327.578125,
+            "y": 16.6875,
+            "width": 71,
+            "height": 44,
+            "top": 16.6875,
+            "right": 398.578125,
+            "bottom": 60.6875,
+            "left": 327.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 390,
+        "height": 420,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 231.1875,
+            "y": 60.1875,
+            "width": 138,
+            "height": 58.796875,
+            "top": 60.1875,
+            "right": 369.1875,
+            "bottom": 118.984375,
+            "left": 231.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 152.765625,
+          "height": 101.84375,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 260.578125,
+            "y": 59.28125,
+            "width": 138,
+            "height": 58.796875,
+            "top": 59.28125,
+            "right": 398.578125,
+            "bottom": 118.078125,
+            "left": 260.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 320,
+        "height": 568,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 255.578125,
+            "y": 26.03125,
+            "width": 49,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 255.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 270.1875,
+          "height": 180.125,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 494.625,
+            "y": 14.59375,
+            "width": 49,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 494.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 205.578125,
+            "y": 73.40625,
+            "width": 99,
+            "height": 58.796875,
+            "top": 73.40625,
+            "right": 304.578125,
+            "bottom": 132.203125,
+            "left": 205.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 249.25,
+          "height": 166.171875,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 444.625,
+            "y": 21.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 444.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 568,
+        "height": 320,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 494.625,
+            "y": 14.59375,
+            "width": 49,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 494.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 243,
+          "height": 162,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 255.578125,
+            "y": 26.03125,
+            "width": 49,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 255.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 444.625,
+            "y": 21.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 444.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 153.609375,
+          "height": 102.40625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 205.578125,
+            "y": 73.40625,
+            "width": 99,
+            "height": 58.796875,
+            "top": 73.40625,
+            "right": 304.578125,
+            "bottom": 132.203125,
+            "left": 205.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 390,
+        "height": 420,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 320.1875,
+            "y": 17.59375,
+            "width": 49,
+            "height": 44,
+            "top": 17.59375,
+            "right": 369.1875,
+            "bottom": 61.59375,
+            "left": 320.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 312,
+          "height": 208,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 349.578125,
+            "y": 16.6875,
+            "width": 49,
+            "height": 44,
+            "top": 16.6875,
+            "right": 398.578125,
+            "bottom": 60.6875,
+            "left": 349.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 390,
+        "height": 420,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 270.1875,
+            "y": 42.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 42.1875,
+            "right": 369.1875,
+            "bottom": 100.984375,
+            "left": 270.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 152.765625,
+          "height": 101.84375,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 299.578125,
+            "y": 41.28125,
+            "width": 99,
+            "height": 58.796875,
+            "top": 41.28125,
+            "right": 398.578125,
+            "bottom": 100.078125,
+            "left": 299.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 320,
+        "height": 568,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 255.578125,
+            "y": 26.03125,
+            "width": 49,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 255.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 145.78125,
+          "height": 315.515625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 494.625,
+            "y": 14.59375,
+            "width": 49,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 494.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 205.578125,
+            "y": 73.40625,
+            "width": 99,
+            "height": 58.796875,
+            "top": 73.40625,
+            "right": 304.578125,
+            "bottom": 132.203125,
+            "left": 205.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 76.78125,
+          "height": 166.171875,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 444.625,
+            "y": 21.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 444.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 568,
+        "height": 320,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 494.625,
+            "y": 14.59375,
+            "width": 49,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 494.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 74.84375,
+          "height": 162,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 255.578125,
+            "y": 26.03125,
+            "width": 49,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 255.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 444.625,
+            "y": 21.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 444.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 47.3125,
+          "height": 102.40625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 205.578125,
+            "y": 73.40625,
+            "width": 99,
+            "height": 58.796875,
+            "top": 73.40625,
+            "right": 304.578125,
+            "bottom": 132.203125,
+            "left": 205.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 390,
+        "height": 420,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 320.1875,
+            "y": 17.59375,
+            "width": 49,
+            "height": 44,
+            "top": 17.59375,
+            "right": 369.1875,
+            "bottom": 61.59375,
+            "left": 320.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 96.109375,
+          "height": 208,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 349.578125,
+            "y": 16.6875,
+            "width": 49,
+            "height": 44,
+            "top": 16.6875,
+            "right": 398.578125,
+            "bottom": 60.6875,
+            "left": 349.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 390,
+        "height": 420,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 270.1875,
+            "y": 42.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 42.1875,
+            "right": 369.1875,
+            "bottom": 100.984375,
+            "left": 270.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 47.046875,
+          "height": 101.84375,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 299.578125,
+            "y": 23.28125,
+            "width": 99,
+            "height": 58.796875,
+            "top": 23.28125,
+            "right": 398.578125,
+            "bottom": 82.078125,
+            "left": 299.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 320,
+        "height": 568,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 255.578125,
+            "y": 26.03125,
+            "width": 49,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 255.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 270.1875,
+          "height": 180.125,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 494.625,
+            "y": 14.59375,
+            "width": 49,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 494.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 205.578125,
+            "y": 73.40625,
+            "width": 99,
+            "height": 58.796875,
+            "top": 73.40625,
+            "right": 304.578125,
+            "bottom": 132.203125,
+            "left": 205.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 249.25,
+          "height": 166.171875,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 444.625,
+            "y": 21.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 444.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 568,
+        "height": 320,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 494.625,
+            "y": 14.59375,
+            "width": 49,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 494.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 243,
+          "height": 162,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 255.578125,
+            "y": 26.03125,
+            "width": 49,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 255.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 444.625,
+            "y": 21.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 444.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 153.609375,
+          "height": 102.40625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 205.578125,
+            "y": 73.40625,
+            "width": 99,
+            "height": 58.796875,
+            "top": 73.40625,
+            "right": 304.578125,
+            "bottom": 132.203125,
+            "left": 205.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 390,
+        "height": 420,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 320.1875,
+            "y": 17.59375,
+            "width": 49,
+            "height": 44,
+            "top": 17.59375,
+            "right": 369.1875,
+            "bottom": 61.59375,
+            "left": 320.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 312,
+          "height": 208,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 349.578125,
+            "y": 16.6875,
+            "width": 49,
+            "height": 44,
+            "top": 16.6875,
+            "right": 398.578125,
+            "bottom": 60.6875,
+            "left": 349.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 390,
+        "height": 420,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 270.1875,
+            "y": 42.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 42.1875,
+            "right": 369.1875,
+            "bottom": 100.984375,
+            "left": 270.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 152.765625,
+          "height": 101.84375,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 299.578125,
+            "y": 41.28125,
+            "width": 99,
+            "height": 58.796875,
+            "top": 41.28125,
+            "right": 398.578125,
+            "bottom": 100.078125,
+            "left": 299.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 320,
+        "height": 568,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 255.578125,
+            "y": 26.03125,
+            "width": 49,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 255.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 270.1875,
+          "height": 180.125,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 494.625,
+            "y": 14.59375,
+            "width": 49,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 494.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 205.578125,
+            "y": 92.609375,
+            "width": 99,
+            "height": 58.796875,
+            "top": 92.609375,
+            "right": 304.578125,
+            "bottom": 151.40625,
+            "left": 205.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 249.25,
+          "height": 166.171875,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 444.625,
+            "y": 21.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 444.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 568,
+        "height": 320,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 494.625,
+            "y": 14.59375,
+            "width": 49,
+            "height": 44,
+            "top": 14.59375,
+            "right": 543.625,
+            "bottom": 58.59375,
+            "left": 494.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 243,
+          "height": 162,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 255.578125,
+            "y": 26.03125,
+            "width": 49,
+            "height": 44,
+            "top": 26.03125,
+            "right": 304.578125,
+            "bottom": 70.03125,
+            "left": 255.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 444.625,
+            "y": 21.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 21.1875,
+            "right": 543.625,
+            "bottom": 79.984375,
+            "left": 444.625
+          },
+          "viewport": {
+            "width": 568,
+            "height": 320,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 153.609375,
+          "height": 102.40625,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 205.578125,
+            "y": 92.609375,
+            "width": 99,
+            "height": 58.796875,
+            "top": 92.609375,
+            "right": 304.578125,
+            "bottom": 151.40625,
+            "left": 205.578125
+          },
+          "viewport": {
+            "width": 320,
+            "height": 568,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 390,
+        "height": 420,
+        "font": 100,
+        "closeBefore": {
+          "rect": {
+            "x": 320.1875,
+            "y": 17.59375,
+            "width": 49,
+            "height": 44,
+            "top": 17.59375,
+            "right": 369.1875,
+            "bottom": 61.59375,
+            "left": 320.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 312,
+          "height": 208,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 349.578125,
+            "y": 16.6875,
+            "width": 49,
+            "height": 44,
+            "top": 16.6875,
+            "right": 398.578125,
+            "bottom": 60.6875,
+            "left": 349.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 390,
+        "height": 420,
+        "font": 200,
+        "closeBefore": {
+          "rect": {
+            "x": 270.1875,
+            "y": 42.1875,
+            "width": 99,
+            "height": 58.796875,
+            "top": 42.1875,
+            "right": 369.1875,
+            "bottom": 100.984375,
+            "left": 270.1875
+          },
+          "viewport": {
+            "width": 390,
+            "height": 420,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        },
+        "fit": {
+          "width": 152.765625,
+          "height": 101.84375,
+          "within": true
+        },
+        "afterRotate": {
+          "rect": {
+            "x": 299.578125,
+            "y": 41.28125,
+            "width": 99,
+            "height": 58.796875,
+            "top": 41.28125,
+            "right": 398.578125,
+            "bottom": 100.078125,
+            "left": 299.578125
+          },
+          "viewport": {
+            "width": 420,
+            "height": 390,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      }
+    ],
+    "textPages": [
+      {
+        "route": "/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/404.html",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/blog/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/about/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/blog/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/contact/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/projects/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 320,
+        "overflow": 0
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/404.html",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/blog/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/about/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/blog/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/contact/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 390,
+        "overflow": -15
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/404.html",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/blog/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/about/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/blog/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/contact/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 768,
+        "overflow": -15
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 768,
+        "overflow": -15
+      }
+    ],
+    "pinch": [
+      {
+        "lang": "",
+        "scale": 1.5,
+        "close": {
+          "rect": {
+            "x": 174.78125,
+            "y": 25.875,
+            "width": 71,
+            "height": 44,
+            "top": 25.875,
+            "right": 245.78125,
+            "bottom": 69.875,
+            "left": 174.78125
+          },
+          "viewport": {
+            "width": 260,
+            "height": 562.6666870117188,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "lang": "",
+        "scale": 2,
+        "close": {
+          "rect": {
+            "x": 111.078125,
+            "y": 38.03125,
+            "width": 71,
+            "height": 44,
+            "top": 38.03125,
+            "right": 182.078125,
+            "bottom": 82.03125,
+            "left": 111.078125
+          },
+          "viewport": {
+            "width": 195,
+            "height": 422,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "lang": "",
+        "scale": 2.5,
+        "close": {
+          "rect": {
+            "x": 72.859375,
+            "y": 64.28125,
+            "width": 71,
+            "height": 44,
+            "top": 64.28125,
+            "right": 143.859375,
+            "bottom": 108.28125,
+            "left": 72.859375
+          },
+          "viewport": {
+            "width": 156,
+            "height": 337.6000061035156,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "lang": "en/",
+        "scale": 1.5,
+        "close": {
+          "rect": {
+            "x": 196.78125,
+            "y": 25.875,
+            "width": 49,
+            "height": 44,
+            "top": 25.875,
+            "right": 245.78125,
+            "bottom": 69.875,
+            "left": 196.78125
+          },
+          "viewport": {
+            "width": 260,
+            "height": 562.6666870117188,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "lang": "en/",
+        "scale": 2,
+        "close": {
+          "rect": {
+            "x": 133.078125,
+            "y": 28.4375,
+            "width": 49,
+            "height": 44,
+            "top": 28.4375,
+            "right": 182.078125,
+            "bottom": 72.4375,
+            "left": 133.078125
+          },
+          "viewport": {
+            "width": 195,
+            "height": 422,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      },
+      {
+        "lang": "en/",
+        "scale": 2.5,
+        "close": {
+          "rect": {
+            "x": 94.859375,
+            "y": 45.09375,
+            "width": 49,
+            "height": 44,
+            "top": 45.09375,
+            "right": 143.859375,
+            "bottom": 89.09375,
+            "left": 94.859375
+          },
+          "viewport": {
+            "width": 156,
+            "height": 337.6000061035156,
+            "left": 0,
+            "top": 0
+          },
+          "hit": true,
+          "visible": true
+        }
+      }
+    ],
+    "touch": [
+      {
+        "x": 0,
+        "y": 163
+      }
+    ],
+    "file": [
+      {
+        "route": "/",
+        "ok": true
+      },
+      {
+        "route": "/en/",
+        "ok": true
+      },
+      {
+        "route": "/projects/profistal14/",
+        "ok": true
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "ok": true
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "ok": true
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "ok": true
+      }
+    ],
+    "nested": [
+      {
+        "route": "/",
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/",
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profistal14/",
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "overflow": -15,
+        "broken": [
+          "http://127.0.0.1:42451/TedRogueWorks/images/projects/pekarnya-chudes/orders-768.webp",
+          "http://127.0.0.1:42451/TedRogueWorks/images/projects/pekarnya-chudes/order-detail-390.webp",
+          "http://127.0.0.1:42451/TedRogueWorks/images/projects/pekarnya-chudes/inventory-768.webp"
+        ]
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "overflow": -15,
+        "broken": []
+      }
+    ],
+    "load": [],
+    "errors": []
+  },
+  "additional": {
+    "portable": [
+      {
+        "prefix": "file",
+        "route": "/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/404.html",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/about/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/blog/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/blog/redmi-13c-home-server/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/contact/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/about/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/blog/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/blog/redmi-13c-home-server/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/contact/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/projects/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/projects/pekarnya-chudes/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/projects/pravoslavnii-mir/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/projects/profistal14/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/en/projects/profsanteh-plus/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/projects/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/projects/pekarnya-chudes/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/projects/pravoslavnii-mir/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/projects/profistal14/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "file",
+        "route": "/projects/profsanteh-plus/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/404.html",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/about/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/blog/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/blog/redmi-13c-home-server/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/contact/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/about/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/blog/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/blog/redmi-13c-home-server/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/contact/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/projects/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/projects/pekarnya-chudes/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/projects/pravoslavnii-mir/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/projects/profistal14/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/en/projects/profsanteh-plus/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/projects/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/projects/pekarnya-chudes/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/projects/pravoslavnii-mir/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/projects/profistal14/",
+        "failures": [],
+        "overflow": -15
+      },
+      {
+        "prefix": "nested",
+        "route": "/projects/profsanteh-plus/",
+        "failures": [],
+        "overflow": -15
+      }
+    ],
+    "loading": [
+      {
+        "disabledDuringLoad": true,
+        "heightBefore": 793.359375,
+        "heightAfter": 793.359375,
+        "heightOnError": 793.359375,
+        "errorNextRecovery": true
+      }
+    ],
+    "touch": [
+      {
+        "axis": "x",
+        "x": 113,
+        "y": 0
+      },
+      {
+        "axis": "y",
+        "x": 113,
+        "y": 209
+      }
+    ],
+    "galleryViews": [
+      "profistal14",
+      "pekarnya-chudes",
+      "profsanteh-plus",
+      "pravoslavnii-mir",
+      "en/profistal14",
+      "en/pekarnya-chudes",
+      "en/profsanteh-plus",
+      "en/pravoslavnii-mir"
+    ],
+    "textViews": [
+      "/",
+      "/about/",
+      "/en/",
+      "/en/about/"
+    ]
+  },
+  "after_typography_fix": {
+    "normal": [
+      {
+        "route": "/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/404.html",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/blog/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/about/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/contact/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 320,
+        "overflow": 0,
+        "broken": []
+      },
+      {
+        "route": "/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/404.html",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/about/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/contact/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/about/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/contact/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 360,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/404.html",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/about/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/contact/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 390,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/404.html",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/about/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/contact/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/about/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/contact/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 430,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/404.html",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/about/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/contact/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 768,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/404.html",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/about/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/contact/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/about/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/contact/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 1440,
+        "overflow": -15,
+        "broken": []
+      }
+    ],
+    "enlarged": [
+      {
+        "route": "/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/404.html",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/about/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/blog/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/contact/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/about/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/blog/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/contact/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 320,
+        "overflow": 0,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/404.html",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/about/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/blog/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/contact/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/about/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/blog/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/contact/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 390,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/404.html",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/about/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/blog/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/blog/redmi-13c-home-server/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/contact/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/about/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/blog/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/blog/redmi-13c-home-server/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/contact/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/pekarnya-chudes/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/pravoslavnii-mir/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/profistal14/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/en/projects/profsanteh-plus/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/pekarnya-chudes/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/pravoslavnii-mir/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/profistal14/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      },
+      {
+        "route": "/projects/profsanteh-plus/",
+        "width": 768,
+        "overflow": -15,
+        "brokenWords": [],
+        "h1Size": "38.4px"
+      }
+    ],
+    "headings": [],
+    "gallery": [
+      {
+        "lang": "",
+        "id": "profistal14",
+        "width": 390,
+        "height": 844,
+        "font": 100,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "pekarnya-chudes",
+        "width": 390,
+        "height": 844,
+        "font": 100,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "profsanteh-plus",
+        "width": 390,
+        "height": 844,
+        "font": 100,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "pravoslavnii-mir",
+        "width": 390,
+        "height": 844,
+        "font": 100,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "profistal14",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "pekarnya-chudes",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "profsanteh-plus",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "pravoslavnii-mir",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "profistal14",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "pekarnya-chudes",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "profsanteh-plus",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "",
+        "id": "pravoslavnii-mir",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "profistal14",
+        "width": 390,
+        "height": 844,
+        "font": 100,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "pekarnya-chudes",
+        "width": 390,
+        "height": 844,
+        "font": 100,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "profsanteh-plus",
+        "width": 390,
+        "height": 844,
+        "font": 100,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "pravoslavnii-mir",
+        "width": 390,
+        "height": 844,
+        "font": 100,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "profistal14",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "pekarnya-chudes",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "profsanteh-plus",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "pravoslavnii-mir",
+        "width": 320,
+        "height": 568,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "profistal14",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "pekarnya-chudes",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "profsanteh-plus",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "zoomRotateClose": true
+      },
+      {
+        "lang": "en/",
+        "id": "pravoslavnii-mir",
+        "width": 568,
+        "height": 320,
+        "font": 200,
+        "zoomRotateClose": true
+      }
+    ],
+    "forms": [
+      {
+        "lang": "",
+        "ok": true
+      },
+      {
+        "lang": "en/",
+        "ok": true
+      }
+    ],
+    "file": [
+      "/",
+      "/en/",
+      "/projects/pekarnya-chudes/"
+    ],
+    "errors": []
+  },
+  "normal_typography_comparison": {
+    "normalTypography": [
+      {
+        "width": 320,
+        "route": "/",
+        "unchanged": true,
+        "font": "29.6px"
+      },
+      {
+        "width": 320,
+        "route": "/about/",
+        "unchanged": true,
+        "font": "38.4px"
+      },
+      {
+        "width": 320,
+        "route": "/projects/",
+        "unchanged": true,
+        "font": "43.2px"
+      },
+      {
+        "width": 320,
+        "route": "/projects/pravoslavnii-mir/",
+        "unchanged": true,
+        "font": "30.4px"
+      },
+      {
+        "width": 360,
+        "route": "/",
+        "unchanged": true,
+        "font": "30.6px"
+      },
+      {
+        "width": 360,
+        "route": "/about/",
+        "unchanged": true,
+        "font": "38.4px"
+      },
+      {
+        "width": 360,
+        "route": "/projects/",
+        "unchanged": true,
+        "font": "43.2px"
+      },
+      {
+        "width": 360,
+        "route": "/projects/pravoslavnii-mir/",
+        "unchanged": true,
+        "font": "30.4px"
+      },
+      {
+        "width": 390,
+        "route": "/",
+        "unchanged": true,
+        "font": "33.15px"
+      },
+      {
+        "width": 390,
+        "route": "/about/",
+        "unchanged": true,
+        "font": "38.4px"
+      },
+      {
+        "width": 390,
+        "route": "/projects/",
+        "unchanged": true,
+        "font": "43.2px"
+      },
+      {
+        "width": 390,
+        "route": "/projects/pravoslavnii-mir/",
+        "unchanged": true,
+        "font": "30.4px"
+      },
+      {
+        "width": 430,
+        "route": "/",
+        "unchanged": true,
+        "font": "36.55px"
+      },
+      {
+        "width": 430,
+        "route": "/about/",
+        "unchanged": true,
+        "font": "42.14px"
+      },
+      {
+        "width": 430,
+        "route": "/projects/",
+        "unchanged": true,
+        "font": "43.2px"
+      },
+      {
+        "width": 430,
+        "route": "/projects/pravoslavnii-mir/",
+        "unchanged": true,
+        "font": "30.4px"
+      },
+      {
+        "width": 768,
+        "route": "/",
+        "unchanged": true,
+        "font": "64px"
+      },
+      {
+        "width": 768,
+        "route": "/about/",
+        "unchanged": true,
+        "font": "49.152px"
+      },
+      {
+        "width": 768,
+        "route": "/projects/",
+        "unchanged": true,
+        "font": "56.064px"
+      },
+      {
+        "width": 768,
+        "route": "/projects/pravoslavnii-mir/",
+        "unchanged": true,
+        "font": "31.488px"
+      },
+      {
+        "width": 1440,
+        "route": "/",
+        "unchanged": true,
+        "font": "74.88px"
+      },
+      {
+        "width": 1440,
+        "route": "/about/",
+        "unchanged": true,
+        "font": "86.4px"
+      },
+      {
+        "width": 1440,
+        "route": "/projects/",
+        "unchanged": true,
+        "font": "105.12px"
+      },
+      {
+        "width": 1440,
+        "route": "/projects/pravoslavnii-mir/",
+        "unchanged": true,
+        "font": "57.6px"
+      }
+    ],
+    "enlargedViews": [
+      "/",
+      "/about/",
+      "/projects/pravoslavnii-mir/"
+    ],
+    "postFixTouch": {
+      "x": 113,
+      "y": 195
+    }
+  },
+  "decoration_final": [
+    {
+      "width": 320,
+      "lang": "",
+      "font": 100,
+      "overflow": 0,
+      "motion": "block",
+      "headSize": "29.6px"
+    },
+    {
+      "width": 320,
+      "lang": "",
+      "font": 200,
+      "overflow": 0,
+      "motion": "none",
+      "headSize": "38.4px"
+    },
+    {
+      "width": 320,
+      "lang": "en/",
+      "font": 100,
+      "overflow": 0,
+      "motion": "block",
+      "headSize": "29.6px"
+    },
+    {
+      "width": 320,
+      "lang": "en/",
+      "font": 200,
+      "overflow": 0,
+      "motion": "none",
+      "headSize": "38.4px"
+    },
+    {
+      "width": 390,
+      "lang": "",
+      "font": 100,
+      "overflow": -15,
+      "motion": "block",
+      "headSize": "33.15px"
+    },
+    {
+      "width": 390,
+      "lang": "",
+      "font": 200,
+      "overflow": -15,
+      "motion": "none",
+      "headSize": "38.4px"
+    },
+    {
+      "width": 390,
+      "lang": "en/",
+      "font": 100,
+      "overflow": -15,
+      "motion": "block",
+      "headSize": "33.15px"
+    },
+    {
+      "width": 390,
+      "lang": "en/",
+      "font": 200,
+      "overflow": -15,
+      "motion": "none",
+      "headSize": "38.4px"
+    },
+    {
+      "width": 768,
+      "lang": "",
+      "font": 100,
+      "overflow": -15,
+      "motion": "block",
+      "headSize": "64px"
+    },
+    {
+      "width": 768,
+      "lang": "",
+      "font": 200,
+      "overflow": -15,
+      "motion": "none",
+      "headSize": "38.4px"
+    },
+    {
+      "width": 768,
+      "lang": "en/",
+      "font": 100,
+      "overflow": -15,
+      "motion": "block",
+      "headSize": "64px"
+    },
+    {
+      "width": 768,
+      "lang": "en/",
+      "font": 200,
+      "overflow": -15,
+      "motion": "none",
+      "headSize": "38.4px"
+    }
+  ],
+  "notes": [
+    "Closed-dialog img without src excluded from missing-resource checks.",
+    "Initial nested-route lazy images were rechecked after explicitly loading/decoding every image: all 42 file/nested visits passed.",
+    "Screenshots retained for internal inspection; synthetic form handoffs intercepted, no real messages sent.",
+    "Front-end inline JavaScript unchanged on all 21 pages; fixes are CSS.",
+    "Actual Telegram card after publication and Android system settings remain outside this browser run."
+  ]
+}

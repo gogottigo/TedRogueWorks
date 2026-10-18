@@ -4,37 +4,69 @@ import type { Locale } from '../i18n/ui';
 import '../styles/global.css';
 import { sitePath } from '../i18n/paths';
 import { siteConfig } from '../../site.config.mjs';
+import { translationPath } from '../i18n/paths';
 
 interface Props {
   title: string;
   description: string;
   locale: Locale;
   translationHref?: string;
+  noindex?: boolean;
 }
 
-const { title, description, locale, translationHref } = Astro.props;
+const { title, description, locale, translationHref, noindex=false } = Astro.props;
+const canonical=new URL(Astro.url.pathname,siteConfig.url).href;
+const alternate=new URL(translationPath(Astro.url.pathname,locale,translationHref),siteConfig.url).href;
+const id=Astro.url.pathname.match(/\/projects\/([^/]+)\//)?.[1];
+const image=new URL(`/images/social/${id||'studio'}-${locale}.jpg`,siteConfig.url).href;
+const imageAlt=locale==='ru'?`${siteConfig.name} — ${title}`:`${siteConfig.name} — ${title}`;
 ---
 
 <!doctype html>
 <html lang={locale}>
   <head>
     <meta charset="UTF-8" />
+    {noindex&&<script is:inline>
+     // GitHub Pages can serve 404.html at a deeply nested missing URL.
+     // Keep its resources and navigation anchored to the real deployment root.
+     if(location.protocol==='https:'&&!/\/404(?:\.html)?\/?$/.test(location.pathname)){
+      const root=location.hostname==='gogottigo.github.io'?'/TedRogueWorks/':location.hostname==='trwstudio.art'?'/':null;
+      if(root){const base=document.createElement('base');base.href=location.origin+root;document.head.append(base);}
+     }
+    </script>}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="theme-color" content={siteConfig.themeColor} />
+    {noindex&&<meta name="robots" content="noindex,follow"/>}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={siteConfig.name} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:url" content={new URL(Astro.url.pathname, Astro.site).href} />
-    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={locale==='ru'?'ru_RU':'en_US'} />
+    <meta property="og:locale:alternate" content={locale==='ru'?'en_US':'ru_RU'} />
+    <meta property="og:image" content={image}/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content={imageAlt}/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content={title}/>
+    <meta name="twitter:description" content={description}/>
+    <meta name="twitter:image" content={image}/>
+    {!noindex&&<>
+     <link rel="canonical" href={canonical} />
+     <link rel="alternate" hreflang={locale} href={canonical}/>
+     <link rel="alternate" hreflang={locale==='ru'?'en':'ru'} href={alternate}/>
+     <link rel="alternate" hreflang="x-default" href={locale==='ru'?canonical:alternate}/>
+    </>}
     <link rel="icon" type="image/svg+xml" href={sitePath('/favicon.svg')} />
     <title>{title}</title>
   </head>
   <body class="studio-site">
+    <a class="skip-link" href="#main-content">{locale==='ru'?'Перейти к содержанию':'Skip to content'}</a>
     <div class="mx-auto min-h-screen w-full max-w-6xl px-5 sm:px-8">
       <Header locale={locale} translationHref={translationHref} />
-      <main class:list={['pt-10 pb-16 sm:pt-16 sm:pb-24', ['/', '/en/'].includes(Astro.url.pathname) && 'home-main']}>
+      <main id="main-content" tabindex="-1" class:list={['pt-10 pb-16 sm:pt-16 sm:pb-24', ['/', '/en/'].includes(Astro.url.pathname) && 'home-main']}>
         <slot />
       </main>
       <footer class="site-footer">
@@ -56,8 +88,9 @@ const { title, description, locale, translationHref } = Astro.props;
 </html>
 
 <style>
+  @media(max-width:760px){main:not(.home-main){padding-top:24px}}
   main.home-main { padding-top: clamp(1.4rem, 4vw, 3rem); }
-  .site-footer { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:18px; padding:22px 0; border-top:1px solid var(--rule); color:var(--muted); font-size:.75rem; }
+  .site-footer { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:18px; padding:22px 0; border-top:1px solid var(--rule); color:var(--muted); font-size:.875rem; }
   .site-footer > a { color:var(--ink); font-weight:600; text-decoration:none; }
   .site-footer nav { display:flex; flex-wrap:wrap; gap:10px 18px; }
   .site-footer nav a { text-decoration:none; }

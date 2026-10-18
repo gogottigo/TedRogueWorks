@@ -23,10 +23,10 @@ const { index, label, type, client, title, description, href, linkLabel, id } = 
     <div class="project-case-copy">
       <p class="project-client">{client}</p>
       <h2 id={id} class="project-case-title project-card-title">{title}</h2>
-      <p class="project-summary">{description}</p>
-      <a class="studio-action project-repo-link" href={href}>{linkLabel} <span class="project-link-arrow" aria-hidden="true">↗</span></a>
+
     </div>
     <slot name="preview" />
+    <div class="project-case-detail"><p class="project-summary">{description}</p><a class="studio-action project-repo-link" href={href}>{linkLabel} <span class="project-link-arrow" aria-hidden="true">↗</span></a></div>
   </div>
 </section>
 

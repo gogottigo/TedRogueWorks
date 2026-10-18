@@ -7,7 +7,7 @@
 .studio-eyebrow,
 .studio-small-index {
   font-family: 'SFMono-Regular', Consolas, monospace;
-  font-size: 11px;
+  font-size: .6875rem;
   line-height: 1.6;
   letter-spacing: 0.065em;
   color: var(--cobalt);
@@ -344,3 +344,20 @@
     margin-bottom: 24px;
   }
 }
+
+/* Compact overview; the complete terms remain below. */
+.studio-summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; padding:26px 0; border-top:1px solid var(--rule); }
+.studio-summary p { margin:0; font-size:.9rem; line-height:1.65; }
+.studio-summary strong { display:block; font-weight:500; margin-bottom:8px; }
+.studio-summary span { color:var(--muted); }
+@media(max-width:760px){.studio-summary{grid-template-columns:1fr;gap:18px;padding:24px 0}.studio-summary strong{margin-bottom:3px}}
+
+/* Patch 07: give detailed terms a reading order without hiding conditions. */
+.studio-columns>div{min-width:0}
+#terms .studio-columns>div,#assurance .studio-columns>div{border-top:2px solid var(--rule);padding-top:18px}
+#assurance .studio-columns>div:nth-child(2){border-top-color:var(--cobalt)}
+#terms .studio-columns h3,#assurance .studio-columns h3{font-size:1.1rem;margin-bottom:10px}
+#terms .studio-columns p,#assurance .studio-columns p{font-size:1rem;line-height:1.7}
+.studio-page .studio-eyebrow,.studio-page .studio-small-index{font-size:.75rem}
+.price-scope .price-boundary,.pricing-notes p{font-size:.9375rem}
+@media(min-width:761px) and (max-width:1000px){#terms .studio-columns,#assurance .studio-columns{grid-template-columns:1fr;gap:24px}}
